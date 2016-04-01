@@ -35,11 +35,3 @@ task makeJar(type: Copy) {
 }
 
 makeJar.dependsOn(clearJar, build)
-
-//task makeJar(type:org.gradle.api.tasks.Copy){
-//    delete 'build/libs/mysdk.jar'
-//    from fileTree(dir:'src/main/java/com/example/administrator/commadapterlib')
-//    into('build/libs/')
-//
-//}
-//makeJar.dependsOn(build)
