@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dip">
+
+        <TextView
+            android:id="@+id/left_text5"
+            style="@style/comm_blue_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:text="fdsgdg" />
+
+
+        <TextView
+            android:id="@+id/tv_other5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/login_input_bg"
+            android:gravity="center_horizontal"
+            android:textCursorDrawable="@drawable/color_cursor"
+            android:textSize="@dimen/comm_item_text_size" />
+
+    </RelativeLayout>
+
+    <include layout="@layout/comm_divider" />
+</LinearLayout>
