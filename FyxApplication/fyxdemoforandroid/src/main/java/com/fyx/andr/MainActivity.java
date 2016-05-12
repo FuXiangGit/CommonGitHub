@@ -20,13 +20,14 @@ import android.widget.TextView;
 import com.fyx.activity.CommBaseAdpActivity;
 import com.fyx.activity.ListViewCheckbox;
 import com.fyx.activity.ListViewMutiplType;
+import com.fyx.activity.WeiXinMainActivity;
 import com.fyx.adapter.NormalRecyclerViewAdapter;
 import com.fyx.adapter.adptools.DividerItemDecoration;
 
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
-    private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器"};
+    private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器","仿微信主界面"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity {
                     intent = new Intent(MainActivity.this, ListViewCheckbox.class);
                 } else if(position==2) {
                     intent = new Intent(MainActivity.this, CommBaseAdpActivity.class);
+                }else if(position==3){
+                    intent = new Intent(MainActivity.this, WeiXinMainActivity.class);
                 }
 
                 startActivity(intent);

@@ -18,6 +18,7 @@ import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.fyx.andr.R;
 import com.fyx.bean.ListTypeOperate;
@@ -48,6 +49,7 @@ public class ListViewCheckbox extends AppCompatActivity {
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                allText="";
                 for(int i = 0;i<lists.size();i++){
                     if(lists.get(i).getCheckBtn().equals("N")) {
                         if(TextUtils.isEmpty(allText)){
@@ -58,6 +60,7 @@ public class ListViewCheckbox extends AppCompatActivity {
                     }
                 }
                 Log.d("jack",allText);
+                Toast.makeText(ListViewCheckbox.this,allText,Toast.LENGTH_LONG).show();
             }
         });
     }

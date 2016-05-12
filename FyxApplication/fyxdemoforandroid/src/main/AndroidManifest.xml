@@ -25,6 +25,7 @@
             android:name="com.fyx.activity.ListViewCheckbox"
             android:windowSoftInputMode="adjustPan" />
         <activity android:name="com.fyx.activity.CommBaseAdpActivity"></activity>
+        <activity android:name="com.fyx.activity.WeiXinMainActivity" android:theme="@style/MyFullScreenTheme"></activity>
     </application>
 
 </manifest>
