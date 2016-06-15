@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.fyx.andr">
 
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!--往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <!--在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"></uses-permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,8 +30,12 @@
         <activity
             android:name="com.fyx.activity.ListViewCheckbox"
             android:windowSoftInputMode="adjustPan" />
-        <activity android:name="com.fyx.activity.CommBaseAdpActivity"></activity>
-        <activity android:name="com.fyx.activity.WeiXinMainActivity" android:theme="@style/MyFullScreenTheme"></activity>
+        <activity android:name="com.fyx.activity.CommBaseAdpActivity" />
+        <activity
+            android:name="com.fyx.activity.WeiXinMainActivity"
+            android:theme="@style/MyFullScreenTheme" />
+        <activity android:name="com.fyx.activity.JianRongDiBanben" />
+        <activity android:name="com.fyx.activity.LogCatRecord"></activity>
     </application>
 
 </manifest>

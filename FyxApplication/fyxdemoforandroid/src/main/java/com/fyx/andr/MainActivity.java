@@ -18,22 +18,28 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.fyx.activity.CommBaseAdpActivity;
+import com.fyx.activity.JianRongDiBanben;
 import com.fyx.activity.ListViewCheckbox;
 import com.fyx.activity.ListViewMutiplType;
+import com.fyx.activity.LogCatRecord;
 import com.fyx.activity.WeiXinMainActivity;
 import com.fyx.adapter.NormalRecyclerViewAdapter;
 import com.fyx.adapter.adptools.DividerItemDecoration;
+import com.fyx.utils.LogcatHelper;
 
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
-    private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器","仿微信主界面"};
+    private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器","仿微信主界面","兼容低版本","日志打印测试"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        // MrFu添加Log日志监听
+        LogcatHelper.getInstance(getApplicationContext()).start();
+
         setSupportActionBar(toolbar);
         initFloatingActionButton();//就浮动按钮点击事件
         initView();
@@ -60,6 +66,10 @@ public class MainActivity extends AppCompatActivity {
                     intent = new Intent(MainActivity.this, CommBaseAdpActivity.class);
                 }else if(position==3){
                     intent = new Intent(MainActivity.this, WeiXinMainActivity.class);
+                }else if(position==4){
+                    intent = new Intent(MainActivity.this, JianRongDiBanben.class);
+                }else if(position==5){
+                    intent = new Intent(MainActivity.this, LogCatRecord.class);
                 }
 
                 startActivity(intent);
@@ -100,6 +110,10 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        // MrFu添加Log日志监听
+        LogcatHelper.getInstance(getApplicationContext()).stop();
+    }
 }
