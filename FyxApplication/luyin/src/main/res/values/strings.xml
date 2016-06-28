@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Luyin</string>
+    <string name="local_service_started">开始服务</string>
+    <string name="local_service_label">标签</string>
+</resources>
