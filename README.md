@@ -49,12 +49,10 @@ public class RecommendHistoryAdapter extends CommonAdapter<RecommendHistory>{
 		viewHolder.setText(R.id.txt_rec_his_create_time, reommmendhistory.create_time);
 		if(reommmendhistory.status.equals("2")){
 			viewHolder.setText(R.id.txt_rec_his_state, "正在提现");//状态
-			viewHolder.setBackgroundColor(R.id.txt_rec_his_state,
-			mContext.getResources().getColor(R.color.yellow_f4ba00));
+			viewHolder.setBackgroundColor(R.id.txt_rec_his_state,mContext.getResources().getColor(R.color.yellow_f4ba00));
 		}else if(reommmendhistory.status.equals("3")){
 			viewHolder.setText(R.id.txt_rec_his_state, "提现完成");//状态
-			viewHolder.setBackgroundColor(R.id.txt_rec_his_state, 
-			mContext.getResources().getColor(R.color.green));
+			viewHolder.setBackgroundColor(R.id.txt_rec_his_state,mContext.getResources().getColor(R.color.green));
 		}
 	}
 }
@@ -67,6 +65,5 @@ public class RecommendHistoryAdapter extends CommonAdapter<RecommendHistory>{
 	private void initRecommendHistoryList() {
 		adapter = new RecommendHistoryAdapter(this, mList, R.layout.activity_recommand_history_adapter);
 		list_balance_history.setAdapter(adapter);
-		
 	}
 
