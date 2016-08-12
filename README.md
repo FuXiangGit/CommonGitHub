@@ -61,10 +61,8 @@ public class RecommendHistoryAdapter extends CommonAdapter<RecommendHistory> {
 	}
 
 }
-
 <br>
 调用的地方<br>
-	private ArrayList<RecommendHistory> mList;
 	/**
 	 * 设置List信息
 	 */
