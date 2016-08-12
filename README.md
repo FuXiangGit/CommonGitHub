@@ -37,12 +37,10 @@ public class MyAdapter extends CommonAdapter<String> {
 3、新增例子。<br>
 public class RecommendHistoryAdapter extends CommonAdapter<RecommendHistory>{
 	private Context mContext;
-
 	public RecommendHistoryAdapter(Context context, List<RecommendHistory> mDatas, int itemLayoutId) {
 		super(context, mDatas, itemLayoutId);
 		this.mContext = context;
 	}
-
 	@Override
 	public void convert(CommonViewHolder viewHolder, RecommendHistory reommmendhistory) {
 		//金额
@@ -51,13 +49,14 @@ public class RecommendHistoryAdapter extends CommonAdapter<RecommendHistory>{
 		viewHolder.setText(R.id.txt_rec_his_create_time, reommmendhistory.create_time);
 		if(reommmendhistory.status.equals("2")){
 			viewHolder.setText(R.id.txt_rec_his_state, "正在提现");//状态
-			viewHolder.setBackgroundColor(R.id.txt_rec_his_state,mContext.getResources().getColor(R.color.yellow_f4ba00));
+			viewHolder.setBackgroundColor(R.id.txt_rec_his_state,
+			mContext.getResources().getColor(R.color.yellow_f4ba00));
 		}else if(reommmendhistory.status.equals("3")){
 			viewHolder.setText(R.id.txt_rec_his_state, "提现完成");//状态
-			viewHolder.setBackgroundColor(R.id.txt_rec_his_state, mContext.getResources().getColor(R.color.green));
+			viewHolder.setBackgroundColor(R.id.txt_rec_his_state, 
+			mContext.getResources().getColor(R.color.green));
 		}
 	}
-
 }
 <br>
 调用的地方<br>
