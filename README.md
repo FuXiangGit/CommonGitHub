@@ -63,7 +63,6 @@ public class RecommendHistoryAdapter extends CommonAdapter<RecommendHistory> {
 }
 <br>
 调用的地方<br>
-//	private ArrayList<RecommendHistory> mList;
 	/**
 	 * 设置List信息
 	 */
@@ -71,4 +70,3 @@ public class RecommendHistoryAdapter extends CommonAdapter<RecommendHistory> {
 		adapter = new RecommendHistoryAdapter(this, mList, R.layout.activity_recommand_history_adapter);
 		list_balance_history.setAdapter(adapter);
 	}
-
