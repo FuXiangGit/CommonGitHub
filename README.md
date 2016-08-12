@@ -33,5 +33,31 @@ public class MyAdapter extends CommonAdapter<String> {
     }
 }
 <br>
-2、多类型操作适配器在ListViewMutiplType里面
+2、多类型操作适配器在ListViewMutiplType里面。<br>
+3、新增例子。<br>
+public class RecommendHistoryAdapter extends CommonAdapter<RecommendHistory>{
+	private Context mContext;
 
+	public RecommendHistoryAdapter(Context context, List<RecommendHistory> mDatas, int itemLayoutId) {
+		super(context, mDatas, itemLayoutId);
+		this.mContext = context;
+	}
+
+	@Override
+	public void convert(CommonViewHolder viewHolder, RecommendHistory reommmendhistory) {
+		viewHolder.setText(R.id.txt_rec_his_money, reommmendhistory.change_fee);//金额
+//		viewHolder.setText(R.id.txt_rec_his_state, value);//状态
+		viewHolder.setText(R.id.txt_rec_his_create_time, reommmendhistory.create_time);//体现时间
+		if(reommmendhistory.status.equals("2")){
+			viewHolder.setText(R.id.txt_rec_his_state, "正在提现");//状态
+			viewHolder.setBackgroundColor(R.id.txt_rec_his_state, mContext.getResources().getColor(R.color.yellow_f4ba00));
+		}else if(reommmendhistory.status.equals("3")){
+			viewHolder.setText(R.id.txt_rec_his_state, "提现完成");//状态
+			viewHolder.setBackgroundColor(R.id.txt_rec_his_state, mContext.getResources().getColor(R.color.green));
+		}else if(reommmendhistory.status.equals("4")){
+			viewHolder.setText(R.id.txt_rec_his_state, "提现失败");//状态
+			viewHolder.setBackgroundColor(R.id.txt_rec_his_state, mContext.getResources().getColor(R.color.red));
+		}
+	}
+
+}
