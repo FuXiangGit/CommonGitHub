@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pading"
+        android:layout_marginRight="@dimen/pading"
+
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/image_w"
+            android:layout_height="@dimen/image_w"
+
+            android:layout_gravity="center_vertical"
+
+            android:background="@drawable/login"/>
+
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt_login_nub"
+                android:layout_gravity="center_vertical"
+                android:hint="@string/add_login_edt_hit1"
+                android:layout_marginLeft="@dimen/pading"
+
+                android:textColorHint="@color/text_hint"
+                android:textColor="@color/text_gray"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:background="@color/generic_white"
+                android:imeOptions="actionNone"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lin2"
+                android:layout_marginLeft="@dimen/pading"
+                android:background="@color/login_color"
+                android:layout_marginBottom="0dp"
+                android:layout_gravity="right|bottom"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/pading"
+        android:layout_marginRight="@dimen/pading"
+        android:layout_marginTop="@dimen/left"
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/image_w"
+            android:layout_height="@dimen/image_w"
+
+            android:layout_gravity="center_vertical"
+
+            android:background="@drawable/mm"/>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <EditText
+                android:id="@+id/edt_login_pwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="@string/add_login_edt_hit2"
+                android:layout_gravity="right|bottom"
+                android:password="true"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:layout_marginLeft="@dimen/pading"
+                android:textColorHint="@color/text_hint"
+                android:textColor="@color/text_gray"
+                android:layout_marginBottom="0dp"
+                android:textCursorDrawable="@drawable/color_cursor"
+                android:background="@color/generic_white"
+                android:imeOptions="actionNone"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/lin2"
+                android:layout_marginLeft="@dimen/pading"
+                android:background="@color/login_color"
+                android:layout_marginBottom="0dp"
+                android:layout_gravity="right|bottom"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/bt_ok"
+        android:layout_width="@dimen/width1"
+        android:layout_height="@dimen/top3"
+        android:layout_marginTop="@dimen/top4"
+        android:text="@string/btn_title_ok"
+        android:textColor="@color/generic_white"
+        android:textSize="@dimen/size"
+        android:background="@drawable/bt_long_sure"
+        android:visibility="gone"
+        />
+</LinearLayout>

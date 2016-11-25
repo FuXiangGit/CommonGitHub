@@ -9,29 +9,35 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Monitor" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commadapterlib" />
             <option value="$PROJECT_DIR$/fyxdemoforandroid" />
             <option value="$PROJECT_DIR$/lovescreen" />
             <option value="$PROJECT_DIR$/luyin" />
+            <option value="$PROJECT_DIR$/pda" />
             <option value="$PROJECT_DIR$/qianghongbao" />
             <option value="$PROJECT_DIR$/recorder" />
             <option value="$PROJECT_DIR$/screenshort" />
             <option value="$PROJECT_DIR$/screentest" />
+            <option value="$PROJECT_DIR$/temp" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Monitor" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commadapterlib" />
             <option value="$PROJECT_DIR$/fyxdemoforandroid" />
             <option value="$PROJECT_DIR$/lovescreen" />
             <option value="$PROJECT_DIR$/luyin" />
+            <option value="$PROJECT_DIR$/pda" />
             <option value="$PROJECT_DIR$/qianghongbao" />
             <option value="$PROJECT_DIR$/recorder" />
             <option value="$PROJECT_DIR$/screenshort" />
             <option value="$PROJECT_DIR$/screentest" />
+            <option value="$PROJECT_DIR$/temp" />
           </set>
         </option>
       </GradleProjectSettings>

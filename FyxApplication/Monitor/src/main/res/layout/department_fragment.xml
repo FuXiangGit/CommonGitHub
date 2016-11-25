@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ExpandableListView
+        android:id="@+id/eList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dip"
+        android:groupIndicator="@null" />
+
+    <Button
+        android:id="@+id/bt_select_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="40dip"
+        android:layout_alignParentBottom="true"
+        android:text="@string/tv_is_monitor"
+        android:textSize="@dimen/font_32"
+        android:textColor="@color/white"
+        android:background="@mipmap/tree_gb"/>
+
+</RelativeLayout>

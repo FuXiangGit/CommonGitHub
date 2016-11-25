@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generic_white"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:orientation="horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip">
+
+        <com.xvli.widget.TextMarquee
+            android:id="@+id/left_text2"
+            style="@style/comm_blue_text"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:layout_gravity="left|center_vertical"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+
+        <CheckBox
+            android:id="@+id/right_cbx_routing2"
+            style="@style/comm_checkbox"
+            android:layout_marginRight="10dip"
+            android:button="@null"
+            android:background="@drawable/comm_repair_check_selector" />
+        <Button
+            android:id="@+id/btn_take2"
+            android:layout_width="@dimen/delete_size"
+            android:layout_height="@dimen/delete_size"
+            android:layout_marginRight="10dip"
+            android:gravity="right"
+            android:layout_gravity="right|center_vertical"
+            android:background="@drawable/photograph_selector"
+            android:padding="10dip"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/et_other2"
+        style="@style/check_right_text"
+        android:textCursorDrawable="@drawable/color_cursor" />
+    </LinearLayout>
+
+
+    <!--<include layout="@layout/comm_divider" />-->
+
+</LinearLayout>

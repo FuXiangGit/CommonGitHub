@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="common_tv_size">14sp</dimen>
+    <dimen name="common_tip_size">16sp</dimen>
+    <dimen name="tv_tip">10sp</dimen>
+
+
+    <dimen name="img_sss_top">35dip</dimen>
+    <dimen name="rell_layout_top">20dip</dimen>
+    <dimen name="text_h">42dip</dimen>
+    <dimen name="bj_gray_h">270dip</dimen>
+    <dimen name="img_h">40dip</dimen>
+    <dimen name="img_w">38dip</dimen>
+    <dimen name="line_left">14.5dip</dimen>
+    <dimen name="img_text_w">210dip</dimen>
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/add_atmcheck_repair"
+    android:background="@color/generic_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_atmcheck_repair"
+        android:paddingRight="15dip">
+
+        <com.xvli.widget.TextMarquee
+            android:id="@+id/left_text1"
+            style="@style/comm_blue_text"
+            android:layout_width="190dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:gravity="left"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <CheckBox
+            android:id="@+id/repair_cbx"
+            style="@style/comm_checkbox"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@null"
+            android:padding="5dip"
+            android:background="@drawable/comm_check_selector"/>
+
+
+    </RelativeLayout>
+
+    <include layout="@layout/comm_divider" />
+
+</LinearLayout>

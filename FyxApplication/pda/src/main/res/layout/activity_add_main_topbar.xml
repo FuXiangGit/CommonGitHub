@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dip"
+    android:background="@color/generic_white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/bt_Name_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/maring_layout"
+            android:drawableTop="@drawable/user_info"
+            android:gravity="center"
+            android:padding="4dip"
+            android:text="@string/login_add_mian_tv4"
+            android:textColor="@color/subject_text"
+            android:textSize="@dimen/common_tip_size" />
+
+        <TextView
+            android:id="@+id/bt_loader_task"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:drawableTop="@mipmap/loader_task"
+            android:gravity="center"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dip"
+            android:singleLine="true"
+            android:padding="4dp"
+            android:text="@string/login_down_loader"
+            android:textColor="@color/subject_text"
+            android:textSize="@dimen/common_tip_size" />
+
+
+        <TextView
+            android:id="@+id/bt_Name_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/maring_layout"
+            android:gravity="center"
+            android:text="@string/btn_title_ok"
+            android:textColor="@color/subject_text"
+            android:textSize="@dimen/common_tip_size"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_alignParentBottom="true"
+        android:background="@color/text_hint" />
+
+</RelativeLayout>

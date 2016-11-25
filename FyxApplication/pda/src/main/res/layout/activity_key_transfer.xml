@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/bg2"
+              android:orientation="vertical"
+    >
+
+
+    <include
+        android:id="@+id/comm_title_bar"
+        layout="@layout/comm_ok_cancel_bar"/>
+    <TextView
+        android:id="@+id/key_transfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/comm_item_text_size"
+        android:textColor="@color/generic_white"
+        android:text="@string/key_transfer"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_below="@+id/comm_title_bar"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical"
+        android:layout_below="@id/key_transfer"
+        android:layout_above="@+id/bt_updata_key_transfer">
+
+
+<!--
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/subject_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/comm_item_text_size"
+                android:layout_gravity="center"
+                android:text="@string/add_tansfer"
+                android:textColor="@color/generic_blue"
+                android:layout_margin="5dip"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:id="@+id/add_key_tansfer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/comm_item_text_size"
+                android:layout_gravity="center"
+                android:background="@mipmap/login_input_bg"
+                android:textColor="@color/generic_black"
+                android:layout_margin="5dip"
+                android:singleLine="true"
+                android:imeOptions="actionDone"/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="10dp"
+            android:background="@color/generic_black"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/subject_bg"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/comm_item_text_size"
+                android:layout_gravity="center"
+                android:text="@string/add_receive"
+                android:textColor="@color/generic_blue"
+                android:layout_margin="5dip"
+                android:layout_alignParentLeft="true"/>
+
+            <EditText
+                android:id="@+id/add_key_receive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/comm_item_text_size"
+                android:layout_gravity="center"
+                android:background="@mipmap/login_input_bg"
+                android:textColor="@color/generic_black"
+                android:layout_margin="5dip"
+                android:singleLine="true"
+                android:imeOptions="actionDone"/>
+        </LinearLayout>
+-->
+
+
+
+
+
+            <TextView
+                android:id="@+id/key_scan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/comm_item_text_size"
+                android:layout_gravity="center"
+                android:text="@string/add_key_scan"
+                android:textColor="@color/text_gray"
+                android:layout_margin="5dip"
+                android:layout_alignParentLeft="true"/>
+        <!--
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+
+            android:background="@color/login_color"/>
+
+         -->
+        <ListView
+            android:id="@+id/key_transfer_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:dividerHeight="@dimen/view_height">
+
+        </ListView>
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/bt_updata_key_transfer"
+        android:text="@string/add_updata_key_transfer"
+        android:textColor="@color/generic_white"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/image_w"
+        android:layout_marginRight="@dimen/image_w"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bt_long_selector"
+
+        android:textSize="@dimen/list_item"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@mipmap/bg">
+
+    <RelativeLayout
+        android:id="@+id/line1_out"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        >
+
+        <ImageView
+            android:id="@+id/iv_custom_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+
+            android:src="@drawable/logn3"
+
+            />
+
+
+
+    </RelativeLayout>
+
+
+<LinearLayout
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@id/line1_out"
+    android:gravity="center_horizontal"
+
+    >
+
+    <TextView
+        android:id="@+id/line"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/login_color"/>
+    <TextView
+        android:id="@+id/iv_sys_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/line1_out"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="@string/login_sign_title"
+        android:textColor="@color/login_color"
+
+
+       />
+
+    <TextView
+        android:id="@+id/line1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/login_color"
+
+        />
+</LinearLayout>
+
+
+    <!-- -->
+    <TextView
+        android:id="@+id/iv_tip_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LinearLayout"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login_sign_in"
+        android:textColor="@color/login_color"
+        android:textSize="0sp"/>
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_long_selector"
+        android:text="@string/login"
+        android:enabled="false"
+
+        android:textColor="@color/generic_white"
+
+        android:layout_below="@+id/ll_input"
+        />
+
+    <LinearLayout
+        android:id="@+id/ll_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_tip_add"
+
+
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout
+            android:id="@+id/relative1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            >
+
+
+            <Button
+                android:id="@+id/btn_add1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/quan2"
+                android:text="@string/login_add_mian_tv1"
+                android:textColor="@color/generic_white"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/btn_add2"
+                android:layout_toStartOf="@+id/btn_add2"
+
+                />
+
+                <Button
+                    android:id="@+id/btn_add2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/quan1"
+                    android:text="@string/login_add_mian_tv2"
+                    android:textColor="@color/login_color"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+                <Button
+                    android:layout_weight="0.00"
+                    android:id="@+id/btn_add3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/quan1"
+                    android:text="@string/login_add_mian_tv3"
+                    android:textColor="@color/login_color"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_toRightOf="@+id/btn_add2"
+                    android:layout_toEndOf="@+id/btn_add2"
+
+                    />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/re_viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/form"
+            android:orientation="vertical">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/view_pager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+            </android.support.v4.view.ViewPager>
+        </RelativeLayout>
+    </LinearLayout>
+
+<ImageView
+    android:id="@+id/img_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/logo4"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+  />
+</RelativeLayout>

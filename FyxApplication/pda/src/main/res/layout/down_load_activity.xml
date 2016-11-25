@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical">
+    <include
+        layout="@layout/comm_ok_cancel_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"/>
+
+    <LinearLayout
+        android:layout_marginTop="50px"
+        android:id="@+id/task_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rell_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/generic_white"
+            android:padding="6dip">
+
+            <TextView
+                style="@style/subject_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/down_load_all_day" />
+
+            <CheckBox
+                android:id="@+id/cbx_allday"
+                style="@style/comm_checkbox_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:checked="false" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/view_height" />
+
+        <RelativeLayout
+            android:id="@+id/rell_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/generic_white"
+            android:padding="6dip">
+
+            <TextView
+                style="@style/subject_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/down_load_morning" />
+
+            <RadioButton
+                android:id="@+id/cbx_morning"
+                style="@style/comm_checkbox_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/view_height"/>
+
+        <RelativeLayout
+            android:id="@+id/rell_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dip"
+            android:background="@color/generic_white">
+
+            <TextView
+                style="@style/subject_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/down_load_afternoon" />
+
+            <RadioButton
+                android:id="@+id/cbx_afternoon"
+                style="@style/comm_checkbox_style2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/down_load_tips"
+        style="@style/generic_add_title"
+        android:layout_below="@id/task_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="12dip"
+        android:textColor="@color/generic_red"
+        android:text="@string/down_load_tips" />
+
+    <Button
+        style="@style/btn_maring_layout"
+        android:id="@+id/btn_download_ok"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/top3"
+        android:background="@drawable/bt_long_selector"
+        android:layout_below="@+id/down_load_tips"
+        android:layout_marginTop="@dimen/btn_takephoto_heignt"
+        android:text="@string/btn_title_ok"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/comm_item_text_size"
+        android:layout_marginBottom="20dip"/>
+</LinearLayout>

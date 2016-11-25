@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+    
+    <LinearLayout
+        android:id="@+id/item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/login"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_login_nub"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/add_login_edt_hit1"
+            android:textSize="@dimen/size"
+            android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:textColorHint="@color/login_color"
+            android:textColor="@color/generic_black"
+
+            android:background="@color/generic_white"
+            />
+
+        <TextView
+            android:id="@+id/item_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@color/login_color"
+
+            android:layout_gravity="right|bottom"/>
+        </FrameLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/item_layout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal"
+        >
+
+        <ImageView
+            android:id="@+id/item_image1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_vertical"
+
+            android:background="@drawable/mm"/>
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <EditText
+                android:id="@+id/edt_login_pwd"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:hint="@string/add_login_edt_hit2"
+                android:layout_gravity="right|bottom"
+                android:password="true"
+                android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:textSize="@dimen/size"
+                android:textColorHint="@color/login_color"
+                android:textColor="@color/generic_black"
+
+
+                android:background="@color/generic_white"
+                />
+            <TextView
+                android:id="@+id/item_line1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@color/login_color"
+
+                android:layout_gravity="right|bottom"/>
+
+        </FrameLayout>
+        
+    </LinearLayout>
+	<Button
+	    android:id="@+id/bt_ok"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+	    android:text="@string/btn_title_ok"
+	    android:textColor="@color/generic_white"
+        android:textSize="@dimen/size2"
+	    android:background="@drawable/bt_long_sure"
+	    />
+</LinearLayout>

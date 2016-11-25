@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generic_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/add_absrb_card"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <com.xvli.widget.TextMarquee
+            android:id="@+id/left_text9"
+            style="@style/comm_blue_text"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="left"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:layout_weight="3"
+            android:text="kflsdjglkfj"
+            android:layout_gravity="left|center_vertical"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:layout_marginLeft="5dp"/>
+
+        <com.xvli.widget.TextMarquee
+            android:id="@+id/tv_other9"
+            style="@style/check_right_text"
+            android:layout_width="@dimen/mult_check_tv"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:layout_height="@dimen/list_item_heignt"
+            android:layout_weight="6"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/edit_text_bg"
+            android:focusableInTouchMode="true"
+            android:layout_marginBottom="3dip"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:textSize="@dimen/comm_item_text_size"/>
+        <Button
+            android:id="@+id/btn_take9"
+            android:layout_width="@dimen/delete_size"
+            android:layout_height="@dimen/delete_size"
+            android:layout_toLeftOf="@+id/tv_other9"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:background="@drawable/photograph_selector"
+            android:padding="10dip"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <!--<include layout="@layout/comm_divider" />-->
+</LinearLayout>

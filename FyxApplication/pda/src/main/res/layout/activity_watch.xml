@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@mipmap/bg2">
+
+    <include
+        android:id="@+id/comm_title_bar"
+        layout="@layout/comm_ok_cancel_bar"/>
+
+    <TextView
+    android:id="@+id/network_tip"
+    style="@style/generic_add_title"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:text="@string/check_info"
+    android:layout_gravity="center"
+        android:textSize="@dimen/list_item"/>
+
+    <HorizontalScrollView
+        android:id="@+id/hvChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+        <RadioGroup
+            android:id="@+id/rgChannel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+
+
+        </RadioGroup>
+
+        <!--
+                    <TabHost    android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/tabHost"
+                                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                        <TabWidget
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@android:id/tabs"/>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@android:id/tabcontent">
+
+                        </FrameLayout>
+
+                    </TabHost>
+                    -->
+    </HorizontalScrollView>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vpNewsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>
+
+

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@mipmap/bg2"
+    >
+
+    <include
+        android:id="@+id/comm_title_bar"
+        layout="@layout/comm_ok_cancel_bar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/generic_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabSelectedTextColor="@color/subject_text"
+            app:tabIndicatorColor="@color/subject_text"
+            app:tabTextColor="@color/tab_color"
+            app:tabMode="fixed"
+            app:tabTextAppearance ="@style/TabLayoutTextStyle"
+
+           >
+
+            <!--tabMode  有两个属性  scrollable (适合多个tab  使用)/  fixed  -->
+        </android.support.design.widget.TabLayout>
+
+        <!--
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/arrow_click"/>
+
+         -->
+
+
+    </LinearLayout>
+
+    <com.xvli.widget.data.NoScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.xvli.widget.data.NoScrollViewPager>
+
+
+
+    <Button
+        android:id="@+id/bt_delete"
+
+
+        android:text="@string/add_atm_againscan"
+        android:textColor="@color/generic_white"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/image_w"
+        android:layout_marginRight="@dimen/image_w"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bt_long_selector"
+
+        android:textSize="@dimen/list_item"
+
+        />
+
+
+    <LinearLayout
+        android:id="@+id/total_include"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_again_scan"
+            android:text="@string/add_atm_againscan"
+            android:textColor="@color/generic_white"
+            android:paddingRight="10dip"
+            android:textSize="@dimen/list_item"
+            android:layout_weight="1"
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/pading"
+            android:layout_marginRight="@dimen/pading"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/martop"
+            android:background="@drawable/bt_long_sure"
+
+            />
+        <Button
+            android:id="@+id/btn_key_change"
+            android:layout_weight="1"
+            android:background="@drawable/bt_long_sure"
+            android:text="@string/add_key_change"
+            android:textColor="@color/generic_white"
+            android:textSize="@dimen/list_item"
+
+
+
+
+
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+
+            android:layout_marginLeft="@dimen/pading"
+            android:layout_marginRight="@dimen/pading"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/martop"
+
+
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

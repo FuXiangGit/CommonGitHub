@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/tablet_view"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/generic_white" >
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/generic_white"
+        android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_view_height"
+        android:layout_marginTop="@dimen/sheet_spacing"
+        android:background="@color/text_hint"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/generic_white">
+
+        <Button
+            android:id="@+id/tablet_ok"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:textSize="@dimen/list_item"
+            android:textColor="@color/subject_text"
+            android:background="@null"
+            android:text="@string/btn_title_ok" />
+        <View
+            android:layout_width="@dimen/dialog_view_height"
+            android:layout_height="45dip"
+            android:background="@color/text_hint"/>
+        <Button
+            android:id="@+id/tablet_clear"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:textSize="@dimen/list_item"
+            android:textColor="@color/subject_text"
+            android:background="@null"
+            android:text="@string/btn_delete" />
+        <View
+            android:layout_width="@dimen/dialog_view_height"
+            android:layout_height="45dip"
+            android:background="@color/text_hint"/>
+        <Button
+            android:id="@+id/tablet_cancel"
+            android:layout_width="0dp"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:textSize="@dimen/list_item"
+            android:textColor="@color/subject_text"
+            android:background="@null"
+            android:text="@string/btn_cancle"/>
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

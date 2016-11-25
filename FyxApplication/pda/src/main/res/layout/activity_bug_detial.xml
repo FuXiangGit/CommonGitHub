@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical" >
+
+    <include layout="@layout/comm_ok_cancel_bar" >
+    </include>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="@dimen/comm_item_text_size"
+        android:visibility="gone"
+        android:textColor="@color/generic_white"
+        android:text="@string/bug_operate_tile" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="@dimen/tv_margin">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@color/generic_white"
+                android:orientation="horizontal"
+                android:paddingEnd="10dip"
+                android:paddingStart="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_branch"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/branch_name" />
+
+                <TextView
+                    android:id="@+id/tv_branch_name"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/view_height">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@color/generic_white"
+                android:orientation="horizontal"
+                android:paddingEnd="10dip"
+                android:paddingStart="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_atm"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/atm_machine" />
+
+                <TextView
+                    android:id="@+id/tv_atm_machine"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/view_height">
+            </View>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@color/generic_white"
+                android:orientation="horizontal"
+                android:paddingEnd="10dip"
+                android:paddingStart="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_type"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/atm_type" />
+
+                <TextView
+                    android:id="@+id/tv_atm_type"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/view_height">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@color/generic_white"
+                android:orientation="horizontal"
+                android:paddingEnd="10dip"
+                android:paddingStart="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_belong_to"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/belong" />
+
+                <TextView
+                    android:id="@+id/tv_belong"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/view_height">
+            </View>
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/re_address"
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@color/generic_white"
+                android:orientation="horizontal"
+                android:paddingEnd="10dip"
+                android:paddingStart="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_add"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/address" />
+
+                <com.xvli.widget.TextMarquee
+                    android:id="@+id/tv_address"
+                    style="@style/comm_blue_text"
+                    android:layout_width="190sp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:singleLine="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/view_height">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@color/generic_white"
+                android:orientation="horizontal"
+                android:paddingEnd="10dip"
+                android:paddingStart="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_bug_level"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/bug_level" />
+
+                <TextView
+                    android:id="@+id/tv_bug_level_value"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/view_height">
+            </View>
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@color/generic_white"
+                android:orientation="horizontal"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip">
+
+                <TextView
+                    android:id="@+id/tv_bug_unit"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/bug_unit" />
+
+                <TextView
+                    android:id="@+id/tv_bug_unit_value"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:ellipsize="marquee"
+                    android:focusable="true"
+                    android:singleLine="true"
+                    android:focusableInTouchMode="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:scrollHorizontally="true"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/view_height">
+            </View>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="45dip"
+                android:background="@color/generic_white"
+                android:orientation="horizontal"
+                android:paddingEnd="10dip"
+                android:paddingStart="10dip" >
+
+                <TextView
+                    android:id="@+id/tv_bug_time"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/bug_time" />
+
+                <TextView
+                    android:id="@+id/tv_bug_time_value"
+                    style="@style/comm_blue_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"/>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_repair_notgo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big_btn_heignt"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="@dimen/btn_maring_layout"
+                android:layout_marginRight="@dimen/btn_maring_layout"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/bt_long_selector"
+                android:text="@string/tv_repair_notgo"
+                android:textSize="@dimen/list_item" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

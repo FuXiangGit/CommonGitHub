@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#ebebeb</color>
+    <color name="black">#000000</color>
+    <color name="darkgrey">#C0C0C0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="f850_default_blue">#0079ff</color>
+
+    <drawable name="transparent">#00000000</drawable>
+    <color name="transparent">#00000000</color>
+
+
+    <color name="header_toast_bg">#ccebfc</color>
+    <color name="header_toast">#024ca1</color>
+    <color name="header_toast_line">#abdaf4</color>
+    <color name="offline_down_title">#909090</color>
+    <color name="offline_head_font">#FFFFFF</color>
+    <color name="gary">#898989</color>
+    <color name="taobao_black">#333333</color>
+    <color name="offline_down_size">#777777</color>
+    <color name="gray_lite">#c5c5c5</color>
+    <color name="progress_background">#ededed</color>
+    <color name="blue">#4c90f9</color>
+    <color name="itemlist">#f4f4f4</color>
+    <color name="act_background">#efefef</color>
+    <color name="phone_bg">#f6f6f6</color>
+    <color name="translucent">#66000000</color>
+    <color name="generic_white">#FFFFFF</color>
+    <color name="color_hint">#b8b8b8</color>
+    <color name="btn_click">#148dc4</color>
+    <color name="btn_nomal">#0896d7</color>
+    <color name="line_gray">#dedede</color>
+    <color name="tv_input">#616161</color>
+    <color name="subject_text">#006ab5</color>
+    <color name="white40">#40FFFFFF</color>
+    <color name="generic_gray">#F2F2F2</color>
+    <color name="tab_color">#999999</color>
+    <color name="group_one_item">#eeeeee</color>
+    <color name="child_group_item">#f9f9f9</color>
+    <color name="text_gray">#666666</color>
+</resources>

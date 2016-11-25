@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/list_item_selector"
+    android:paddingLeft="5dip"
+    android:paddingRight="5dip" >
+    <TextView 
+        android:id="@+id/tv_item_1"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/comm_item_heignt"
+        android:layout_weight="3"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="20dip"
+        style="@style/generic_listview_item"/>
+    <TextView 
+        android:id="@+id/tv_item_2"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/comm_item_heignt"
+        android:layout_weight="2"
+        android:gravity="center"
+        style="@style/generic_listview_item"/>
+    <TextView 
+        android:id="@+id/tv_item_3"
+        android:layout_width="0dip"
+        android:layout_height="@dimen/comm_item_heignt"
+        android:layout_weight="2"
+        android:gravity="center"
+        style="@style/generic_listview_item"/>
+</LinearLayout>

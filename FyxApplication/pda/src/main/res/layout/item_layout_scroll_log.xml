@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/total_ll"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title_1"
+                style="@style/generic_add_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <com.xvli.widget.MyListView
+                android:id="@+id/lv_1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:cacheColorHint="#00000000"
+                android:dividerHeight="2dip"
+                android:listSelector="@color/generic_transparent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/total_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <!--
+            <ImageView
+                android:layout_width="@dimen/line"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line1"/>
+    -->
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/add_tv_total"
+                android:textColor="@color/login_color"
+                android:textSize="@dimen/comm_item_text_size" />
+
+            <!--
+            <ImageView
+                android:layout_width="@dimen/line"
+                android:layout_height="wrap_content"
+                android:src="@drawable/line2"/>
+                -->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/generic_listview_item_bg"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip">
+
+            <TextView
+                style="@style/generic_listview_item"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/comm_item_heignt"
+                android:layout_alignParentLeft="true"
+                android:text="@string/add_atmoperate_statistics_all" />
+
+            <TextView
+                android:id="@+id/tv_content_all"
+                style="@style/generic_listview_item"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/comm_item_heignt"
+                android:layout_alignParentRight="true"
+                android:gravity="right|center_vertical" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@color/generic_transparent" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/generic_listview_item_bg"
+            android:paddingLeft="10dip"
+            android:paddingRight="10dip">
+
+            <TextView
+                style="@style/generic_listview_item"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/comm_item_heignt"
+                android:layout_alignParentLeft="true"
+                android:text="@string/add_atmoperate_statistics_done" />
+
+            <TextView
+                android:id="@+id/tv_content_done"
+                style="@style/generic_listview_item"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/comm_item_heignt"
+                android:layout_alignParentRight="true"
+                android:gravity="right|center_vertical" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/bt_delete"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/big_btn_heignt"
+            android:layout_marginBottom="@dimen/maring_layout"
+            android:layout_marginLeft="@dimen/image_w"
+            android:layout_marginRight="@dimen/image_w"
+            android:layout_marginTop="@dimen/maring_layout"
+            android:background="@drawable/bt_long_selector"
+            android:text="@string/add_atm_againscan"
+            android:textColor="@color/generic_white"
+            android:textSize="@dimen/list_item" />
+    </LinearLayout>
+</RelativeLayout>

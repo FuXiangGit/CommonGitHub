@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wedge">
+
+
+        <item> note </item>
+
+        <item> channel </item>
+
+        <item> detector module </item>
+
+        <item> buffer module </item>
+
+        <item>  money back </item>
+
+        <item> other </item>
+
+    </string-array>
+
+    <string-array name= "atm_match" >
+
+        <item> site for box</item>
+
+        <item> equipment </item>
+
+        <item> other </item>
+
+    </string-array>
+</resources>

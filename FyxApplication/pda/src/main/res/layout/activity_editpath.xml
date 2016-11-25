@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+			  android:background="@mipmap/bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+     <LinearLayout
+         	android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	    	android:layout_marginTop="10dip"  	
+	    	android:layout_marginRight="10dip"
+	    	android:layout_marginLeft="10dip"
+			android:background="@android:color/white"
+	    	android:orientation="horizontal"
+        >
+      <TextView
+            android:layout_width="wrap_content"
+    		android:layout_height="50dip"
+    		android:text="@string/btn_edits"
+			android:textColor="@color/generic_black"
+          />
+  		<EditText
+  	    	android:id="@+id/edt_login"
+            android:layout_width="match_parent"
+    		android:layout_height="50dip"
+    		android:hint=""
+			android:textColor="@color/generic_black"
+    	 	android:background="@drawable/selector_edittext_bg"
+      	/>
+
+	</LinearLayout>
+	<Button
+	    	android:id="@+id/btn_editsaves"
+	    	android:layout_marginTop="10dip"
+	     	android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginRight="10dip"
+    		android:layout_marginLeft="10dip"
+    		android:onClick="GoEditss"
+    		android:text="@string/btn_editss"
+			android:textColor="@color/generic_black"
+    		
+	    />
+      <LinearLayout
+         android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+    	android:layout_marginTop="10dip"  	
+    	android:layout_marginRight="10dip"
+    	android:layout_marginLeft="10dip"
+    	android:background="@android:color/white"
+    	android:orientation="horizontal"
+        >
+      <TextView
+            android:layout_width="wrap_content"
+    		android:layout_height="50dip"
+    		android:text="@string/btn_edit"
+			android:textColor="@color/generic_black"
+          />
+  		<EditText
+  	    	android:id="@+id/edt_path"
+            android:layout_width="match_parent"
+    		android:layout_height="50dip"
+    		android:hint=""
+			android:textColor="@color/generic_black"
+    	 	android:background="@drawable/selector_edittext_bg"
+      />
+
+	</LinearLayout>
+
+	<Button
+	    	android:id="@+id/btn_editsave"
+	    	android:layout_marginTop="10dip"
+	     	android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:layout_marginRight="10dip"
+    		android:layout_marginLeft="10dip"
+    		android:onClick="GoEdits"
+    		android:text="@string/btn_editss"
+			android:textColor="@color/generic_black"
+    		
+	    />
+</LinearLayout>

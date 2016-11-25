@@ -1,0 +1,74 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_btn_common">30px</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size">14dp</dimen>
+    <dimen name="bangding_bg">80px</dimen>
+    <dimen name="comm_item_text_size">14sp</dimen>
+
+    <dimen name="comm_item_heignt">40dip</dimen>
+    <dimen name="fab_spacing">0dp</dimen>
+    <dimen name="sheet_spacing">10dp</dimen>
+    <dimen name="fab_sheet_elevation">0dp</dimen>
+    <dimen name="list_item_heignt">40dip</dimen>
+    <dimen name="add_atmcheck_repair">45dip</dimen>
+    <dimen name="warn_item_height">80dip</dimen>
+    <dimen name="dialog_textsize_twenty">20dip</dimen>
+    <dimen name="dialog_textsize_eighteen">18dip</dimen>
+    <dimen name="login_text_size">14sp</dimen>
+    <dimen name="add_absrb_card">50dip</dimen>
+    <dimen name="add_repair_height">180dip</dimen>
+    <dimen name="add_dialog_edit_tip_width">70dip</dimen>
+    <dimen name="btn_takephoto_heignt">37dip</dimen>
+    <dimen name="maring_layout">10dp</dimen>
+    <dimen name="fab_maring_layout">220dp</dimen>
+    <dimen name="btn_maring_layout">30dp</dimen>
+
+
+
+
+    <!--  -->
+    <dimen name="btn_big_size">15sp</dimen>
+    <dimen name="view_height">1.5dp</dimen>
+    <dimen name="mult_check_tv">200dp</dimen>
+    <dimen name="top">17dp</dimen>
+    <dimen name="height">125dp</dimen>
+    <dimen name="left">25dp</dimen>
+    <dimen name="pading">10dp</dimen>
+    <dimen name="lin2">1dp</dimen>
+    <dimen name="top1">3dp</dimen>
+    <dimen name="left1">2dp</dimen>
+    <dimen name="top3">30dp</dimen>
+    <dimen name="size">14sp</dimen>
+    <dimen name="size1">19sp</dimen>
+    <dimen name="height1">65dp</dimen>
+    <dimen name="top2">36dp</dimen>
+    <dimen name="width">45dp</dimen>
+    <dimen name="right">20dp</dimen>
+    <dimen name="height2">150dp</dimen>
+    <dimen name="bottom">22dp</dimen>
+    <dimen name="size2">10sp</dimen>
+    <dimen name="top4">10dp</dimen>
+    <dimen name="size3">12sp</dimen>
+    <dimen name="width1">75dp</dimen>
+    <dimen name="image_w">20dp</dimen>
+    <dimen name="small_btn">75dp</dimen>
+    <dimen name="list_item">14sp</dimen>
+    <dimen name="main_top">35dp</dimen>
+    <dimen name="size4">16sp</dimen>
+    <dimen name="line">45dp</dimen>
+    <dimen name="martop">4dp</dimen>
+    <dimen name="marLeft">10dp</dimen>
+    <dimen name="big_tip">18sp</dimen>
+    <dimen name="back">38dp</dimen>
+    <dimen name="delete_size">27dp</dimen>
+    <dimen name="logo_width">260dp</dimen>
+    <dimen name="logo_height">30dp</dimen>
+
+    <dimen name="check_item">13sp</dimen>
+    <dimen name="common_tip_size">9sp</dimen>
+
+</resources>

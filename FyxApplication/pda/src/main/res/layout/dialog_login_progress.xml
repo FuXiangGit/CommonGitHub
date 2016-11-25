@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dialog_view"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:minHeight="40dp"
+	android:minWidth="120dp"
+	android:gravity="center"
+	android:padding="10dp"
+	android:background="@color/generic_transparent">
+
+	<com.xvli.utils.NumberProgressBar
+		android:id="@+id/pro"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		style="@style/NumberProgressBar_Default"/>
+</LinearLayout>

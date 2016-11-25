@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_choose_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_code_tip"
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dip"
+        android:layout_marginBottom="10dip"
+        android:gravity="center"
+        android:textColor="@color/generic_blue"
+        android:textSize="@dimen/dialog_textsize_twenty"
+        android:text="@string/down_load_tip_head"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_view_height"
+        android:background="@color/text_hint"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:layout_marginTop="@dimen/login_text_size"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/radio_btn_pading">
+
+            <TextView
+                android:id="@+id/tv_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:text="@string/box_task_type_4"
+                android:layout_centerVertical="true"
+                android:textColor="@color/subject_text"
+                android:textSize="@dimen/list_item" />
+
+            <EditText
+                android:id="@+id/et_new_code"
+                android:layout_width="170dip"
+                android:layout_height="@dimen/big_btn_heignt"
+                android:layout_marginRight="5dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:focusable="false"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dip"
+                android:background="@drawable/edit_text_bg"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/list_item" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:orientation="horizontal"
+            android:layout_marginBottom="15dip"
+            android:paddingLeft="@dimen/radio_btn_pading">
+
+            <TextView
+                android:id="@+id/tv_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dip"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:text="@string/box_task_type_4"
+                android:layout_centerVertical="true"
+                android:textColor="@color/subject_text"
+                android:textSize="@dimen/list_item" />
+
+            <EditText
+                android:id="@+id/et_older_code"
+                android:layout_width="170dip"
+                android:layout_height="@dimen/big_btn_heignt"
+                android:layout_marginRight="5dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:focusable="false"
+                android:background="@drawable/edit_text_bg"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="5dip"
+                android:textColor="@color/text_gray"
+                android:textSize="@dimen/list_item" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_view_height"
+        android:background="@color/text_hint"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dialog_but_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/add_absrb_card"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:gravity="center"
+            android:padding="8dip"
+            android:layout_weight="1"
+            android:text="@string/btn_title_ok"
+            android:textColor="@color/subject_text"
+            android:textSize="@dimen/list_item" />
+
+        <View
+            android:layout_width="@dimen/dialog_view_height"
+            android:layout_height="@dimen/add_absrb_card"
+            android:background="@color/text_hint"/>
+        <Button
+            android:id="@+id/dialog_but_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/add_absrb_card"
+            android:layout_gravity="center_horizontal"
+            android:background="@null"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/btn_cancle"
+            android:textColor="@color/subject_text"
+            android:textSize="@dimen/list_item" />
+    </LinearLayout>
+
+</LinearLayout>

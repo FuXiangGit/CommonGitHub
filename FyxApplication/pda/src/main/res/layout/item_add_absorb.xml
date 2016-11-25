@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/add_atmcheck_repair"
+    android:background="@color/generic_white"
+	android:paddingRight="10dip"
+	android:paddingLeft="10dip">
+
+	<Button
+	    android:id="@+id/bt_Absorb_photo"
+	    android:layout_width="@dimen/delete_size"
+	    android:layout_height="@dimen/delete_size"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:padding="15dip"
+		android:layout_marginRight="42dip"
+	    android:background="@mipmap/camera"/>
+	<Button 
+	    android:id="@+id/bt_Absorb_del"
+		android:layout_width="@dimen/delete_size"
+		android:layout_height="@dimen/delete_size"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_toLeftOf="@id/bt_Absorb_photo"
+	    android:padding="15dip"
+	    android:background="@mipmap/delete"/>
+	<TextView 
+	    android:id="@+id/tv_Absorb_customer"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@id/bt_Absorb_photo"
+	    android:layout_marginRight="3dip"
+	    android:background="@color/generic_transparent"
+		android:textSize="@dimen/list_item"
+	    style="@style/generic_listview_item"/>
+	<TextView 
+	    android:id="@+id/tv_Absorb_cardNub"
+	    android:layout_width="fill_parent"
+		android:layout_height="@dimen/add_atmcheck_repair"
+	    style="@style/generic_listview_item"
+	    android:ellipsize="marquee"
+	    android:layout_centerVertical="true"
+	    android:layout_toLeftOf="@id/tv_Absorb_customer"
+	    android:layout_marginRight="3dip"
+		android:text="fsdgf"
+	    android:background="@color/generic_transparent"
+	    android:textSize="@dimen/list_item"
+	    />
+
+</RelativeLayout>

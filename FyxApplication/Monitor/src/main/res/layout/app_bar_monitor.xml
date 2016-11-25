@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.xuli.monitor.MonitorActivity">
+
+    <RelativeLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/icon_gb"
+        android:orientation="horizontal">
+
+        <include
+            android:id="@+id/title"
+            layout="@layout/title_main_bar" />
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/ll_img"
+            android:layout_below="@+id/title">
+
+            <com.amap.api.maps.MapView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </com.amap.api.maps.MapView>
+
+            <include
+                android:id="@+id/type"
+
+                layout="@layout/amap_type"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="13dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="right|top"/>
+
+        </FrameLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/ll_img"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/icon_gb">
+
+            <ImageButton
+                android:id="@+id/img_up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@mipmap/icon_up" />
+
+        </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generic_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_absrb_card"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip">
+
+        <com.xvli.widget.TextMarquee
+            android:id="@+id/left_text1"
+            style="@style/comm_blue_text"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:layout_weight="3"
+            android:gravity="left"
+            android:focusableInTouchMode="true"
+            android:layout_gravity="left|center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <CheckBox
+            android:id="@+id/right_cbx_routing1"
+            style="@style/comm_checkbox"
+            android:layout_margin="10dip"
+            android:button="@null"
+            android:background="@drawable/comm_repair_check_selector" />
+
+
+        <Button
+            android:id="@+id/btn_take"
+            android:layout_width="@dimen/delete_size"
+            android:layout_height="@dimen/delete_size"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/photograph_selector"
+            android:visibility="gone"
+            android:padding="20dip" />
+    </LinearLayout>
+
+    <!--<include layout="@layout/comm_divider" />-->
+
+</LinearLayout>

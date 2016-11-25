@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2" >
+
+    <include
+        android:id="@+id/topbar_dd_atmoperate"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true"
+        layout="@layout/comm_ok_cancel_bar" />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/bt_add_atmoperate_done"
+        android:layout_below="@id/topbar_dd_atmoperate"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="15dip"
+            android:text="@string/network_scan_tip"
+            android:textColor="@color/generic_red"
+            android:textSize="@dimen/big_tip" />
+
+        <EditText
+            android:id="@+id/edt_scan_result"
+            style="@style/generic_edt_none"
+            android:layout_width="fill_parent"
+            android:layout_marginLeft="@dimen/image_w"
+            android:layout_marginRight="@dimen/image_w"
+            android:layout_height="@dimen/list_item_heignt"
+            android:layout_marginTop="10dip"
+            android:focusable="false"
+            android:hint="@string/network_text_hint" />
+    </LinearLayout>
+
+</RelativeLayout>

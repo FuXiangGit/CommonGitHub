@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg2"
+    >
+
+    <include
+        android:id="@+id/main_topbar"
+        layout="@layout/comm_ok_cancel_bar"/>
+
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:layout_marginTop="@dimen/left">
+
+        <com.xvli.widget.MyListView
+            android:id="@+id/Atm_resgistrater"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@color/generic_transparent"
+            android:dividerHeight="@dimen/view_height"
+            android:listSelector="@color/generic_transparent"
+            >
+
+        </com.xvli.widget.MyListView>
+
+  </ScrollView>
+
+
+
+
+</LinearLayout>

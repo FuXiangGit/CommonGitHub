@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="100dip"
+        android:layout_height="38dip"
+        android:layout_marginTop="-1dip"
+        android:background="@drawable/top_btn_selector"
+        android:textColor="@color/white"
+        android:text="@string/tv_pop_1" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="100dip"
+        android:layout_height="38dip"
+        android:layout_marginTop="-2dip"
+        android:textColor="@color/white"
+        android:background="@drawable/top_btn_selector"
+        android:text="@string/tv_pop_2" />
+</LinearLayout>

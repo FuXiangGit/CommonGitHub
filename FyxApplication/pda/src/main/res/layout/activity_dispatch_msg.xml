@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg2"
+    tools:context="com.xvli.fragment.MainTaskFragment">
+
+    <include
+        layout="@layout/comm_ok_cancel_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" />
+
+    <TextView
+        android:id="@+id/tv_warn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="10dip"
+        android:textColor="@color/subject_text"
+        android:textSize="@dimen/comm_item_text_size" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/warn_list"
+        android:layout_marginTop="@dimen/left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_warn" />
+
+</LinearLayout>

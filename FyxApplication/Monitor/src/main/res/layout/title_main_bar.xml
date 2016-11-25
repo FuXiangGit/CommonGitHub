@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dip"
+    android:background="@color/btn_nomal"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="49dip"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="35dip"
+            android:layout_height="32dip"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/btn_back"
+            android:padding="10dip" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="36dip"
+            android:layout_height="34dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@mipmap/btn_more"
+            android:gravity="center"
+            android:padding="4dip" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio_core"
+                android:layout_width="100dip"
+                android:layout_height="38dip"
+                android:background="@drawable/navite_core_selector"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:text="@string/monitor_core"
+                android:textColor="@color/radio_tv_selector" />
+
+            <RadioButton
+                android:id="@+id/radio_more"
+                android:layout_width="100dip"
+                android:layout_height="38dip"
+                android:background="@drawable/navite_more_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:text="@string/monitor_more"
+                android:textColor="@color/radio_tv_selector" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+</LinearLayout>

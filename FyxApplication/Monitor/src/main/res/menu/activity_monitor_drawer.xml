@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/time_data"
+            android:icon="@mipmap/img_data"
+            android:title="@string/time_data"/>
+        <item
+            android:id="@+id/warning_info"
+            android:icon="@mipmap/img_warn"
+            android:title="@string/warning_info"/>
+        <item
+            android:id="@+id/mms_info"
+            android:icon="@mipmap/img_mms"
+            android:title="@string/mms_info"/>
+        <item
+            android:id="@+id/event_info"
+            android:icon="@mipmap/img_event"
+            android:title="@string/event_info"/>
+        <item
+            android:id="@+id/monitor_video"
+            android:icon="@mipmap/img_video"
+            android:title="@string/monitor_video"/>
+    </group>
+
+
+</menu>

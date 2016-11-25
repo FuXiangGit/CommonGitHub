@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_control"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_select_truck"
+        android:padding="10dip"
+        android:gravity="center"
+        android:background="@color/child_group_item"
+        android:textColor="@color/subject_text"/>
+    <ListView
+        android:id="@+id/list_truck"
+        android:layout_below="@+id/tv_control"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_truck"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_sure"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="2dip"
+            android:layout_weight="1"
+            android:background="@mipmap/tree_gb"
+            android:text="@string/btn_title_ok"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/bt_cancel"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/tree_gb"
+            android:text="@string/btn_cancle"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generic_listview_item_bg">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/item_text_1"
+
+            android:layout_weight="1"
+            android:layout_marginLeft="10dip"
+            style="@style/generic_listview_item"
+            android:gravity="center"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/list_item_heignt"
+            android:ellipsize="end"
+            android:text="aaa"/>
+
+        <TextView
+            android:id="@+id/item_text_2"
+            android:text="未登记"
+            android:gravity="center"
+            android:layout_weight="1"
+            style="@style/generic_listview_item"
+            android:layout_width="0dip"
+
+            android:layout_height="@dimen/comm_item_heignt"/>
+
+        <TextView
+            android:id="@+id/item_text_3"
+            android:text="浦发银行"
+            android:gravity="center"
+            android:layout_weight="1"
+            style="@style/generic_listview_item"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/list_item_heignt"
+            android:ellipsize="end"/>
+        <TextView
+            android:id="@+id/item_text_4"
+            android:text="而国际化分开的"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:visibility="gone"
+            style="@style/generic_listview_item"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/list_item_heignt"/>
+
+        <ImageView
+            android:id="@+id/img_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/marLeft"
+            />
+    </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/isNotChenk"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/generic_gray"
+            android:alpha="0.7"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

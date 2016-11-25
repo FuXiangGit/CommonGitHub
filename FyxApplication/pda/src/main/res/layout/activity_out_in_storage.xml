@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/comm_ok_cancel_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup_outin"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_item_heignt"
+        android:gravity="center"
+        android:background="@color/generic_white"
+        android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbt_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dip"
+                android:background="@drawable/radiobutton_selector"
+                android:textColor="@color/radio_tv_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/add_outinstorage_out_tag"
+                android:textSize="@dimen/list_item" />
+
+
+            <RadioButton
+                android:id="@+id/rbt_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:padding="8dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/add_outinstorage_in_tag"
+                android:background="@drawable/radiobutton_selector"
+                android:textColor="@color/radio_tv_selector"
+                android:textSize="@dimen/list_item" />
+
+    </RadioGroup>
+
+    <com.xvli.widget.data.NoScrollViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_marginTop="@dimen/left"
+        android:layout_height="wrap_content"
+        android:overScrollMode="never"></com.xvli.widget.data.NoScrollViewPager>
+
+</LinearLayout>

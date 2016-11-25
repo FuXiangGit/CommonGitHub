@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/main_topbar"
+        layout="@layout/comm_ok_cancel_bar"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll_addoperatechoose_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:paddingBottom="10dip">
+
+        <TextView
+            android:id="@+id/chick_dyc"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:gravity="center"
+            android:text="@string/atm_task_click"
+            android:textColor="@color/subject_text"
+            android:textSize="@dimen/list_item" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_show_atm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/left"
+        android:layout_above="@id/ll_addoperatechoose_menu"
+        android:layout_below="@id/main_topbar"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/generic_transparent"
+        android:dividerHeight="@dimen/view_height"
+        android:listSelector="@color/generic_transparent"
+        android:paddingBottom="10dip" />
+
+
+</RelativeLayout>

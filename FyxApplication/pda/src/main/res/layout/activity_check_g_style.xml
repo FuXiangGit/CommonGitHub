@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generic_white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/add_absrb_card"
+        android:paddingRight="10dip"
+        android:paddingLeft="10dip">
+
+        <com.xvli.widget.TextMarquee
+            android:id="@+id/left_text8"
+            style="@style/comm_blue_text"
+            android:layout_width="110dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:gravity="left"
+            android:paddingLeft="10dip"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"/>
+
+        <Spinner
+            android:id="@+id/spinner_custon"
+            android:layout_width="200dip"
+            android:layout_height="50dip"
+            android:paddingBottom="5dp"
+            android:layout_margin="5dip"
+            android:layout_weight="6"
+            android:layout_toRightOf="@+id/left_text8"
+            android:layout_marginLeft="10dip"
+            android:textSize="@dimen/comm_item_text_size"/>
+        <Button
+            android:id="@+id/btn_take8"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_width="@dimen/delete_size"
+            android:layout_height="@dimen/delete_size"
+            android:background="@drawable/photograph_selector"
+            android:layout_gravity="right|center_vertical"
+            android:padding="10dip"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <!--<include layout="@layout/comm_divider" />-->
+</LinearLayout>

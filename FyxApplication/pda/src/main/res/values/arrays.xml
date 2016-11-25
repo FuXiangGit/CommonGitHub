@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <string-array name="wedge">
+ <item>入钞</item>
+ <item>通道内</item>
+ <item>验钞模块</item>
+ <item>暂存模块</item>
+ <item>退钞</item>
+ <item>其他</item>
+ </string-array>
+ 
+ <string-array name="atm_match">
+ <item>现场换箱</item>
+ <item>换机具</item>
+ <item>其他</item>
+ </string-array>
+
+
+ <string-array name="bindingCar">
+  <item>计划车辆</item>
+  <item>其他车辆</item>
+ </string-array>
+
+</resources>

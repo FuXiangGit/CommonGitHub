@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2">
+
+
+    <include
+        android:id="@+id/comm_title_bar"
+        layout="@layout/comm_ok_cancel_bar"/>
+
+    <TextView
+        android:id="@+id/network_tip"
+        style="@style/generic_add_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comm_title_bar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/text_network_tip"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/net_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/comm_item_heignt"
+        android:layout_below="@+id/network_tip"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/text_network_name"
+            android:textColor="@color/generic_blue"
+            android:textSize="@dimen/comm_item_text_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/text_network_static"
+            android:textColor="@color/generic_blue"
+            android:textSize="@dimen/comm_item_text_size"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/text_yin_hang"
+            android:layout_marginRight="@dimen/right"
+            android:textColor="@color/generic_blue"
+            android:textSize="@dimen/comm_item_text_size"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/network_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/net_layout"
+        android:divider="@color/generic_transparent"
+        android:dividerHeight="@dimen/view_height"/>
+
+
+</RelativeLayout>

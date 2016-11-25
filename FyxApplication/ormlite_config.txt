@@ -1,0 +1,226 @@
+#
+# generated on 2016/11/04 10:43:59
+#
+# --table-start--
+dataClass=com.xuli.vo.LoginVo
+tableName=LOGIN_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=name1
+# --field-end--
+# --field-start--
+fieldName=name2
+# --field-end--
+# --field-start--
+fieldName=pwd1
+# --field-end--
+# --field-start--
+fieldName=pwd2
+# --field-end--
+# --field-start--
+fieldName=jobnumber1
+# --field-end--
+# --field-start--
+fieldName=jobnumber2
+# --field-end--
+# --field-start--
+fieldName=department1
+# --field-end--
+# --field-start--
+fieldName=department2
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xuli.vo.TruckGpsVo
+tableName=TRUCK_GPS_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=latitude
+# --field-end--
+# --field-start--
+fieldName=longitude
+# --field-end--
+# --field-start--
+fieldName=altitude
+# --field-end--
+# --field-start--
+fieldName=x
+# --field-end--
+# --field-start--
+fieldName=y
+# --field-end--
+# --field-start--
+fieldName=z
+# --field-end--
+# --field-start--
+fieldName=speed
+# --field-end--
+# --field-start--
+fieldName=s1
+# --field-end--
+# --field-start--
+fieldName=d
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xuli.vo.TruckVo
+tableName=TRUCK_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=ischeck
+# --field-end--
+# --field-start--
+fieldName=depid
+# --field-end--
+# --field-start--
+fieldName=platenumber
+# --field-end--
+# --field-start--
+fieldName=depname
+# --field-end--
+# --field-start--
+fieldName=online
+# --field-end--
+# --field-start--
+fieldName=ismonitor
+# --field-end--
+# --field-start--
+fieldName=team
+# --field-end--
+# --field-start--
+fieldName=crew
+# --field-end--
+# --field-start--
+fieldName=lastlocation
+# --field-end--
+# --field-start--
+fieldName=lastlocationtime
+# --field-end--
+# --field-start--
+fieldName=lastmessage
+# --field-end--
+# --field-start--
+fieldName=lastmessagetime
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=bodynum
+# --field-end--
+# --field-start--
+fieldName=cartype
+# --field-end--
+# --field-start--
+fieldName=carbrandtyp
+# --field-end--
+# --field-start--
+fieldName=recognitioncode
+# --field-end--
+# --field-start--
+fieldName=recognitionid
+# --field-end--
+# --field-start--
+fieldName=carperson
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=usenature
+# --field-end--
+# --field-start--
+fieldName=carstatus
+# --field-end--
+# --field-start--
+fieldName=radio
+# --field-end--
+# --field-start--
+fieldName=show
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xuli.vo.TruckChildVo
+tableName=TRUCK_CHILD_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=pid
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=vehicount
+# --field-end--
+# --field-start--
+fieldName=vehionline
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xuli.vo.TruckGroupVo
+tableName=TRUCK_GROUP_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=pid
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=vehicount
+# --field-end--
+# --field-start--
+fieldName=vehionline
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

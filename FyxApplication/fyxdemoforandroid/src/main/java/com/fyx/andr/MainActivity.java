@@ -18,11 +18,13 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.fyx.activity.CommBaseAdpActivity;
+import com.fyx.activity.CustomDialogActivity;
 import com.fyx.activity.JianRongDiBanben;
 import com.fyx.activity.ListViewCheckbox;
 import com.fyx.activity.ListViewMutiplType;
 import com.fyx.activity.LogCatRecord;
 import com.fyx.activity.SelfViewActivity;
+import com.fyx.activity.TakePhotoActivity;
 import com.fyx.activity.WeiXinMainActivity;
 import com.fyx.adapter.NormalRecyclerViewAdapter;
 import com.fyx.adapter.adptools.DividerItemDecoration;
@@ -31,7 +33,7 @@ import com.fyx.utils.LogcatHelper;
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
-    private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器","仿微信主界面","兼容低版本","日志打印测试","自定义布局"};
+    private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器","仿微信主界面","兼容低版本","日志打印测试","自定义布局","自定义对话框","拍照"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +75,10 @@ public class MainActivity extends AppCompatActivity {
                     intent = new Intent(MainActivity.this, LogCatRecord.class);
                 }else if(position==6){
                     intent = new Intent(MainActivity.this, SelfViewActivity.class);
+                }else if(position==7){
+                    intent = new Intent(MainActivity.this, CustomDialogActivity.class);
+                }else if(position==8){
+                    intent = new Intent(MainActivity.this, TakePhotoActivity.class);
                 }
 
                 startActivity(intent);

@@ -2,4 +2,30 @@
     <string name="app_name">Luyin</string>
     <string name="local_service_started">开始服务</string>
     <string name="local_service_label">标签</string>
+
+    <string name="title_activity_media_play">MediaPlayActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="media_show_label">视频列表</string>
+    <string name="main_btn_record">录屏</string>
+    <string name="main_btn_medio">视频</string>
+
+    <string name="refresh">刷新</string>
+    <string name="stop_refresh">停止刷新</string>
+
+    <string name="rationale_read">本软件需要读取本地存储卡权限。</string>
+    <string name="rationale_ask_again">没有提供所需权限，本软件不能正常工作。请打开设置提供所需权限</string>
+    <string name="title_settings_dialog">允许权限</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+    <string name="video_name">视频名称:</string>
+    <string name="video_width_height">视频尺寸:</string>
+    <string name="video_size">文件大小:</string>
+    <string name="created_time">创建时间:</string>
+    <string name="unknown">未知</string>
+
+
+
 </resources>

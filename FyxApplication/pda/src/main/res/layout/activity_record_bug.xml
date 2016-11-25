@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical">
+
+    <include layout="@layout/comm_ok_cancel_bar"></include>
+
+    <TextView
+        android:id="@+id/tv_bug_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="5dp"
+        android:paddingTop="10dip"
+        android:text="@string/bug_info_register"
+        android:textColor="@color/subject_text"
+        android:textSize="@dimen/list_item"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/btn_maring_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:id="@+id/ll_layout_change"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/generic_white"
+                    android:visibility="gone"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="10dp"
+                        android:text="@string/tv_change_seal_1"
+                        android:textSize="@dimen/check_item" />
+
+
+                    <Button
+                        android:id="@+id/btn_change"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:layout_marginRight="5dip"
+                        android:background="@drawable/btn_one_two"
+                        android:gravity="center"
+                        android:text="@string/tv_change_seal"
+                        android:textColor="@color/btn_text_two" />
+                </RelativeLayout>
+
+                <include
+                    android:id="@+id/line_repaird"
+                    layout="@layout/comm_divider" />
+                <RelativeLayout
+                    android:id="@+id/ll_error"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="8dp"
+                        android:text="@string/bug_level"
+                        android:textSize="@dimen/check_item" />
+
+                    <Button
+                        android:id="@+id/btn_level_o"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dip"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="80dip"
+                        android:layout_toLeftOf="@+id/btn_level_t"
+                        android:background="@drawable/btn_one_two"
+                        android:gravity="center"
+                        android:text="@string/bug_unit_4_o"
+                        android:textColor="@color/btn_text_two"
+                        android:textSize="@dimen/check_item" />
+
+                    <Button
+                        android:id="@+id/btn_level_t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/btn_one_two"
+                        android:gravity="center"
+                        android:text="@string/bug_unit_5_t"
+                        android:textColor="@color/btn_text_two" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:visibility="gone"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="8dip"
+                        android:layout_centerVertical="true"
+                        android:text="@string/bug_unit_6"
+                        android:textSize="@dimen/check_item" />
+
+                    <CheckBox
+                        android:id="@+id/cbx_bug_ok"
+                        style="@style/comm_checkbox"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/generic_white"
+
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/bug_engine_order_site"
+                        android:textSize="@dimen/check_item" />
+
+                    <TextView
+                        android:id="@+id/tv_engine_order_site"
+                        style="@style/check_right_text"
+                        android:layout_width="@dimen/add_repair_height"
+                        android:layout_alignParentRight="true"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="@dimen/check_item" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/generic_white"
+                    android:orientation="horizontal"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="38dip"
+                        android:layout_alignParentLeft="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/bug_engine_to_site_1"
+                        android:textSize="@dimen/check_item" />
+
+                    <TextView
+                        android:id="@+id/tv_engine_to_site_1"
+                        style="@style/check_right_text"
+                        android:layout_width="@dimen/add_repair_height"
+                        android:layout_alignParentRight="true"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="@dimen/check_item" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/bug_recover_time"
+                        android:textSize="@dimen/check_item" />
+
+                    <TextView
+                        android:id="@+id/et_recovertime"
+                        style="@style/check_right_text"
+                        android:layout_width="@dimen/add_repair_height"
+                        android:layout_alignParentRight="true"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="@dimen/check_item" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/bug_unit_why"
+                        android:textSize="@dimen/check_item" />
+
+                    <EditText
+                        android:id="@+id/et_unit_why"
+                        style="@style/check_right_text"
+                        android:layout_width="@dimen/add_repair_height"
+                        android:layout_alignParentRight="true"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="@dimen/check_item" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/bug_unit_1"
+                        android:textSize="@dimen/check_item" />
+
+                    <EditText
+                        android:id="@+id/bug_unit_1"
+                        style="@style/check_right_text"
+                        android:layout_width="@dimen/add_repair_height"
+                        android:layout_alignParentRight="true"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="@dimen/check_item" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/bug_unit_2"
+                        android:textSize="@dimen/check_item" />
+
+                    <EditText
+                        android:id="@+id/bug_unit_2"
+                        style="@style/check_right_text"
+                        android:layout_width="@dimen/add_repair_height"
+                        android:layout_alignParentRight="true"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="@dimen/check_item" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/bug_unit_3"
+                        android:textSize="@dimen/check_item" />
+
+                    <TextView
+                        android:id="@+id/tv_re_signature"
+                        android:layout_width="190dip"
+                        android:layout_height="45dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_margin="5dip"
+                        android:gravity="center"
+                        android:text="点此签名"
+                        android:textColor="@color/generic_black"
+                        android:textSize="@dimen/check_item" />
+
+                    <ImageView
+                        android:id="@+id/img_re_sign"
+                        android:layout_width="190dip"
+                        android:layout_height="45dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dip"
+                        android:background="@color/generic_white"
+                        android:scaleType="fitXY"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/repair_check_result"
+                        android:textSize="@dimen/check_item" />
+
+                    <Spinner
+                        android:id="@+id/spinner_result"
+                        android:layout_width="180dip"
+                        android:layout_height="45dip"
+                        android:layout_alignParentRight="true"
+                        android:layout_margin="5dip"
+                        android:layout_marginRight="10dip"
+                        android:paddingBottom="5dp"
+                        android:textSize="@dimen/comm_item_text_size" />
+                </RelativeLayout>
+
+                <include layout="@layout/comm_divider" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="@color/generic_white"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip">
+
+                    <TextView
+                        style="@style/comm_blue_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_margin="5dip"
+                        android:text="@string/repair_check_text_13"
+                        android:textSize="@dimen/check_item" />
+
+                    <EditText
+                        android:id="@+id/et_remarks"
+                        style="@style/check_right_text"
+                        android:layout_width="@dimen/add_repair_height"
+                        android:layout_alignParentRight="true"
+                        android:textCursorDrawable="@drawable/color_cursor"
+                        android:textSize="@dimen/check_item" />
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_repair_other"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/big_btn_heignt"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="@dimen/btn_maring_layout"
+                android:layout_marginRight="@dimen/btn_maring_layout"
+                android:layout_marginTop="10dip"
+                android:background="@drawable/bt_long_selector"
+                android:text="@string/atm_repair_item"
+                android:textSize="@dimen/list_item" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

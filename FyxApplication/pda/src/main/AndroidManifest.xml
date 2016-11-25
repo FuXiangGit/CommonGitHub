@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.xvli.pda"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.READ_PROFILE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 关闭应用程序的权限 -->
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- 这个权限用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- 获取手机IMEI号 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+
+    <supports-screens
+        android:smallScreens="true"
+        android:normalScreens="true"
+        android:largeScreens="true"
+        android:resizeable="true"
+        android:anyDensity="true"/>
+
+    <application
+        android:name="com.xvli.application.PdaApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/PDATheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".MainActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BaseActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".LoginActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BindingCar_Activity"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".OutInStorage_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UserInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DataRegistrater_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".CheckKey_Activity"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden"/>
+        <activity
+            android:name=".OtherTask_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMOperateChoose_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMOperate_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DownLoadTask_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".NetworkScanActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMTools_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MessionSend_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".NetworkRoutActivity"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".TakePhoto_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".EidtPhoto_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UnderNetAtm_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".UnderAtmTask_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMRout_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMTakePhoto_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMEidtPhoto_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Absorb_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".IsRepair_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".RecordBug_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".VariousCard_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".TakePhotoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Wedge_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Waste_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMTroub_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMTroubPhoto"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMTroubEidtPhoto"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MissionNetAtm_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MissionNetTask_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".BugDetial_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".Road_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ATMCheckRout_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".DispatchMsg_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name=".ChangeSeal_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name="com.xvli.dibao.Waste_ActivityDi"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.xvli.dibao.Wedge_ActivityDi"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name="com.xvli.comm.MyService"
+            android:enabled="true"
+            android:exported="true"/>
+        <meta-data
+            android:name="design_width"
+            android:value="720"/>
+        <meta-data
+            android:name="design_height"
+            android:value="1280"/>
+        <!--
+        <meta-data
+            android:name="design_width"
+            android:value="480"></meta-data>
+        <meta-data
+            android:name="design_height"
+            android:value="800"></meta-data>
+        -->
+        <activity
+            android:name=".CheckPaw_Activity"
+            android:label="@string/title_activity_check_paw_"
+            android:screenOrientation="portrait"
+            android:theme="@style/PDATheme"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity
+            android:name=".Key_Transfer"
+            android:label="@string/title_activity_key__transfer"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name=".Paw_Transfer"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait">
+        </activity>
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <!-- 百度KEY  wdm-->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="YtGKU5H9z4mDbGCxX2PPY4e3bB5GRF24"
+
+            />
+        <!--
+        android:value="dobe7YD8rcVGClclcoOfbora8xE2Gwq6"
+            -->
+
+        <!-- 百度定位 -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2">
+                </action>
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".ATMOperateGetOff_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            android:launchMode="singleTask"
+           >
+        </activity>
+        <activity android:name=".ATMCarDownStatistic"
+            android:alwaysRetainTaskState="true">
+        </activity>
+        <activity android:name=".ATMOperateDown_Activity"
+            android:alwaysRetainTaskState="true">
+        </activity>
+        <activity android:name=".Job_Task_Unsnacth"
+            android:alwaysRetainTaskState="true">
+        </activity>
+        <activity android:name=".ATMUpLoad_Activity"
+            android:alwaysRetainTaskState="true">
+        </activity>
+        <activity android:name=".DynCycle_Activity"
+                  android:alwaysRetainTaskState="true"
+                  android:windowSoftInputMode="stateVisible|adjustResize">
+        </activity>
+        <activity android:name=".Article_Activity"
+                  android:alwaysRetainTaskState="true"
+                  android:windowSoftInputMode="adjustPan|stateHidden">
+        </activity>
+        <activity android:name=".TaiKey_Transfer"
+                  android:alwaysRetainTaskState="true">
+        </activity>
+
+        <activity android:name=".DyncyleAtmList_Activity"
+                  android:alwaysRetainTaskState="true">
+
+        </activity>
+
+        <activity android:name=".BrindingCarTai_Activity"
+                  android:alwaysRetainTaskState="true">
+
+        </activity>
+
+        <!--
+        =========网点采集===========
+        -->
+        <activity
+            android:name="com.catchmodel.catchmodel.NetLoginActivity"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="true"
+            >
+
+        </activity>
+
+        <activity
+            android:name="com.catchmodel.catchmodel.BeginActivity"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="true"
+            >
+
+        </activity>
+        <activity
+            android:name="com.catchmodel.catchmodel.EnditActivity"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="true"
+            >
+
+        </activity>
+        <activity
+            android:name="com.catchmodel.catchmodel.MainActivity"
+            android:screenOrientation="portrait"
+            android:alwaysRetainTaskState="true"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden"
+            >
+        </activity>
+        <activity
+            android:name="com.catchmodel.catchmodel.WatchTableActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name="com.catchmodel.catchmodel.ItemActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"
+            >
+        </activity>
+
+        <activity
+            android:name="com.catchmodel.catchmodel.GasStationActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.catchmodel.catchmodel.ServingStationActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name="com.catchmodel.catchmodel.WorkNodeActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+        <activity
+            android:name=".AtmBoxDownUPBag"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait">
+
+        </activity>
+
+        <service android:name="com.catchmodel.service.catchService">
+            <intent-filter>
+                <action android:name="org.allin.android.catchService" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

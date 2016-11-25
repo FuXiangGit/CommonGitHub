@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<com.xvli.widget.MyListView
+		android:id="@+id/list_view"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:listSelector="@color/generic_transparent"
+		android:divider="@color/generic_transparent"
+		android:dividerHeight="@dimen/view_height"
+		android:cacheColorHint="@color/LDialogs_transparent"/>
+
+</RelativeLayout>

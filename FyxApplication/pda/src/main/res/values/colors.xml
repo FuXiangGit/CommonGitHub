@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="login_green">#00BFFF</color>
+    <!-- generic_background -->
+    <color name="generic_background">#cdffcc</color>
+    <!-- generic_colors -->
+    <color name="generic_transparent">#00FFFFFF</color>
+    
+   
+    <color name="login_color">#006ab5</color>
+    <color name="generic_black">#006ab5</color>
+    <color name="generic_red">#f63241</color>
+    <color name="generic_blue">#006ab5</color>
+    <color name="blue">#0000CD</color>
+    <color name="red">#f63241</color>
+
+
+    <color name="generic_listview_item_bg">#b4FFFFFF</color>
+    <color name="generic_edt_tip_tv">#0B58B1</color>
+
+    <!-- add_generic_topbar -->
+    <color name="add_topbar_bg">#c6c6c6</color>
+    <color name="add_topbar_tv">#4876FF</color>
+    <color name="subject_bg">#FFFFFF</color>
+    <color name="divider">#cccccc</color>
+    <color name="scan_text">#3FC1E2</color>
+    <color name="black_overlay">#3FC1E2</color>
+    <color name="float_bluck">#7EC0EE</color>
+ <!--   <color name="primary">#3f51b5</color>
+    <color name="primary_dark">#303f9f</color>-->
+
+
+    <color name="generic_white">#FFFFFF</color>
+    <color name="generic_gray">#e5e5e5</color>
+    <color name="subject_text">#006ab5</color>
+    <color name="text_gray">#666666</color>
+    <color name="text_hint">#cccccc</color>
+    <color name="tab_color">#999999</color>
+    <color name="dialog_edit_color">#f5f5f5</color>
+
+
+   <!-- 对话框-->
+    <color name="LDialogs_transparent">#00000000</color>
+    <color name="LDialogs_dim_lighter_gray">#80E0E0E0</color>
+</resources>
+

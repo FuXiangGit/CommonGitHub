@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="wedge">
+        <item>Depository Cash</item>
+        <item>Channel</item>
+        <item>Detector Module</item>
+        <item>Depository Module</item>
+        <item>Return Cash</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="atm_match">
+        <item>Replace the cassette on-site</item>
+        <item>Replace ATM</item>
+        <item>Other</item>
+    </string-array>
+
+
+    <string-array name="bindingCar">
+        <item>Planned Vehicle</item>
+        <item>The other Vehicles</item>
+    </string-array>
+    <!--
+    ===================================================================================
+    -->
+</resources>

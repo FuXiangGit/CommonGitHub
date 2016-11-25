@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:su="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generic_white"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"  >
+    
+	<com.xvli.widget.ScrollerNumberPicker
+	        android:id="@+id/picker_wedgeloc"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="1dp"
+	        android:layout_marginRight="1dp"
+	        android:layout_weight="1"
+	        su:itemNumber="4"
+	        su:lineColor="#ffff6000"
+	        su:maskHight="32dp"
+	        su:noEmpty="true"
+	        su:normalTextColor="#777"
+	        su:normalTextSize="14sp"
+	        su:selecredTextColor="@color/text_gray"
+	        su:selecredTextSize="22sp"
+	        su:unitHight="50dp" />
+</LinearLayout>

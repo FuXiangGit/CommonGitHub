@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="50dip"
+              android:background="@color/btn_nomal"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_layout_title"
+        android:layout_width="match_parent"
+        android:layout_height="49dip"
+        android:paddingLeft="5dp"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="34dip"
+            android:layout_height="30dip"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/btn_back"
+            android:layout_marginLeft="5dip" />
+
+        <Button
+            android:id="@+id/btn_search"
+            android:layout_width="34dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:text="@string/search"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:background="#00000000"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/sesrch"
+            android:layout_width="200dp"
+            android:layout_height="35dip"
+            android:orientation="horizontal"
+            android:hint="@string/search_car"
+            android:textColorHint="@color/tv_input"
+            android:textSize="@dimen/font_28"
+            android:drawableLeft="@mipmap/search_2"
+            android:background="@drawable/edittext"
+            android:paddingLeft="5dp"
+            android:singleLine="true"
+            android:cursorVisible="false"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+
+
+        </EditText>
+
+    </RelativeLayout>
+</LinearLayout>

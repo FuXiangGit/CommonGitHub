@@ -3,15 +3,18 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FyxApplication.iml" filepath="$PROJECT_DIR$/FyxApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Monitor/Monitor.iml" filepath="$PROJECT_DIR$/Monitor/Monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/commadapterlib/commadapterlib.iml" filepath="$PROJECT_DIR$/commadapterlib/commadapterlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/fyxdemoforandroid/fyxdemoforandroid.iml" filepath="$PROJECT_DIR$/fyxdemoforandroid/fyxdemoforandroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/lovescreen/lovescreen.iml" filepath="$PROJECT_DIR$/lovescreen/lovescreen.iml" />
       <module fileurl="file://$PROJECT_DIR$/luyin/luyin.iml" filepath="$PROJECT_DIR$/luyin/luyin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pda/pda.iml" filepath="$PROJECT_DIR$/pda/pda.iml" />
       <module fileurl="file://$PROJECT_DIR$/qianghongbao/qianghongbao.iml" filepath="$PROJECT_DIR$/qianghongbao/qianghongbao.iml" />
       <module fileurl="file://$PROJECT_DIR$/recorder/recorder.iml" filepath="$PROJECT_DIR$/recorder/recorder.iml" />
       <module fileurl="file://$PROJECT_DIR$/screenshort/screenshort.iml" filepath="$PROJECT_DIR$/screenshort/screenshort.iml" />
       <module fileurl="file://$PROJECT_DIR$/screentest/screentest.iml" filepath="$PROJECT_DIR$/screentest/screentest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/temp/temp.iml" filepath="$PROJECT_DIR$/temp/temp.iml" />
     </modules>
   </component>
 </project>

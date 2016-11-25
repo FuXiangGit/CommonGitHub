@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:gravity="center">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+       >
+
+
+
+
+
+        <RadioButton
+            android:id="@+id/radio_load"
+            android:layout_width="35dip"
+            android:layout_height="37dip"
+            android:background="@drawable/map"
+            android:button="@null"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingTop="5dp"
+            android:drawableTop="@drawable/moren"
+            android:textSize="12sp"
+            android:text="@string/monitor_load"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radio_map"
+            android:layout_width="35dip"
+            android:layout_height="30dip"
+            android:background="@drawable/map"
+            android:button="@null"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:text="@string/monitor_type"
+            android:textColor="@color/white"
+            android:checked="false"/>
+        <RadioButton
+            android:id="@+id/radio_net"
+            android:layout_width="35dip"
+            android:layout_height="30dip"
+            android:background="@drawable/map"
+            android:button="@null"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:layout_marginTop="4dp"
+            android:visibility="gone"
+            android:text="@string/monitor_net"
+            android:textColor="@color/white"
+            android:checked="false"/>
+
+    </RadioGroup>
+
+</LinearLayout>

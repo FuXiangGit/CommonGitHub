@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/generic_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_absrb_card"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:orientation="horizontal">
+
+        <com.xvli.widget.TextMarquee
+            android:id="@+id/left_text5"
+            style="@style/comm_blue_text"
+            android:layout_width="0dip"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:gravity="left"
+            android:padding="10dip"
+            android:layout_gravity="left|center_vertical"
+            android:focusableInTouchMode="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tv_signature"
+            android:layout_width="0dip"
+            android:layout_weight="6"
+            android:layout_height="45dip"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right|center_vertical"
+            android:layout_margin="5dip"
+            android:gravity="center"
+            android:text="@string/tv_siging_setting"
+            android:textSize="@dimen/list_item"
+            android:textColor="@color/subject_text" />
+
+        <ImageView
+            android:id="@+id/img_sign"
+            android:layout_width="0dip"
+            android:layout_height="45dip"
+            android:layout_weight="6"
+            android:layout_margin="5dip"
+            android:background="@color/generic_white"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:layout_marginRight="5dip"
+            android:layout_gravity="right|center_vertical"
+            android:textColor="@color/generic_black"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/btn_take5"
+            android:layout_width="@dimen/delete_size"
+            android:layout_height="@dimen/delete_size"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/left_text5"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dip"
+            android:background="@drawable/photograph_selector"
+            android:padding="10dip"
+            android:visibility="gone"/>
+    </LinearLayout>
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip">
+
+        <com.xvli.widget.TextMarquee
+            android:id="@+id/left_text5"
+            style="@style/comm_blue_text"
+            android:layout_width="110dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tv_signature"
+            android:layout_width="200dip"
+            android:layout_height="45dip"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="center"
+            android:layout_margin="5dip"
+            android:gravity="center"
+            android:text="点此签名"
+            android:textColor="@color/generic_black" />
+
+        <ImageView
+            android:id="@+id/img_sign"
+            android:layout_width="180dip"
+            android:layout_height="45dip"
+            android:layout_margin="5dip"
+            android:background="@color/generic_white"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:textColor="@color/generic_black"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/btn_take5"
+            android:layout_width="30dip"
+            android:layout_height="33dip"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/left_text5"
+            android:visibility="gone"
+            android:background="@drawable/photograph_selector"
+            android:padding="10dip"/>
+    </RelativeLayout>-->
+    <!--<include layout="@layout/comm_divider" />-->
+</LinearLayout>

@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/title"
+        layout="@layout/selector_car" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/generic_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabSelectedTextColor="@color/subject_text"
+            app:tabIndicatorColor="@color/subject_text"
+            app:tabTextColor="@color/tab_color"
+            app:tabMode="fixed"
+            app:tabTextAppearance ="@style/TabLayoutTextStyle"
+            app:tabBackground="@null"
+
+            >
+
+            <!--tabMode  有两个属性  scrollable (适合多个tab  使用)/  fixed  -->
+        </android.support.design.widget.TabLayout>
+
+        <!--
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:src="@mipmap/arrow_click"/>
+
+         -->
+
+
+    </LinearLayout>
+
+
+    <com.xuli.widget.NoScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.xuli.widget.NoScrollViewPager>
+
+
+
+</LinearLayout>

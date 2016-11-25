@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+                android:background="@color/white">
+
+    <!-- 轨迹纠偏按钮 -->
+
+    <LinearLayout
+        android:id="@+id/top_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Spinner
+            android:id="@+id/car_choose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+            android:id="@+id/time_choose"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/Amap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/top_button"
+        android:layout_above="@+id/ll_player">
+
+        <!-- 地图控件 -->
+
+        <com.amap.api.maps.MapView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </com.amap.api.maps.MapView>
+
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/margin_padding"
+            android:layout_marginStart="@dimen/margin_padding"
+            android:layout_marginTop="@dimen/margin_padding"
+            android:orientation="vertical" >
+
+            <!-- 总里程结果展示 -->
+
+            <TextView
+                android:id="@+id/show_all_dis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/distance"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="visible" />
+            <!-- 停车时长结果展示 -->
+
+            <TextView
+                android:id="@+id/show_low_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/stop_time"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_player"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/trackplay_layout_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+
+        android:padding="5dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/top_button">
+
+        <ImageButton
+            android:id="@+id/trackplay_play_imgbtn"
+            style="@style/customImageButton"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:contentDescription="@null"
+            android:src="@drawable/trackplay_play_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageButton
+            android:id="@+id/trackplay_slow_imgbtn"
+            style="@style/customImageButton"
+            android:layout_marginRight="5dip"
+            android:contentDescription="@null"
+            android:src="@drawable/trackplay_slow_selector" />
+
+        <SeekBar
+            android:id="@+id/trackplay_seekbar"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:maxHeight="3dip"
+            android:minHeight="3dip"
+            android:progress="0"
+            android:progressDrawable="@drawable/trackplay_seekbar" />
+
+        <ImageButton
+            android:id="@+id/trackplay_quick_imgbtn"
+            style="@style/customImageButton"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:contentDescription="@null"
+            android:src="@drawable/trackplay_quick_selector" />
+    </LinearLayout>
+
+
+</RelativeLayout>

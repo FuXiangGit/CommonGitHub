@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bg"
+    xmlns:su="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/generic_transparent"
+    android:orientation="vertical" >
+    <com.xvli.widget.WedgeLoc_Picker
+        android:id="@+id/picker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center" >
+    </com.xvli.widget.WedgeLoc_Picker>
+
+    <include 
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_above="@id/picker"
+        layout="@layout/comm_ok_cancel_bar"/>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2">
+
+
+    <include
+        android:id="@+id/comm_title_bar"
+        layout="@layout/comm_ok_cancel_bar"/>
+
+
+    <ListView
+        android:id="@+id/rout_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/comm_title_bar"
+        android:layout_marginTop="@dimen/btn_maring_layout"
+        android:background="@color/generic_listview_item_bg"
+        android:descendantFocusability="afterDescendants"
+        android:divider="@color/generic_transparent"
+        android:layout_marginBottom="10dip"
+        android:dividerHeight="2px"/>
+
+
+</RelativeLayout>

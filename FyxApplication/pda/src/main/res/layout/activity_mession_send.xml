@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@mipmap/bg2">
+
+    <include
+        layout="@layout/comm_ok_cancel_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip" />
+
+
+    <RadioGroup
+        android:id="@+id/radiogroup_outin"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_item_heignt"
+        android:background="@color/generic_white"
+        android:orientation="horizontal">
+
+
+            <RadioButton
+                android:id="@+id/rbt_out"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:padding="8dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/mian_add_mission_2"
+                android:background="@drawable/radiobutton_selector"
+                android:textColor="@color/radio_tv_selector"
+                android:textSize="@dimen/list_item" />
+
+            <RadioButton
+                android:id="@+id/rbt_in"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:button="@null"
+                android:padding="8dip"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/mian_add_mission_3"
+                android:background="@drawable/radiobutton_selector"
+                android:textColor="@color/radio_tv_selector"
+                android:textSize="@dimen/list_item" />
+
+    </RadioGroup>
+
+    <com.xvli.widget.data.NoScrollViewPager
+        android:id="@+id/pager"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/left"
+        android:layout_marginBottom="10dip">
+    </com.xvli.widget.data.NoScrollViewPager>
+    <ScrollView
+        android:visibility="gone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/mian_add_mission_2"
+                style="@style/generic_add_title"
+                android:textSize="@dimen/comm_item_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dip"
+                android:text="@string/mian_add_mission_2" />
+
+            <com.xvli.widget.MyListView
+                android:id="@+id/send_list"
+                android:dividerHeight="@dimen/view_height"
+                android:layout_width="match_parent"
+                android:divider="@color/text_hint"
+                android:cacheColorHint="@color/generic_transparent"
+                android:layout_height="50dip">
+
+            </com.xvli.widget.MyListView>
+
+            <TextView
+                android:id="@+id/mian_add_mission_3"
+                style="@style/generic_add_title"
+                android:textSize="@dimen/comm_item_text_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dip"
+                android:text="@string/mian_add_mission_3" />
+
+
+            <LinearLayout
+                android:id="@+id/line_cycle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_marginBottom="10dip"
+                android:orientation="vertical">
+
+                <com.xvli.widget.MyListView
+                    android:id="@+id/cycle_list"
+                    android:dividerHeight="@dimen/view_height"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@color/text_hint"
+                    android:cacheColorHint="@color/generic_transparent">
+
+                </com.xvli.widget.MyListView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

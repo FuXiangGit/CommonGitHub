@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ll_addcar_menu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+<!--
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:src="@mipmap/img_add_bdingcar"
+            />
+-->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/please_car_scan"
+            android:textColor="@color/generic_red"
+            android:textSize="@dimen/list_item"
+            />
+
+        <EditText
+            android:id="@+id/edt_add_bindcar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/main_top"
+            android:layout_marginTop="15dip"
+            android:focusable="false"
+            style="@style/generic_edt_none"
+            android:layout_marginRight="@dimen/image_w"
+            android:layout_marginLeft="@dimen/image_w"
+            android:textColorHint="@color/text_gray"
+
+            />
+
+        <LinearLayout
+            android:id="@+id/net_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/comm_item_heignt"
+            android:layout_below="@+id/network_tip"
+            android:background="@color/generic_listview_item_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:text="@string/add_wedge_dialog_code"
+                android:textColor="@color/generic_blue"
+                android:textSize="@dimen/comm_item_text_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/platenumber"
+                android:textColor="@color/generic_blue"
+                android:textSize="@dimen/comm_item_text_size"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/text_network_static"
+                android:layout_marginRight="8dp"
+                android:textColor="@color/generic_blue"
+                android:textSize="@dimen/comm_item_text_size"/>
+
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/other_binding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+
+        </ListView>
+
+        <!--
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bangding_bg"
+            android:layout_marginLeft="23px"
+            android:layout_marginRight="23px"
+            android:layout_marginTop="50px"
+            android:background="@drawable/corners_gray"
+            android:gravity="center"
+            android:paddingEnd="10px"
+            android:paddingStart="20px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/test_add_mian_tv15"
+                android:textSize="@dimen/activity_btn_common"/>
+
+            <TextView
+                android:id="@+id/tv_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/activity_btn_common"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="25px"
+            android:layout_marginRight="25px"
+            android:background="@color/generic_edt_tip_tv"></View>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/bangding_bg"
+            android:layout_marginLeft="23px"
+            android:layout_marginRight="23px"
+            android:background="@drawable/corners_gray"
+            android:paddingEnd="10px"
+            android:paddingStart="20px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/test_add_mian_tv17"
+                android:textSize="@dimen/activity_btn_common"/>
+
+            <TextView
+                android:id="@+id/tv_reality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/activity_btn_common"/>
+
+        </RelativeLayout>
+         -->
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:layout_alignParentBottom="true"
+
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bt_add_bcar_bind"
+
+            android:layout_weight="1"
+
+            android:text="@string/add_main_bt_6"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/image_w"
+            android:layout_marginRight="@dimen/image_w"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bt_long_sure"
+
+            android:textSize="@dimen/list_item"
+
+            />
+        <Button
+            android:id="@+id/btn_key_change"
+
+            android:layout_weight="1"
+
+            android:text="@string/add_truck_unbding"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+
+            android:layout_marginLeft="@dimen/image_w"
+            android:layout_marginRight="@dimen/image_w"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bt_long_sure"
+
+            android:textSize="@dimen/list_item"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+
+</com.zhy.autolayout.AutoRelativeLayout>

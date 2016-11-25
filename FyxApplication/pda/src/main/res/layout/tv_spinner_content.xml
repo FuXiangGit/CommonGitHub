@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_atmcheck_repair"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/generic_white"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/generic_black"
+        android:textSize="@dimen/text_size" />
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="1.5px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/generic_blue"
+        android:padding="2dip" />
+
+</LinearLayout>

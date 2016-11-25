@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/rl_bg"
+                xmlns:su="http://schemas.android.com/apk/res-auto"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@color/generic_transparent"
+                android:orientation="vertical"
+
+    >
+    <include
+        android:id="@+id/inc"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+
+        layout="@layout/comm_ok_cancel_bar"/>
+    <com.xvli.widget.Wed_Picker
+        android:id="@+id/picker"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_below="@id/inc">
+    </com.xvli.widget.Wed_Picker>
+
+
+</RelativeLayout>

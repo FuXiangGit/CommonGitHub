@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_item_selector"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:gravity="center">
+
+        <TextView
+
+            android:id="@+id/local_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:text="@string/local_UnionPay"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/comm_item_text_size" />
+
+        <EditText
+            android:id="@+id/Local_UP"
+            style="@style/generic_edt_none"
+            android:layout_width="@dimen/height2"
+            android:layout_height="@dimen/big_btn_heignt"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/text_gray"
+            android:textSize="@dimen/comm_item_text_size" />
+
+    </LinearLayout>
+
+</LinearLayout>

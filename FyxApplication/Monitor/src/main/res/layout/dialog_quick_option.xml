@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/set_pop"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/icon_gb"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/iv_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dip"
+            android:background="@mipmap/icon_down" />
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dip"
+        android:layout_above="@+id/ll_option_container"
+        android:background="@color/generic_gray"/>
+    <LinearLayout
+        android:id="@+id/ll_option_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_layout"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/rell_truck"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:layout_weight="1"
+            android:background="@drawable/down_item_selector">
+
+            <ImageView
+                android:id="@+id/icon_truck"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dip"
+                android:src="@mipmap/icon_truck" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dip"
+                android:layout_toRightOf="@+id/icon_truck"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_truck_1"
+                    android:textColor="@color/tv_input"
+                    android:textSize="@dimen/common_tv_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_truck_2"
+                    android:textColor="@color/tv_input"
+                    android:textSize="@dimen/tv_tip" />
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <View
+            android:layout_width="1.5dip"
+            android:layout_height="80dip"
+            android:background="@color/generic_gray"/>
+
+        <RelativeLayout
+            android:id="@+id/rell_more"
+            android:layout_width="match_parent"
+            android:layout_height="80dip"
+            android:layout_weight="1"
+            android:background="@drawable/down_item_selector">
+
+            <ImageView
+                android:id="@+id/icon_more"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dip"
+                android:src="@mipmap/icon_more" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dip"
+                android:layout_toLeftOf="@+id/icon_more"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="@string/tv_truck_3"
+                    android:textColor="@color/tv_input"
+                    android:textSize="@dimen/common_tv_size" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/tv_truck_4"
+                    android:textColor="@color/tv_input"
+                    android:textSize="@dimen/tv_tip" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1.5dip"
+        android:layout_above="@+id/rell_down"
+        android:background="@color/generic_gray"/>
+
+    <RelativeLayout
+        android:id="@+id/rell_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_option_container"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rell_monitor"
+                android:layout_width="match_parent"
+                android:layout_height="80dip"
+                android:layout_weight="1"
+                android:background="@drawable/down_item_selector">
+
+                <ImageView
+                    android:id="@+id/icon_monitor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="15dip"
+                    android:src="@mipmap/icon_monitor" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="5dip"
+                    android:layout_toRightOf="@+id/icon_monitor"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_truck_5"
+                        android:textColor="@color/tv_input"
+                        android:textSize="@dimen/common_tv_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_truck_6"
+                        android:textColor="@color/tv_input"
+                        android:textSize="@dimen/tv_tip" />
+                </LinearLayout>
+            </RelativeLayout>
+
+
+            <View
+                android:layout_width="1.5dip"
+                android:layout_height="80dip"
+                android:background="@color/generic_gray"/>
+
+            <RelativeLayout
+                android:id="@+id/rell_path"
+                android:layout_width="match_parent"
+                android:layout_height="80dip"
+                android:layout_weight="1"
+                android:background="@drawable/down_item_selector">
+
+                <ImageView
+                    android:id="@+id/icon_path"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dip"
+                    android:src="@mipmap/icon_path_" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dip"
+                    android:layout_toLeftOf="@+id/icon_path"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:text="@string/tv_truck_7"
+                        android:textColor="@color/tv_input"
+                        android:textSize="@dimen/common_tv_size" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tv_truck_8"
+                        android:textColor="@color/tv_input"
+                        android:textSize="@dimen/tv_tip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

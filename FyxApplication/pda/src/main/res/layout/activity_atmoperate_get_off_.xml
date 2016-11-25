@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/comm_title_bar"
+        layout="@layout/comm_ok_cancel_bar" />
+
+    <TextView
+        android:id="@+id/network_tip"
+        style="@style/generic_add_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/add_atmoperate_title"
+        android:visibility="gone"/>
+
+    <HorizontalScrollView
+        android:id="@+id/hvChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/rgChannel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+
+            >
+
+
+        </RadioGroup>
+
+        <!--
+                    <TabHost    android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:id="@+id/tabHost"
+                                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                        <TabWidget
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@android:id/tabs"/>
+
+                        <FrameLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:id="@android:id/tabcontent">
+
+                        </FrameLayout>
+
+                    </TabHost>
+                    -->
+    </HorizontalScrollView>
+
+    <com.xvli.widget.data.NoScrollViewPager
+        android:id="@+id/vpNewsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/left">
+
+    </com.xvli.widget.data.NoScrollViewPager>
+
+
+    <Button
+        android:id="@+id/bt_delete"
+
+
+        android:text="@string/delete_branch_down"
+        android:textColor="@color/generic_white"
+
+
+
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/image_w"
+        android:layout_marginRight="@dimen/image_w"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bt_long_selector"
+
+        android:textSize="@dimen/list_item"
+
+        />
+</LinearLayout>
+
+

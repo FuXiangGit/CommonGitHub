@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/generic_listview_item_bg"
+    android:orientation="vertical"
+    android:paddingEnd="@dimen/sheet_spacing"
+    android:paddingStart="@dimen/sheet_spacing">
+
+    <TextView
+        android:id="@+id/warn_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textColor="@color/generic_black"
+        android:textSize="@dimen/comm_item_text_size"/>
+
+    <TextView
+        android:id="@+id/warn_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:textColor="@color/generic_red"
+        android:textSize="@dimen/comm_item_text_size"/>
+
+</LinearLayout>
+

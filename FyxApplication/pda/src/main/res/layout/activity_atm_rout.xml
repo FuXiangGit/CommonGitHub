@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2">
+
+
+    <include
+        android:id="@+id/comm_title_bar"
+        layout="@layout/comm_ok_cancel_bar"/>
+    <TextView
+        android:id="@+id/network_tip"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:paddingTop="10dip"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/maring_layout"
+        android:layout_below="@+id/comm_title_bar"
+        android:textColor="@color/subject_text"
+        android:textSize="@dimen/list_item"
+        android:visibility="gone"
+        android:layout_marginBottom="@dimen/maring_layout"
+        android:text="@string/bug_info_register" />
+    <ListView
+        android:id="@+id/rout_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/network_tip"
+        android:layout_marginTop="@dimen/left"
+        android:descendantFocusability="afterDescendants"
+        android:layout_marginBottom="10dip"
+        android:divider="@color/generic_transparent"
+        android:dividerHeight="@dimen/view_height"/>
+
+
+</RelativeLayout>

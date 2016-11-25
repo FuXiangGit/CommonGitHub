@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/main_topbar"
+        layout="@layout/activity_add_main_topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tv_task_time"
+        style="@style/generic_add_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_topbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:textSize="@dimen/btn_big_size" />
+
+    <ListView
+        android:id="@+id/list_main"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/ll_addoperatechoose_menu"
+        android:layout_below="@id/tv_task_time"
+        android:cacheColorHint="#00000000"
+        android:visibility="gone"
+        android:divider="@color/generic_transparent"
+        android:dividerHeight="@dimen/view_height"
+        android:listSelector="@color/generic_transparent"
+        android:layout_marginBottom="10dip"/>
+
+    <com.xvli.widget.data.NoScrollViewPager
+        android:id="@+id/frame_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tv_task_time"
+        android:layout_marginBottom="50dip">
+
+
+    </com.xvli.widget.data.NoScrollViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll_layout_main"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_top"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dip"
+        android:layout_marginEnd="5dip"
+        android:layout_marginStart="5dip"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/corners_bg"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="@string/add_main_tv_title"
+            android:textSize="@dimen/login_text_size"
+            android:textColor="@color/generic_white" />
+
+        <Button
+            android:id="@+id/btn_warn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/login_text_size"
+            android:background="@drawable/corners_gray"
+            android:text="@string/add_main_tv_warn"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/generic_white" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Your FAB implementation -->
+        <com.xvli.floatbtn.Fab
+            android:id="@+id/fab"
+            style="@style/Widget.MaterialSheetFab.Fab"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="50dp"
+            android:layout_marginRight="5dp" />
+
+        <!-- Overlay that dims the screen -->
+        <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+            android:id="@+id/overlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- Circular reveal container for the sheet -->
+        <io.codetail.widget.RevealLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end|bottom"
+            android:orientation="vertical">
+
+            <!-- Sheet that contains your items -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/fab_sheet"
+                style="@style/Widget.MaterialSheetFab.Sheet"
+                android:layout_width="@dimen/fab_maring_layout"
+                android:layout_height="wrap_content">
+
+                <!-- TODO: Put your sheet items here -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fab_item_selector"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/bt_add_1"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/add_main_bt_1" />
+
+                    <TextView
+                        android:id="@+id/bt_add_2"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/add_main_bt_2" />
+
+                    <TextView
+                        android:id="@+id/bt_add_3"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/add_main_bt_3" />
+
+                    <TextView
+                        android:id="@+id/bt_add_4"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/add_main_bt_4" />
+                    <TextView
+                        android:id="@+id/bt_add_5"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/add_main_bt_5" />
+                    <TextView
+                        android:id="@+id/bt_add_6"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/tv_dispatch" />
+                    <TextView
+                        android:id="@+id/bt_add_7"
+                        style="@style/TextAppearance.MaterialSheetFab.Sheet.Item"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/net_address" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </io.codetail.widget.RevealLinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,477 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scrollbars="vertical"
+            android:background="@mipmap/bg2"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <include
+            android:id="@+id/comm_title_bar"
+            layout="@layout/comm_ok_cancel_bar"/>
+        <LinearLayout
+            android:id="@+id/ly_top1"
+            android:layout_marginTop="10dip"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="4dip"
+                android:textColor="#DC143C"
+                android:text="*" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/subject_text"
+                android:layout_marginLeft="4dip"
+                android:text="@string/saying" />
+            <Button
+                android:id="@+id/save"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="SubMitData"
+                android:gravity="center"
+                android:text="@string/add_wedge_dialog_save"
+                />
+        </LinearLayout>
+
+
+        <!-- 9 -->
+        <LinearLayout
+            android:id="@+id/ly_next8"
+            android:layout_marginTop="30dip"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+
+
+            android:background="@color/generic_white"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/branch_name"
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="10dip"
+                android:textColor="@color/text_gray"
+                android:text="@string/WorkNode_name" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="2dip"
+                >
+
+                <com.catchmodel.adapter.InstantAutoComplete
+                    android:id="@+id/get_branchname"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:textColor="@color/generic_black"
+
+
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:paddingRight="35dip"
+                    android:paddingLeft="2dip"
+                    android:cursorVisible="true"
+                    android:textSize="@dimen/list_item"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentBottom="true"
+
+                    />
+
+                <Button android:id="@+id/search_branch"
+                        android:background="@mipmap/jiao"
+                        android:layout_height="25dip"
+                        android:layout_width="15dip"
+
+
+                        android:layout_gravity="right"
+                        android:layout_centerVertical="true"
+                        android:layout_alignRight="@+id/get_branchname"
+                        android:layout_alignEnd="@+id/get_branchname"
+                    />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ly_next9"
+            android:layout_marginTop="@dimen/view_height"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+            android:background="@color/generic_white"
+
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/branch_customer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:textColor="@color/text_gray"
+                android:layout_marginLeft="10dip"
+                android:text="@string/WorkNode_Region" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+                <com.catchmodel.adapter.InstantAutoComplete
+                    android:id="@+id/branchname_customer"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:textColor="@color/generic_black"
+                    android:layout_marginLeft="2dip"
+                    android:paddingLeft="2dip"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:paddingRight="35dip"
+                    android:cursorVisible="true"
+                    android:textSize="@dimen/list_item"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button android:id="@+id/customer_branch"
+                        android:background="@mipmap/jiao"
+                        android:layout_height="25dip"
+                        android:layout_width="15dip"
+                        android:layout_gravity="right"
+                        android:layout_centerVertical="true"
+                        android:layout_alignRight="@+id/branchname_customer"
+                        android:layout_alignEnd="@+id/branchname_customer"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ly_next10"
+            android:layout_marginTop="@dimen/view_height"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+
+
+            android:orientation="horizontal"
+            android:background="@color/generic_white"
+            >
+            <TextView
+                android:id="@+id/branch_address"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:layout_marginLeft="10dip"
+                android:textColor="@color/text_gray"
+                android:text="@string/WorkNode_Address" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                >
+
+                <com.catchmodel.adapter.InstantAutoComplete
+                    android:id="@+id/branchname_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:textColor="@color/generic_black"
+                    android:layout_marginLeft="2dip"
+                    android:paddingLeft="2dip"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:paddingRight="35dip"
+                    android:cursorVisible="true"
+                    android:textSize="@dimen/list_item"
+                    android:textCursorDrawable="@drawable/color_cursor"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button android:id="@+id/address_branch"
+                        android:background="@mipmap/jiao"
+                        android:layout_height="25dip"
+                        android:layout_width="15dip"
+                        android:layout_gravity="right"
+                        android:layout_centerVertical="true"
+                        android:layout_alignRight="@+id/branchname_address"
+                        android:layout_alignEnd="@+id/branchname_address"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+        <!-- 18 -->
+        <LinearLayout
+            android:id="@+id/ly_next17"
+            android:layout_marginTop="@dimen/view_height"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+
+            android:background="@color/generic_white"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/branch_remark_gpstop"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/text_gray"
+                android:layout_marginLeft="10dip"
+                android:text="@string/WorkNode_Guard" />
+            <EditText
+                android:id="@+id/get_remark_gpstop"
+                android:layout_marginLeft="2dip"
+                android:paddingLeft="2dip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:hint="@string/double_click"
+
+                android:textColor="@color/generic_black"
+                android:background="@null"
+                android:textSize="@dimen/list_item"
+                android:layout_marginRight="14dip"
+                />
+        </LinearLayout>
+
+        <!-- 19 -->
+        <LinearLayout
+            android:id="@+id/ly_next18"
+            android:layout_marginTop="@dimen/view_height"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+
+
+            android:background="@color/generic_white"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/branch_remark_gps1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+
+                android:textColor="@color/text_gray"
+                android:layout_marginLeft="10dip"
+                android:text="@string/GasStation_CarGuard1" />
+            <EditText
+                android:id="@+id/get_remark_gps1"
+                android:layout_marginLeft="3dip"
+                android:paddingLeft="3dip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:hint="@string/double_click"
+
+                android:textColor="@color/generic_black"
+                android:background="@null"
+                android:textSize="@dimen/list_item"
+                android:layout_marginRight="14dip"
+                />
+        </LinearLayout>
+        <!-- 20 -->
+        <LinearLayout
+            android:id="@+id/ly_next19"
+            android:layout_marginTop="@dimen/view_height"
+            android:layout_width="fill_parent"
+            android:layout_height="45dip"
+
+
+            android:background="@color/generic_white"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/branch_remark_gps2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="@color/text_gray"
+                android:layout_marginLeft="10dip"
+                android:text="@string/GasStation_CarGuard2" />
+            <EditText
+                android:id="@+id/get_remark_gps2"
+                android:layout_marginLeft="3dip"
+                android:paddingLeft="3dip"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:editable="false"
+                android:hint="@string/double_click"
+                android:textColor="@color/generic_black"
+
+                android:background="@null"
+                android:textSize="@dimen/list_item"
+                android:layout_marginRight="14dip"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ly_next21"
+            android:layout_marginTop="20dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/WorkNode_photo"
+
+                android:gravity="left"
+                android:textColor="@color/text_gray"
+                />
+            <Button
+                android:id="@+id/takePic"
+                android:layout_width="300dip"
+                android:layout_height="200dip"
+
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:background="@mipmap/stop"
+                />
+            <ImageView
+                android:id="@+id/takePic_n"
+                android:layout_width="300dip"
+                android:layout_height="200dip"
+                android:visibility="gone"
+                android:scaleType="fitXY"
+                />
+            <!--
+            <Button
+                android:id="@+id/delete_branch_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remove"
+                />
+                -->
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/ly_next22"
+            android:layout_marginTop="20dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/branch_remark_gbs1"
+                android:gravity="left"
+                android:textColor="@color/text_gray"
+                />
+            <Button
+                android:id="@+id/takePic_2"
+                android:layout_width="300dip"
+                android:layout_height="200dip"
+
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:background="@mipmap/car1"
+                />
+            <ImageView
+                android:id="@+id/takePic_n_2"
+                android:layout_width="300dip"
+                android:layout_height="200dip"
+                android:visibility="gone"
+                android:scaleType="fitXY"
+                />
+            <!--
+            <Button
+                android:id="@+id/delete_car1_photo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/remove"
+                />
+                -->
+        </LinearLayout>
+        <LinearLayout
+
+            android:id="@+id/ly_next23"
+            android:layout_marginTop="20dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp"
+            >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/branch_remark_gbs2"
+                android:gravity="left"
+                android:textColor="@color/text_gray"
+                />
+            <Button
+                android:id="@+id/takePic_3"
+                android:layout_width="300dip"
+                android:layout_height="200dip"
+
+                android:gravity="center"
+                android:scaleType="fitXY"
+                android:background="@mipmap/car1"
+                />
+            <ImageView
+                android:id="@+id/takePic_n_3"
+                android:layout_width="300dip"
+                android:layout_height="200dip"
+                android:visibility="gone"
+                android:scaleType="fitXY"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="SubMitData"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/add_wedge_dialog_save"
+            android:visibility="gone"
+            />
+    </LinearLayout>
+</ScrollView>

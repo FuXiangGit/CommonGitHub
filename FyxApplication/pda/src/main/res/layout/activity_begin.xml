@@ -1,0 +1,187 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_top_begin"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+	android:background="@mipmap/bg2"
+    tools:context=".MainActivity"
+
+    >
+
+	<include
+		layout="@layout/comm_ok_cancel_bar"
+		android:layout_width="fill_parent"
+		android:layout_height="50dip" />
+	<!--
+
+    <ScrollView
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:scrollbars="vertical"
+    >
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:gravity="center_vertical|center_horizontal"
+    >
+    
+    <LinearLayout 
+        android:id="@+id/ly_pro_begin"
+        android:layout_width="145dip"
+	    android:layout_height="145dip"
+	    android:orientation="vertical"
+    	android:gravity="center"
+    	android:visibility="gone"
+        >
+    <ProgressBar 
+	    android:layout_width="125dip"
+	    android:layout_height="125dip"
+	    />
+    <TextView
+         android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:text="@string/pro_begin"
+	     android:gravity="center"
+        />
+    </LinearLayout>
+    <LinearLayout 
+         android:id="@+id/ly_btnWither"
+        android:layout_width="145dip"
+	    android:layout_height="145dip"
+	    android:orientation="vertical"
+    	android:gravity="center"
+        >
+    <Button
+	    android:layout_width="125dip"
+	    android:layout_height="125dip"
+	    android:background="@drawable/witer"
+	    android:onClick="witerTable"
+	    />
+    <TextView
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:text="@string/btn_witer"
+	     android:textColor="@android:color/white"
+        />
+    </LinearLayout>
+	    <LinearLayout 
+	    android:id="@+id/ly_btnlook"
+        android:layout_width="145dip"
+	    android:layout_height="145dip"
+	    android:orientation="vertical"
+    	android:gravity="center"
+        >
+    <Button
+	    android:layout_width="125dip"
+	    android:layout_height="125dip"
+	    android:background="@drawable/look"
+	    android:onClick="lookTable"
+	    />
+    <TextView
+         android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:textColor="@android:color/white"
+	     android:text="@string/btn_look"
+        />
+    </LinearLayout>
+    
+	    <LinearLayout
+	    android:id="@+id/ly_btnlayout"
+        android:layout_width="145dip"
+	    android:layout_height="145dip"
+	    android:orientation="vertical"
+	    android:visibility="gone"
+    	android:gravity="center"
+        >
+    <Button
+	    android:layout_width="125dip"
+	    android:layout_height="125dip"
+		android:text="@string/back_netcatchmodel"
+	    android:onClick="loginOut"
+	    />
+    </LinearLayout>
+    
+ </LinearLayout>
+  </ScrollView>
+-->
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_gravity="center">
+
+	<LinearLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:layout_gravity="center"
+		>
+
+
+    <!--网点采集 -->
+	    <Button
+			android:id="@+id/brach_catchmodel"
+		android:layout_width="300dp"
+		android:layout_height="35dp"
+		android:background="@drawable/bt_long_selector"
+		android:onClick="witerTable"
+		android:layout_gravity="center"
+		android:text="@string/branch_catchmodel"
+		android:textSize="@dimen/fab_margin"
+		/>
+		<!--加油站采集 -->
+		<Button
+			android:id="@+id/GasStation_catchmodel"
+			android:layout_width="300dp"
+			android:layout_height="35dp"
+			android:background="@drawable/bt_long_selector"
+			android:onClick="GasStation"
+			android:text="@string/GasStation_catchmodel"
+			android:textSize="@dimen/fab_margin"
+			android:layout_gravity="center"
+			android:layout_marginTop="20dp"
+			/>
+		<!--维修点采集 -->
+		<Button
+			android:id="@+id/ServingStation_catchmodel"
+			android:layout_width="300dp"
+			android:layout_height="35dp"
+			android:background="@drawable/bt_long_selector"
+			android:onClick="ServingStation"
+			android:text="@string/ServingStation_catchmodel"
+			android:textSize="@dimen/fab_margin"
+			android:layout_marginTop="20dp"
+			android:layout_gravity="center"
+			/>
+
+		<!--停靠点采集 -->
+		<Button
+			android:id="@+id/WorkNode_catchmodel"
+			android:layout_width="300dp"
+			android:layout_height="35dp"
+			android:background="@drawable/bt_long_selector"
+			android:onClick="WorkNode"
+			android:text="@string/WorkNode_catchmodel"
+			android:textSize="@dimen/fab_margin"
+			android:layout_marginTop="20dp"
+			android:layout_gravity="center"
+			/>
+
+
+	<Button
+		android:id="@+id/btn_look"
+		android:layout_width="300dp"
+		android:layout_height="35dp"
+		android:background="@drawable/bt_long_selector"
+		android:onClick="lookTable"
+		android:text="@string/btn_look"
+		android:textSize="@dimen/fab_margin"
+		android:layout_marginTop="20dp"
+		android:layout_gravity="center"
+		/>
+
+	</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

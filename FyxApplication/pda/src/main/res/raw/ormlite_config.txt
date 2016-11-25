@@ -1,0 +1,3146 @@
+#
+# generated on 2016/08/26 10:59:19
+#
+# --table-start--
+dataClass=com.xvli.bean.LoginVo
+tableName=LOGIN_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=name1
+# --field-end--
+# --field-start--
+fieldName=name2
+# --field-end--
+# --field-start--
+fieldName=name3
+# --field-end--
+# --field-start--
+fieldName=pwd1
+# --field-end--
+# --field-start--
+fieldName=pwd2
+# --field-end--
+# --field-start--
+fieldName=pwd3
+# --field-end--
+# --field-start--
+fieldName=jobnumber1
+# --field-end--
+# --field-start--
+fieldName=jobnumber2
+# --field-end--
+# --field-start--
+fieldName=jobnumber3
+# --field-end--
+# --field-start--
+fieldName=department1
+# --field-end--
+# --field-start--
+fieldName=department2
+# --field-end--
+# --field-start--
+fieldName=department3
+# --field-end--
+# --field-start--
+fieldName=trucknumber
+# --field-end--
+# --field-start--
+fieldName=truckid
+# --field-end--
+# --field-start--
+fieldName=user1logintime
+# --field-end--
+# --field-start--
+fieldName=user2logintime
+# --field-end--
+# --field-start--
+fieldName=user3logintime
+# --field-end--
+# --field-start--
+fieldName=bindtruckcode
+# --field-end--
+# --field-start--
+fieldName=bindplatenumber
+# --field-end--
+# --field-start--
+fieldName=bindtime
+# --field-end--
+# --field-start--
+fieldName=bindtruck_stuts
+# --field-end--
+# --field-start--
+fieldName=local_login_time
+# --field-end--
+# --field-start--
+fieldName=local_task_time
+# --field-end--
+# --field-start--
+fieldName=tasktype
+# --field-end--
+# --field-start--
+fieldName=truckState
+# --field-end--
+# --field-start--
+fieldName=workercard1
+# --field-end--
+# --field-start--
+fieldName=workercard2
+# --field-end--
+# --field-start--
+fieldName=workercard3
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.BranchVo
+tableName=T_BRANCH_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=customername
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=branchtypes
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=type
+# --field-end--
+# --field-start--
+fieldName=districts
+# --field-end--
+# --field-start--
+fieldName=linenumber
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=isrevoke
+# --field-end--
+# --field-start--
+fieldName=isnetdone
+# --field-end--
+# --field-start--
+fieldName=isroute
+# --field-end--
+# --field-start--
+fieldName=iscancel
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.NetWorkInfoVo
+tableName=NET_WORK_INFO
+# --table-fields-start--
+# --field-start--
+fieldName=netname
+# --field-end--
+# --field-start--
+fieldName=netstatic
+# --field-end--
+# --field-start--
+fieldName=netid
+# --field-end--
+# --field-start--
+fieldName=isok
+# --field-end--
+# --field-start--
+fieldName=isUploader
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.OtherTaskVo
+tableName=OTHER_TASK_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=linenumber
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=taskcontent
+# --field-end--
+# --field-start--
+fieldName=results
+# --field-end--
+# --field-start--
+fieldName=arrivaltime
+# --field-end--
+# --field-start--
+fieldName=leavetime
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isCan
+# --field-end--
+# --field-start--
+fieldName=isDone
+# --field-end--
+# --field-start--
+fieldName=isexist
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=destination
+# --field-end--
+# --field-start--
+fieldName=taskinfo
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.ScatteredVo
+tableName=T_SCATTER_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=imei
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.TempVo
+tableName=T_TEMP_VO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=itemtype
+# --field-end--
+# --field-start--
+fieldName=lineid
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.AtmBoxBagVo
+tableName=T_ATM_BOX
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=bagtype
+# --field-end--
+# --field-start--
+fieldName=boxno
+# --field-end--
+# --field-start--
+fieldName=barcodeno
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=sendOrRecycle
+# --field-end--
+# --field-start--
+fieldName=isScan
+# --field-end--
+# --field-start--
+fieldName=isPlan
+# --field-end--
+# --field-start--
+fieldName=isOut
+# --field-end--
+# --field-start--
+fieldName=inPda
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.AtmUpDownItemVo
+tableName=atmupdownitemvo
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=itemtype
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=operatetype
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=remark
+# --field-end--
+# --field-start--
+fieldName=location
+# --field-end--
+# --field-start--
+fieldName=taskinfoid
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=moneyamount
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=stucktime
+# --field-end--
+# --field-start--
+fieldName=isYouXiao
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=boxcoderecycle
+# --field-end--
+# --field-start--
+fieldName=lineid
+# --field-end--
+# --field-start--
+fieldName=sendOrRecycle
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --field-start--
+fieldName=reasion
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.CarUpDownVo
+tableName=carupdownvo
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=itemtype
+# --field-end--
+# --field-start--
+fieldName=barCode
+# --field-end--
+# --field-start--
+fieldName=operatetype
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=taskinfoid
+# --field-end--
+# --field-start--
+fieldName=remark
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=atmName
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isdoneok
+# --field-end--
+# --field-start--
+fieldName=isScan
+# --field-end--
+# --field-start--
+fieldName=isonoffok
+# --field-end--
+# --field-start--
+fieldName=enabled
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.AtmVo
+tableName=T_ATM_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=netcode
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=atmtype
+# --field-end--
+# --field-start--
+fieldName=atmjobtype
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=tasktime
+# --field-end--
+# --field-start--
+fieldName=tasktimetypes
+# --field-end--
+# --field-start--
+fieldName=operationtype
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=branchbacode
+# --field-end--
+# --field-start--
+fieldName=atmcustomerid
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=tasktype
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=reporttime
+# --field-end--
+# --field-start--
+fieldName=reportcontent
+# --field-end--
+# --field-start--
+fieldName=errortime
+# --field-end--
+# --field-start--
+fieldName=isfixed
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isatmdone
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=errorlevel
+# --field-end--
+# --field-start--
+fieldName=operationname
+# --field-end--
+# --field-start--
+fieldName=customername
+# --field-end--
+# --field-start--
+fieldName=isRegister
+# --field-end--
+# --field-start--
+fieldName=iscancel
+# --field-end--
+# --field-start--
+fieldName=linenumber
+# --field-end--
+# --field-start--
+fieldName=branchlinenumber
+# --field-end--
+# --field-start--
+fieldName=boxtag
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=linenchid
+# --field-end--
+# --field-start--
+fieldName=boxcoderecycle
+# --field-end--
+# --field-start--
+fieldName=cardlocaton
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.KeyPasswordVo
+tableName=KEY_PWD
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=iskey
+# --field-end--
+# --field-start--
+fieldName=ispwd
+# --field-end--
+# --field-start--
+fieldName=networkno
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=isScan
+# --field-end--
+# --field-start--
+fieldName=isPwdScan
+# --field-end--
+# --field-start--
+fieldName=isPlan
+# --field-end--
+# --field-start--
+fieldName=isTransfer
+# --field-end--
+# --field-start--
+fieldName=itemtype
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=transfer
+# --field-end--
+# --field-start--
+fieldName=recvice
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=isDelete
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=branchCode
+# --field-end--
+# --field-start--
+fieldName=isCurrency
+# --field-end--
+# --field-start--
+fieldName=IsUploaded
+# --field-end--
+# --field-start--
+fieldName=isSubmit
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --field-start--
+fieldName=remake
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DynRouteItemVo
+tableName=TMR_ROUTITEM_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=name_full
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=atmcustomerid
+# --field-end--
+# --field-start--
+fieldName=order
+# --field-end--
+# --field-start--
+fieldName=enabled
+# --field-end--
+# --field-start--
+fieldName=isphoto
+# --field-end--
+# --field-start--
+fieldName=isatmornode
+# --field-end--
+# --field-start--
+fieldName=atminstallationmethod
+# --field-end--
+# --field-start--
+fieldName=atmnodetype
+# --field-end--
+# --field-start--
+fieldName=isoperatetask
+# --field-end--
+# --field-start--
+fieldName=isrepairtask
+# --field-end--
+# --field-start--
+fieldName=isroutetask
+# --field-end--
+# --field-start--
+fieldName=inputtype
+# --field-end--
+# --field-start--
+fieldName=selectitems
+# --field-end--
+# --field-start--
+fieldName=atmtype
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isDone
+# --field-end--
+# --field-start--
+fieldName=isCanUp
+# --field-end--
+# --field-start--
+fieldName=delete
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DynTroubleItemVo
+tableName=TMR_TROUBLETIEM_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=atmCustomerId
+# --field-end--
+# --field-start--
+fieldName=order
+# --field-end--
+# --field-start--
+fieldName=enabled
+# --field-end--
+# --field-start--
+fieldName=inputtypes
+# --field-end--
+# --field-start--
+fieldName=isneeded
+# --field-end--
+# --field-start--
+fieldName=isphoto
+# --field-end--
+# --field-start--
+fieldName=selectitems
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isDone
+# --field-end--
+# --field-start--
+fieldName=isCanUp
+# --field-end--
+# --field-start--
+fieldName=delete
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DynCycleItemVo
+tableName=TMR_CYCLEITEM_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=atmCustomerId
+# --field-end--
+# --field-start--
+fieldName=order
+# --field-end--
+# --field-start--
+fieldName=enabled
+# --field-end--
+# --field-start--
+fieldName=isneeded
+# --field-end--
+# --field-start--
+fieldName=Value
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isDone
+# --field-end--
+# --field-start--
+fieldName=isCanUp
+# --field-end--
+# --field-start--
+fieldName=delete
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.TruckVo
+tableName=TRUCK_VO
+# --table-fields-start--
+# --field-start--
+fieldName=tableid
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=platenumber
+# --field-end--
+# --field-start--
+fieldName=truckId
+# --field-end--
+# --field-start--
+fieldName=state
+# --field-end--
+# --field-start--
+fieldName=departmentid
+# --field-end--
+# --field-start--
+fieldName=departmentname
+# --field-end--
+# --field-start--
+fieldName=clientId
+# --field-end--
+# --field-start--
+fieldName=isPlan
+# --field-end--
+# --field-start--
+fieldName=operateType
+# --field-end--
+# --field-start--
+fieldName=type
+# --field-end--
+# --field-start--
+fieldName=first
+# --field-end--
+# --field-start--
+fieldName=lineid
+# --field-end--
+# --field-start--
+fieldName=operateTime
+# --field-end--
+# --field-start--
+fieldName=operators
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.ConfigVo
+tableName=CONFIG_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=shortname
+# --field-end--
+# --field-start--
+fieldName=nametype
+# --field-end--
+# --field-start--
+fieldName=value
+# --field-end--
+# --field-start--
+fieldName=displayname
+# --field-end--
+# --field-start--
+fieldName=picture
+# --field-end--
+# --field-start--
+fieldName=localaddress
+# --field-end--
+# --field-start--
+fieldName=bigpicurl
+# --field-end--
+# --field-start--
+fieldName=biglocaladd
+# --field-end--
+# --field-start--
+fieldName=key
+# --field-end--
+# --field-start--
+fieldName=projectname
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.OperateLogVo
+tableName=OPERATELOG_VO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=logtype
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=platenumber
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskinfoid
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.NetWorkRouteVo
+tableName=NET_WORK_ROUT
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=name_full
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=atmcustomerid
+# --field-end--
+# --field-start--
+fieldName=order
+# --field-end--
+# --field-start--
+fieldName=enabled
+# --field-end--
+# --field-start--
+fieldName=isphoto
+# --field-end--
+# --field-start--
+fieldName=isatmornode
+# --field-end--
+# --field-start--
+fieldName=atminstallationmethod
+# --field-end--
+# --field-start--
+fieldName=atmnodetype
+# --field-end--
+# --field-start--
+fieldName=isoperatetask
+# --field-end--
+# --field-start--
+fieldName=isrepairtask
+# --field-end--
+# --field-start--
+fieldName=isroutetask
+# --field-end--
+# --field-start--
+fieldName=inputtype
+# --field-end--
+# --field-start--
+fieldName=selectitems
+# --field-end--
+# --field-start--
+fieldName=atmtype
+# --field-end--
+# --field-start--
+fieldName=operonoff
+# --field-end--
+# --field-start--
+fieldName=opercontent
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isDone
+# --field-end--
+# --field-start--
+fieldName=isCanUp
+# --field-end--
+# --field-start--
+fieldName=branchcode
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=signphoto
+# --field-end--
+# --field-start--
+fieldName=errorphoto
+# --field-end--
+# --field-start--
+fieldName=singleitem
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.TmrPhotoVo
+tableName=TMR_PHOTO_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=phonepath
+unique=true
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isphotoUploaded
+# --field-end--
+# --field-start--
+fieldName=typecount
+# --field-end--
+# --field-start--
+fieldName=storagetype
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.NetAtmDoneVo
+tableName=NET_DONE_INFO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=netisdone
+# --field-end--
+# --field-start--
+fieldName=atmisdone
+# --field-end--
+# --field-start--
+fieldName=isUploader
+# --field-end--
+# --field-start--
+fieldName=atmcustomerid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=atmnodetype
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=isRegister
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.UniqueAtmVo
+tableName=UNIQUE_ATM
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=branchbacode
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=atmtype
+# --field-end--
+# --field-start--
+fieldName=atmjobtype
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=tasktime
+# --field-end--
+# --field-start--
+fieldName=tasktimetypes
+# --field-end--
+# --field-start--
+fieldName=operationtype
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=tasktype
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=isroutdone
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=reporttime
+# --field-end--
+# --field-start--
+fieldName=reportcontent
+# --field-end--
+# --field-start--
+fieldName=errortime
+# --field-end--
+# --field-start--
+fieldName=isfixed
+# --field-end--
+# --field-start--
+fieldName=isbankcard
+# --field-end--
+# --field-start--
+fieldName=isrepair
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=operationname
+# --field-end--
+# --field-start--
+fieldName=customername
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isatmdone
+# --field-end--
+# --field-start--
+fieldName=isRegister
+# --field-end--
+# --field-start--
+fieldName=isRegisterCheck
+# --field-end--
+# --field-start--
+fieldName=linenumber
+# --field-end--
+# --field-start--
+fieldName=branchlinenumber
+# --field-end--
+# --field-start--
+fieldName=iscancel
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=zipperbag
+# --field-end--
+# --field-start--
+fieldName=linenchid
+# --field-end--
+# --field-start--
+fieldName=boxcoderecycle
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isbase
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.IsRepairVo
+tableName=IS_REPAIR_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=faultmessages
+# --field-end--
+# --field-start--
+fieldName=atmcustomerid
+# --field-end--
+# --field-start--
+fieldName=operonoff
+# --field-end--
+# --field-start--
+fieldName=opercontent
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=atmnumber
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=order
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=faulttime
+# --field-end--
+# --field-start--
+fieldName=otherremark
+# --field-end--
+# --field-start--
+fieldName=isupload
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.BranchVo
+tableName=T_BRANCH_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=customername
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=branchtypes
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=type
+# --field-end--
+# --field-start--
+fieldName=districts
+# --field-end--
+# --field-start--
+fieldName=linenumber
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=isrevoke
+# --field-end--
+# --field-start--
+fieldName=isnetdone
+# --field-end--
+# --field-start--
+fieldName=isroute
+# --field-end--
+# --field-start--
+fieldName=iscancel
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.MyAtmError
+tableName=ATM_ERROR_VO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=moneyamount
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=itemtype
+# --field-end--
+# --field-start--
+fieldName=location
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=isScan
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=stucktime
+# --field-end--
+# --field-start--
+fieldName=isYouXiao
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=isback
+# --field-end--
+# --field-start--
+fieldName=isgeton
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --field-start--
+fieldName=boxcoderecycle
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=lineid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.TmrBankFaultVo
+tableName=ATM_BANKFAULT_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=faulttime
+# --field-end--
+# --field-start--
+fieldName=faultlevel
+# --field-end--
+# --field-start--
+fieldName=faultmessages
+# --field-end--
+# --field-start--
+fieldName=arrivaltime
+# --field-end--
+# --field-start--
+fieldName=engineersarrivetime
+# --field-end--
+# --field-start--
+fieldName=timetorepair
+# --field-end--
+# --field-start--
+fieldName=failurecause
+# --field-end--
+# --field-start--
+fieldName=repairmeasures
+# --field-end--
+# --field-start--
+fieldName=notrepaircause
+# --field-end--
+# --field-start--
+fieldName=enginephoto
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=orderedtime
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=isrepaired
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=otherremark
+# --field-end--
+# --field-start--
+fieldName=noneed
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --field-start--
+fieldName=cardlocation
+# --field-end--
+# --field-start--
+fieldName=isRegister
+# --field-end--
+# --field-start--
+fieldName=Result
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.ATMTroubleVo
+tableName=ATM_TROUB_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=atmCustomerId
+# --field-end--
+# --field-start--
+fieldName=order
+# --field-end--
+# --field-start--
+fieldName=enabled
+# --field-end--
+# --field-start--
+fieldName=inputtypes
+# --field-end--
+# --field-start--
+fieldName=isneeded
+# --field-end--
+# --field-start--
+fieldName=isphoto
+# --field-end--
+# --field-start--
+fieldName=selectitems
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isDone
+# --field-end--
+# --field-start--
+fieldName=isCanUp
+# --field-end--
+# --field-start--
+fieldName=operonoff
+# --field-end--
+# --field-start--
+fieldName=opercontent
+# --field-end--
+# --field-start--
+fieldName=singItem
+# --field-end--
+# --field-start--
+fieldName=signphoto
+# --field-end--
+# --field-start--
+fieldName=isRegister
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DynRepairVo
+tableName=DYN_REPAIR_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=faultmessages
+# --field-end--
+# --field-start--
+fieldName=atmcustomerid
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=order
+# --field-end--
+# --field-start--
+fieldName=delete
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.RepairUpVo
+tableName=UP_REPAIR_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=faultmessages
+# --field-end--
+# --field-start--
+fieldName=atmcustomerid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=atmnumber
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=other
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=faulttime
+# --field-end--
+# --field-start--
+fieldName=otherremark
+# --field-end--
+# --field-start--
+fieldName=isupload
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.SiginPhotoVo
+tableName=SIGIN_PHOTO_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=branchidname
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=siginpath
+unique=true
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DynATMItemVo
+tableName=DYN_ATM_ITEM
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=terminalnum
+# --field-end--
+# --field-start--
+fieldName=atmtypeid
+# --field-end--
+# --field-start--
+fieldName=nodeid
+# --field-end--
+# --field-start--
+fieldName=atmstatusid
+# --field-end--
+# --field-start--
+fieldName=jobtype
+# --field-end--
+# --field-start--
+fieldName=startmdate
+# --field-end--
+# --field-start--
+fieldName=endmdate
+# --field-end--
+# --field-start--
+fieldName=alarmmaxmoney
+# --field-end--
+# --field-start--
+fieldName=alarmminmoney
+# --field-end--
+# --field-start--
+fieldName=installationmethod
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=updateboxcount
+# --field-end--
+# --field-start--
+fieldName=delete
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DynNodeItemVo
+tableName=DYN_NODE_ITEM
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=alarmarrivedusertime
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=nodetypeid
+# --field-end--
+# --field-start--
+fieldName=districts
+# --field-end--
+# --field-start--
+fieldName=telephone
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=contacts
+# --field-end--
+# --field-start--
+fieldName=location
+# --field-end--
+# --field-start--
+fieldName=baidugeoid
+# --field-end--
+# --field-start--
+fieldName=truckgis1
+# --field-end--
+# --field-start--
+fieldName=truckgis2
+# --field-end--
+# --field-start--
+fieldName=city
+# --field-end--
+# --field-start--
+fieldName=picture
+# --field-end--
+# --field-start--
+fieldName=mainpicture
+# --field-end--
+# --field-start--
+fieldName=returnaddress
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=isinbank
+# --field-end--
+# --field-start--
+fieldName=nodestatusid
+# --field-end--
+# --field-start--
+fieldName=delete
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DynCycleItemValueVo
+tableName=TMR_CYCLEITEMVALUE_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=atmCustomerId
+# --field-end--
+# --field-start--
+fieldName=order
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=enabled
+# --field-end--
+# --field-start--
+fieldName=isneeded
+# --field-end--
+# --field-start--
+fieldName=Value
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isDone
+# --field-end--
+# --field-start--
+fieldName=isCanUp
+# --field-end--
+# --field-start--
+fieldName=balance
+# --field-end--
+# --field-start--
+fieldName=cycleNo
+# --field-end--
+# --field-start--
+fieldName=depositamount
+# --field-end--
+# --field-start--
+fieldName=withdrawamount
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.InterfaceEventsVo
+tableName=T_Interface_Events
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=url
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=clientId
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.WarnVo
+tableName=WARN_VO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=time
+# --field-end--
+# --field-start--
+fieldName=content
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.Log_SortingVo
+tableName=Log_Sorting_Vo
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=logtype
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=platenumber
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=brankid
+# --field-end--
+# --field-start--
+fieldName=taskinfoid
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isEnd
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DispatchVo
+tableName=T_DISPATCH_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=dispatchid
+# --field-end--
+# --field-start--
+fieldName=eventtype
+# --field-end--
+# --field-start--
+fieldName=eventmsg
+# --field-end--
+# --field-start--
+fieldName=eventdate
+# --field-end--
+# --field-start--
+fieldName=projectid
+# --field-end--
+# --field-start--
+fieldName=enterprised
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.ChangeUserTruckVo
+tableName=CHANGE_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=dispatchid
+# --field-end--
+# --field-start--
+fieldName=taskTime
+# --field-end--
+# --field-start--
+fieldName=line
+# --field-end--
+# --field-start--
+fieldName=workersId
+# --field-end--
+# --field-start--
+fieldName=changeworkersid
+# --field-end--
+# --field-start--
+fieldName=changeworkersname
+# --field-end--
+# --field-start--
+fieldName=truckId
+# --field-end--
+# --field-start--
+fieldName=changetruckid
+# --field-end--
+# --field-start--
+fieldName=changetruckplatenumber
+# --field-end--
+# --field-start--
+fieldName=changetruckcode
+# --field-end--
+# --field-start--
+fieldName=changetruckbarcode
+# --field-end--
+# --field-start--
+fieldName=changetruckcompany
+# --field-end--
+# --field-start--
+fieldName=dispatchinfo
+# --field-end--
+# --field-start--
+fieldName=dispatchtime
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.FeedBackVo
+tableName=FEED_BACK_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=dispatchid
+# --field-end--
+# --field-start--
+fieldName=result
+# --field-end--
+# --field-start--
+fieldName=IsUploaded
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.DispatchMsgVo
+tableName=DISPATCH_VO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=time
+# --field-end--
+# --field-start--
+fieldName=content
+# --field-end--
+# --field-start--
+fieldName=message
+# --field-end--
+# --field-start--
+fieldName=taskinfoid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.catchmodel.been.NetWorkInfo_catVo
+tableName=T_NETWORK_INFO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=Code
+# --field-end--
+# --field-start--
+fieldName=Name
+# --field-end--
+# --field-start--
+fieldName=AtmCustomerName
+# --field-end--
+# --field-start--
+fieldName=AtmNodeType
+# --field-end--
+# --field-start--
+fieldName=Districts
+# --field-end--
+# --field-start--
+fieldName=Telephone
+# --field-end--
+# --field-start--
+fieldName=Address
+# --field-end--
+# --field-start--
+fieldName=Contacts
+# --field-end--
+# --field-start--
+fieldName=City
+# --field-end--
+# --field-start--
+fieldName=ids
+# --field-end--
+# --field-start--
+fieldName=allresult
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.catchmodel.been.SaveAllDataVo
+tableName=T_Catchmodel_SaveAllData
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=Type
+# --field-end--
+# --field-start--
+fieldName=Gis
+# --field-end--
+# --field-start--
+fieldName=GisTruck1
+# --field-end--
+# --field-start--
+fieldName=GisTruck2
+# --field-end--
+# --field-start--
+fieldName=prcture_name
+# --field-end--
+# --field-start--
+fieldName=prcture_name_Truck1
+# --field-end--
+# --field-start--
+fieldName=prcture_name_Truck2
+# --field-end--
+# --field-start--
+fieldName=ids
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=isUpLoader
+# --field-end--
+# --field-start--
+fieldName=imageUpLoader
+# --field-end--
+# --field-start--
+fieldName=jobNumber
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=customer
+# --field-end--
+# --field-start--
+fieldName=saveTime
+# --field-end--
+# --field-start--
+fieldName=day
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.INPutVo
+tableName=T_INPUTVO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=type
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=isScan
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=isUp
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.catchmodel.been.GasStation_Vo
+tableName=T_GasStation_INFO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=Name
+# --field-end--
+# --field-start--
+fieldName=Address
+# --field-end--
+# --field-start--
+fieldName=City
+# --field-end--
+# --field-start--
+fieldName=Contacts
+# --field-end--
+# --field-start--
+fieldName=Telephone
+# --field-end--
+# --field-start--
+fieldName=License
+# --field-end--
+# --field-start--
+fieldName=ids
+# --field-end--
+# --field-start--
+fieldName=allresult
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.catchmodel.been.ServingStation_Vo
+tableName=T_ServingStation_INFO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=Name
+# --field-end--
+# --field-start--
+fieldName=Address
+# --field-end--
+# --field-start--
+fieldName=City
+# --field-end--
+# --field-start--
+fieldName=Contacts
+# --field-end--
+# --field-start--
+fieldName=Telephone
+# --field-end--
+# --field-start--
+fieldName=Classify
+# --field-end--
+# --field-start--
+fieldName=ids
+# --field-end--
+# --field-start--
+fieldName=allresult
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.catchmodel.been.WorkNode_Vo
+tableName=T_WorkNode_INFO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=Name
+# --field-end--
+# --field-start--
+fieldName=Company
+# --field-end--
+# --field-start--
+fieldName=Districts
+# --field-end--
+# --field-start--
+fieldName=Address
+# --field-end--
+# --field-start--
+fieldName=City
+# --field-end--
+# --field-start--
+fieldName=ids
+# --field-end--
+# --field-start--
+fieldName=allresult
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.AtmmoneyBagVo
+tableName=T_MONEY_BAG
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=bagtype
+# --field-end--
+# --field-start--
+fieldName=barcodeno
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=sendOrRecycle
+# --field-end--
+# --field-start--
+fieldName=isScan
+# --field-end--
+# --field-start--
+fieldName=isPlan
+# --field-end--
+# --field-start--
+fieldName=isOut
+# --field-end--
+# --field-start--
+fieldName=inPda
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.CarDownDieboldVo
+tableName=T_CarDownDieboldVo
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=itemtype
+# --field-end--
+# --field-start--
+fieldName=barCode
+# --field-end--
+# --field-start--
+fieldName=operatetype
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=taskinfoid
+# --field-end--
+# --field-start--
+fieldName=remark
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isdoneok
+# --field-end--
+# --field-start--
+fieldName=isScan
+# --field-end--
+# --field-start--
+fieldName=isonoffok
+# --field-end--
+# --field-start--
+fieldName=enabled
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.BankCustomerVo
+tableName=BANK_CUSTOMER_VO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=code
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=version
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.AtmLineVo
+tableName=ATM_LINE_ATM
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=branchbacode
+# --field-end--
+# --field-start--
+fieldName=branchid
+# --field-end--
+# --field-start--
+fieldName=atmtype
+# --field-end--
+# --field-start--
+fieldName=atmjobtype
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=tasktime
+# --field-end--
+# --field-start--
+fieldName=tasktimetypes
+# --field-end--
+# --field-start--
+fieldName=operationtype
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=tasktype
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=isroutdone
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=reporttime
+# --field-end--
+# --field-start--
+fieldName=reportcontent
+# --field-end--
+# --field-start--
+fieldName=errortime
+# --field-end--
+# --field-start--
+fieldName=isfixed
+# --field-end--
+# --field-start--
+fieldName=isbankcard
+# --field-end--
+# --field-start--
+fieldName=isrepair
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=operationname
+# --field-end--
+# --field-start--
+fieldName=customername
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=isatmdone
+# --field-end--
+# --field-start--
+fieldName=isRegister
+# --field-end--
+# --field-start--
+fieldName=isRegisterCheck
+# --field-end--
+# --field-start--
+fieldName=linenumber
+# --field-end--
+# --field-start--
+fieldName=branchlinenumber
+# --field-end--
+# --field-start--
+fieldName=iscancel
+# --field-end--
+# --field-start--
+fieldName=moneyBag
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isbase
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.ThingsVo
+tableName=TAI_THINGS_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=id
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=type
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=operators
+# --field-end--
+# --field-start--
+fieldName=receiptor
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=lineid
+# --field-end--
+# --field-start--
+fieldName=linename
+# --field-end--
+# --field-start--
+fieldName=state
+# --field-end--
+# --field-start--
+fieldName=notes
+# --field-end--
+# --field-start--
+fieldName=flgnm
+# --field-end--
+# --field-start--
+fieldName=IsUploaded
+# --field-end--
+# --field-start--
+fieldName=flg
+# --field-end--
+# --field-start--
+fieldName=isScan
+# --field-end--
+# --field-start--
+fieldName=result
+# --field-end--
+# --field-start--
+fieldName=changeflg
+# --field-end--
+# --field-start--
+fieldName=isTransfer
+# --field-end--
+# --field-start--
+fieldName=recvice
+# --field-end--
+# --field-start--
+fieldName=outOrinput
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.TaiLineVo
+tableName=TAI_LINE_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=customerid
+# --field-end--
+# --field-start--
+fieldName=linenchid
+# --field-end--
+# --field-start--
+fieldName=customername
+# --field-end--
+# --field-start--
+fieldName=linenumber
+# --field-end--
+# --field-start--
+fieldName=linetype
+# --field-end--
+# --field-start--
+fieldName=Linetypenm
+# --field-end--
+# --field-start--
+fieldName=iscancel
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.bean.TaiRepairSealVo
+tableName=TAI_CHANGE_SEAL
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=atmid
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=tasktime
+# --field-end--
+# --field-start--
+fieldName=atmcustomerid
+# --field-end--
+# --field-start--
+fieldName=newbarcode
+# --field-end--
+# --field-start--
+fieldName=oldbarcode
+# --field-end--
+# --field-start--
+fieldName=tasktype
+# --field-end--
+# --field-start--
+fieldName=atmno
+# --field-end--
+# --field-start--
+fieldName=remarks
+# --field-end--
+# --field-start--
+fieldName=operatedtime
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=linenchid
+# --field-end--
+# --field-start--
+fieldName=boxcoderecycle
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

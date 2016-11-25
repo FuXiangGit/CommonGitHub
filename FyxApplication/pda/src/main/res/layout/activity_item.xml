@@ -1,0 +1,239 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ly_top_begin"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+<ScrollView
+        android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:layout_marginTop="0dip"
+    	android:layout_marginBottom="0dip"
+    	android:scrollbars="vertical"
+    >
+    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_vertical|center_horizontal"
+	    android:orientation="vertical"
+	    >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="20dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/branch_no" />
+
+        <EditText
+            android:id="@+id/item_banchNumber"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dip"
+            android:background="@drawable/item_selector_edittext_bg"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingLeft="2dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/branch_custmoer" />
+
+        <EditText
+            android:id="@+id/item_banchName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dip"
+            android:background="@drawable/item_selector_edittext_bg"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingLeft="2dip" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/txt_time" />
+
+        <EditText
+            android:id="@+id/item_gettime"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dip"
+            android:background="@drawable/item_selector_edittext_bg"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingLeft="2dip" />
+    </LinearLayout>
+<!-- 	gps -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/branch_rel_address" />
+
+        <EditText
+            android:id="@+id/item_getgpstop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dip"
+            android:background="@drawable/item_selector_edittext_bg"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingLeft="2dip" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/branch_remark_gbs1" />
+
+        <EditText
+            android:id="@+id/item_getgpstop2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dip"
+            android:background="@drawable/item_selector_edittext_bg"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingLeft="2dip" />
+    </LinearLayout>
+    
+     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/branch_remark_gbs2" />
+
+        <EditText
+            android:id="@+id/item_getgpstop3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dip"
+            android:background="@drawable/item_selector_edittext_bg"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingLeft="2dip" />
+    </LinearLayout>
+    
+      <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/branch_remark_gbs3" />
+
+        <EditText
+            android:id="@+id/item_getgpstop4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dip"
+            android:background="@drawable/item_selector_edittext_bg"
+            android:editable="false"
+            android:gravity="center"
+            android:paddingLeft="2dip" />
+    </LinearLayout>
+    
+    <ImageView
+    	     android:id="@+id/takePic1"
+    	   	 android:layout_width="300dip"
+        	 android:layout_height="200dip"
+        	   android:visibility="gone"
+    	    />
+    <ImageView
+    	     android:id="@+id/takePic2"
+    	     android:layout_width="300dip"
+        	 android:layout_height="200dip"
+        	   android:visibility="gone"
+    	    />
+    <ImageView
+    	     android:id="@+id/takePic3"
+    	     android:layout_width="300dip"
+        	 android:layout_height="200dip"
+        	   android:visibility="gone"
+    	    />
+    <ImageView
+    	     android:id="@+id/takePic4"
+    	     android:layout_width="300dip"
+        	 android:layout_height="200dip"
+        	 android:visibility="gone"
+    	    />
+<ProgressBar
+	    android:id="@+id/item_pro_bar"
+	    android:layout_width="60dip"
+	    android:layout_height="60dip"
+	    android:visibility="gone"
+	    />
+
+<Button 
+    android:id="@+id/item_upLoading"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dip"
+	    android:text="@string/uploading"
+	    android:gravity="center"
+	    android:visibility="gone"
+	    />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_choose_dialog"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="250dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:text="@string/add_absorb_dialog_title"
+        android:gravity="center"
+        android:textColor="@color/generic_black"
+        android:textSize="20dip" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_view_height"
+        android:layout_marginTop="@dimen/sheet_spacing"
+        android:background="@color/text_hint"/>
+
+    <EditText
+        android:id="@+id/edt_absorb_cardNub"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/add_atmcheck_repair"
+        android:layout_marginLeft="@dimen/sheet_spacing"
+        android:layout_marginRight="@dimen/sheet_spacing"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/edit_text_bg"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:singleLine="true"
+        android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:textColor="@color/text_gray"
+        android:textSize="@dimen/list_item" />
+
+    <RadioGroup
+        android:id="@+id/rg_absorb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dip"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbt_mybank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@drawable/radiobutton_absorb_selector"
+            android:checked="true"
+            android:text="@string/add_absorb_dialog_mybank"
+            android:textColor="@color/generic_black"
+            android:textSize="@dimen/list_item" />
+
+        <RadioButton
+            android:id="@+id/rbt_otherbank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/add_absrb_card"
+            android:button="@drawable/radiobutton_absorb_selector"
+            android:text="@string/add_absorb_dialog_otherbank"
+            android:textColor="@color/generic_black"
+            android:textSize="@dimen/list_item" />
+    </RadioGroup>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dialog_view_height"
+        android:layout_marginTop="@dimen/sheet_spacing"
+        android:background="@color/text_hint"/>
+
+    <Button
+        android:id="@+id/bt_add"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_btn_heignt"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="@dimen/btn_maring_layout"
+        android:layout_marginRight="@dimen/btn_maring_layout"
+        android:layout_marginBottom="@dimen/maring_layout"
+        android:background="@null"
+        android:gravity="center"
+        android:text="@string/add_absorb_dialog_add"
+        android:textColor="@color/subject_text" />
+</LinearLayout>

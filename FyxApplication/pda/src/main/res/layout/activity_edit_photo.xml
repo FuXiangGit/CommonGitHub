@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg2"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/title_inclue"
+        layout="@layout/comm_ok_cancel_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_inclue"
+        android:layout_above="@+id/btn_delete_photo"
+        android:layout_marginTop="20dip"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/img_show"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"/>
+
+        <include layout="@layout/comm_divider" />
+
+        <EditText
+            android:id="@+id/et_remarks"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_item_heignt"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="15dip"
+            android:layout_marginRight="15dip"
+            android:background="@drawable/edit_text_bg"
+            android:hint="@string/repair_check_text_13"
+            android:minLines="3"
+            android:paddingLeft="10dip"
+            android:textColor="@color/generic_black"
+            android:textCursorDrawable="@drawable/color_cursor" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_delete_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_btn_heignt"
+        style="@style/btn_maring_layout"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bt_long_selector"
+        android:text="@string/delete_picture_pic" />
+
+</RelativeLayout>
