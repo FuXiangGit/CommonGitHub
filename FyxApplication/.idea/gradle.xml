@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commadapterlib" />
             <option value="$PROJECT_DIR$/fyxdemoforandroid" />
+            <option value="$PROJECT_DIR$/googlemapshow" />
+            <option value="$PROJECT_DIR$/happyschool" />
             <option value="$PROJECT_DIR$/lovescreen" />
             <option value="$PROJECT_DIR$/luyin" />
             <option value="$PROJECT_DIR$/pda" />
@@ -21,6 +23,7 @@
             <option value="$PROJECT_DIR$/screenshort" />
             <option value="$PROJECT_DIR$/screentest" />
             <option value="$PROJECT_DIR$/temp" />
+            <option value="$PROJECT_DIR$/weektest" />
           </set>
         </option>
         <option name="myModules">
@@ -30,6 +33,8 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commadapterlib" />
             <option value="$PROJECT_DIR$/fyxdemoforandroid" />
+            <option value="$PROJECT_DIR$/googlemapshow" />
+            <option value="$PROJECT_DIR$/happyschool" />
             <option value="$PROJECT_DIR$/lovescreen" />
             <option value="$PROJECT_DIR$/luyin" />
             <option value="$PROJECT_DIR$/pda" />
@@ -38,6 +43,7 @@
             <option value="$PROJECT_DIR$/screenshort" />
             <option value="$PROJECT_DIR$/screentest" />
             <option value="$PROJECT_DIR$/temp" />
+            <option value="$PROJECT_DIR$/weektest" />
           </set>
         </option>
       </GradleProjectSettings>

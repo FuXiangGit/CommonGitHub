@@ -10,6 +10,7 @@
     <string name="media_show_label">视频列表</string>
     <string name="main_btn_record">录屏</string>
     <string name="main_btn_medio">视频</string>
+    <string name="main_btn_zhibo">直播</string>
 
     <string name="refresh">刷新</string>
     <string name="stop_refresh">停止刷新</string>
@@ -25,7 +26,6 @@
     <string name="video_size">文件大小:</string>
     <string name="created_time">创建时间:</string>
     <string name="unknown">未知</string>
-
 
 
 </resources>
