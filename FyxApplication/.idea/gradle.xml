@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/screenshort" />
             <option value="$PROJECT_DIR$/screentest" />
             <option value="$PROJECT_DIR$/temp" />
+            <option value="$PROJECT_DIR$/udpserver" />
             <option value="$PROJECT_DIR$/weektest" />
           </set>
         </option>
@@ -43,6 +44,7 @@
             <option value="$PROJECT_DIR$/screenshort" />
             <option value="$PROJECT_DIR$/screentest" />
             <option value="$PROJECT_DIR$/temp" />
+            <option value="$PROJECT_DIR$/udpserver" />
             <option value="$PROJECT_DIR$/weektest" />
           </set>
         </option>

@@ -17,6 +17,7 @@
       <module fileurl="file://$PROJECT_DIR$/screenshort/screenshort.iml" filepath="$PROJECT_DIR$/screenshort/screenshort.iml" />
       <module fileurl="file://$PROJECT_DIR$/screentest/screentest.iml" filepath="$PROJECT_DIR$/screentest/screentest.iml" />
       <module fileurl="file://$PROJECT_DIR$/temp/temp.iml" filepath="$PROJECT_DIR$/temp/temp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/udpserver/udpserver.iml" filepath="$PROJECT_DIR$/udpserver/udpserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/weektest/weektest.iml" filepath="$PROJECT_DIR$/weektest/weektest.iml" />
     </modules>
   </component>
