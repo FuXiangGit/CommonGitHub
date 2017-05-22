@@ -3,18 +3,19 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="LOCAL" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.10" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Monitor" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commadapterlib" />
+            <option value="$PROJECT_DIR$/fyxadapterlib" />
             <option value="$PROJECT_DIR$/fyxdemoforandroid" />
             <option value="$PROJECT_DIR$/googlemapshow" />
             <option value="$PROJECT_DIR$/happyschool" />
+            <option value="$PROJECT_DIR$/lovemovie" />
             <option value="$PROJECT_DIR$/lovescreen" />
             <option value="$PROJECT_DIR$/luyin" />
             <option value="$PROJECT_DIR$/pda" />
@@ -27,27 +28,7 @@
             <option value="$PROJECT_DIR$/weektest" />
           </set>
         </option>
-        <option name="myModules">
-          <set>
-            <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Monitor" />
-            <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/commadapterlib" />
-            <option value="$PROJECT_DIR$/fyxdemoforandroid" />
-            <option value="$PROJECT_DIR$/googlemapshow" />
-            <option value="$PROJECT_DIR$/happyschool" />
-            <option value="$PROJECT_DIR$/lovescreen" />
-            <option value="$PROJECT_DIR$/luyin" />
-            <option value="$PROJECT_DIR$/pda" />
-            <option value="$PROJECT_DIR$/qianghongbao" />
-            <option value="$PROJECT_DIR$/recorder" />
-            <option value="$PROJECT_DIR$/screenshort" />
-            <option value="$PROJECT_DIR$/screentest" />
-            <option value="$PROJECT_DIR$/temp" />
-            <option value="$PROJECT_DIR$/udpserver" />
-            <option value="$PROJECT_DIR$/weektest" />
-          </set>
-        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

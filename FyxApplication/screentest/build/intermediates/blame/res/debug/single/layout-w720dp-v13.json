@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\layout-w720dp-v13\\activity_main.xml",
+        "source": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\layout-w720dp\\activity_main.xml"
+    },
+    {
         "merged": "D:\\AddGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\layout-w720dp-v13\\activity_main.xml",
         "source": "D:\\AddGitHub\\FyxApplication\\screentest\\src\\main\\res\\layout-w720dp\\activity_main.xml"
     }

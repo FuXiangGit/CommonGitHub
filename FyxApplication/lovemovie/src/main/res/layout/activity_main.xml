@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.fyx.lovemovie.MainActivity">
+
+    <com.fyx.view.CountDownView
+        android:id="@+id/count_down_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:text_color="@color/colorAccent"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/languages"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btn_getDex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="下载最新补丁"
+        />
+
+    <Button
+        android:id="@+id/btn_testDex"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热修复测试"
+        />
+
+    <Button
+        android:id="@+id/btn_test_show"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="热修复查看"
+        />
+
+</LinearLayout>

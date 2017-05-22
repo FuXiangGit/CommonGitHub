@@ -2,5 +2,9 @@
     {
         "merged": "D:\\AddGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "D:\\AddGitHub\\FyxApplication\\screentest\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\menu\\main.xml"
     }
 ]

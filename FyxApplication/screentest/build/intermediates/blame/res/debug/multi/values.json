@@ -1,5 +1,1221 @@
 [
     {
+        "outputFile": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 60,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 116,
+                    "endColumn": 61,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 116,
+                        "endColumn": 61,
+                        "endOffset": 173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 61,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 178,
+                        "endColumn": 61,
+                        "endOffset": 235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 63,
+                    "endOffset": 299
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 63,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 989,
+                    "endColumn": 58,
+                    "endOffset": 1043
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 989,
+                        "endColumn": 58,
+                        "endOffset": 1043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1048,
+                    "endColumn": 56,
+                    "endOffset": 1100
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1048,
+                        "endColumn": 56,
+                        "endOffset": 1100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1105,
+                    "endColumn": 53,
+                    "endOffset": 1154
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1105,
+                        "endColumn": 53,
+                        "endOffset": 1154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1159,
+                    "endColumn": 69,
+                    "endOffset": 1224
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 987,
+                        "endColumn": 69,
+                        "endOffset": 1052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1229,
+                    "endColumn": 42,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 904,
+                        "endColumn": 42,
+                        "endOffset": 942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 43,
+                    "endOffset": 1311
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 859,
+                        "endColumn": 43,
+                        "endOffset": 898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1316,
+                    "endColumn": 44,
+                    "endOffset": 1356
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 813,
+                        "endColumn": 44,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1361,
+                    "endColumn": 42,
+                    "endOffset": 1399
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 769,
+                        "endColumn": 42,
+                        "endOffset": 807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1404,
+                    "endColumn": 41,
+                    "endOffset": 1441
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 41,
+                        "endOffset": 763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1446,
+                    "endColumn": 67,
+                    "endOffset": 1509
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1058,
+                        "endColumn": 67,
+                        "endOffset": 1121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1514,
+                    "endColumn": 50,
+                    "endOffset": 1560
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\base-strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 665,
+                        "endColumn": 50,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1565,
+                    "endLine": 27,
+                    "endColumn": 13,
+                    "endOffset": 1784
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\base-strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 717,
+                        "endLine": 28,
+                        "endColumn": 13,
+                        "endOffset": 957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1789,
+                    "endColumn": 52,
+                    "endOffset": 1837
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 52,
+                        "endOffset": 735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1842,
+                    "endColumn": 52,
+                    "endOffset": 1890
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 52,
+                        "endOffset": 681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1895,
+                    "endColumn": 39,
+                    "endOffset": 1930
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 649,
+                        "endColumn": 39,
+                        "endOffset": 684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1935,
+                    "endColumn": 37,
+                    "endOffset": 1968
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 690,
+                        "endColumn": 37,
+                        "endOffset": 723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1973,
+                    "endColumn": 80,
+                    "endOffset": 2049
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 729,
+                        "endColumn": 80,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2054,
+                    "endColumn": 50,
+                    "endOffset": 2100
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 792,
+                        "endColumn": 51,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2105,
+                    "endLine": 40,
+                    "endColumn": 12,
+                    "endOffset": 2514
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1159,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 1568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2519,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 2578
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1573,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 1632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2583,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 2704
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1637,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2709,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 2832
+                },
+                "from": {
+                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1763,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2837,
+                    "endColumn": 59,
+                    "endOffset": 2892
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endColumn": 60,
+                        "endOffset": 727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2897,
+                    "endColumn": 52,
+                    "endOffset": 2945
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 735,
+                        "endColumn": 53,
+                        "endOffset": 784
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2950,
+                    "endColumn": 26,
+                    "endOffset": 2972
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 876,
+                        "endColumn": 27,
+                        "endOffset": 899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2977,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 3168
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 907,
+                        "endLine": 32,
+                        "endColumn": 12,
+                        "endOffset": 1101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3173,
+                    "endLine": 61,
+                    "endColumn": 12,
+                    "endOffset": 3446
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1109,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 1387
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 60,
+                    "endOffset": 111
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 60,
+                        "endOffset": 111
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 116,
+                    "endColumn": 61,
+                    "endOffset": 173
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 116,
+                        "endColumn": 61,
+                        "endOffset": 173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 178,
+                    "endColumn": 61,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 178,
+                        "endColumn": 61,
+                        "endOffset": 235
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 63,
+                    "endOffset": 299
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 240,
+                        "endColumn": 63,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 989,
+                    "endColumn": 58,
+                    "endOffset": 1043
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 989,
+                        "endColumn": 58,
+                        "endOffset": 1043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 1048,
+                    "endColumn": 56,
+                    "endOffset": 1100
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 1048,
+                        "endColumn": 56,
+                        "endOffset": 1100
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 1105,
+                    "endColumn": 53,
+                    "endOffset": 1154
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 1105,
+                        "endColumn": 53,
+                        "endOffset": 1154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1159,
+                    "endColumn": 69,
+                    "endOffset": 1224
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 987,
+                        "endColumn": 69,
+                        "endOffset": 1052
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1229,
+                    "endColumn": 42,
+                    "endOffset": 1267
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 904,
+                        "endColumn": 42,
+                        "endOffset": 942
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1272,
+                    "endColumn": 43,
+                    "endOffset": 1311
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 859,
+                        "endColumn": 43,
+                        "endOffset": 898
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1316,
+                    "endColumn": 44,
+                    "endOffset": 1356
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 813,
+                        "endColumn": 44,
+                        "endOffset": 853
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1361,
+                    "endColumn": 42,
+                    "endOffset": 1399
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 769,
+                        "endColumn": 42,
+                        "endOffset": 807
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1404,
+                    "endColumn": 41,
+                    "endOffset": 1441
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 41,
+                        "endOffset": 763
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1446,
+                    "endColumn": 67,
+                    "endOffset": 1509
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-dimens.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1058,
+                        "endColumn": 67,
+                        "endOffset": 1121
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1514,
+                    "endColumn": 50,
+                    "endOffset": 1560
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\base-strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 665,
+                        "endColumn": 50,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1565,
+                    "endLine": 27,
+                    "endColumn": 13,
+                    "endOffset": 1784
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\base-strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 717,
+                        "endLine": 28,
+                        "endColumn": 13,
+                        "endOffset": 957
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1789,
+                    "endColumn": 52,
+                    "endOffset": 1837
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 687,
+                        "endColumn": 52,
+                        "endOffset": 735
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1842,
+                    "endColumn": 52,
+                    "endOffset": 1890
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\fragmentview_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 633,
+                        "endColumn": 52,
+                        "endOffset": 681
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1895,
+                    "endColumn": 39,
+                    "endOffset": 1930
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 649,
+                        "endColumn": 39,
+                        "endOffset": 684
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1935,
+                    "endColumn": 37,
+                    "endOffset": 1968
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 690,
+                        "endColumn": 37,
+                        "endOffset": 723
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1973,
+                    "endColumn": 80,
+                    "endOffset": 2049
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 729,
+                        "endColumn": 80,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2054,
+                    "endColumn": 50,
+                    "endOffset": 2100
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 792,
+                        "endColumn": 51,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2105,
+                    "endLine": 40,
+                    "endColumn": 12,
+                    "endOffset": 2514
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 1159,
+                        "endLine": 16,
+                        "endColumn": 12,
+                        "endOffset": 1568
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2519,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 2578
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1573,
+                        "endLine": 18,
+                        "endColumn": 12,
+                        "endOffset": 1632
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2583,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 2704
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 1637,
+                        "endLine": 21,
+                        "endColumn": 12,
+                        "endOffset": 1758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 2709,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 2832
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\exploded-aar\\com.android.support\\cardview-v7\\23.3.0\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1763,
+                        "endLine": 24,
+                        "endColumn": 12,
+                        "endOffset": 1886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2837,
+                    "endColumn": 59,
+                    "endOffset": 2892
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 671,
+                        "endColumn": 60,
+                        "endOffset": 727
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2897,
+                    "endColumn": 52,
+                    "endOffset": 2945
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 735,
+                        "endColumn": 53,
+                        "endOffset": 784
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2950,
+                    "endColumn": 26,
+                    "endOffset": 2972
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 876,
+                        "endColumn": 27,
+                        "endOffset": 899
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 2977,
+                    "endLine": 55,
+                    "endColumn": 12,
+                    "endOffset": 3168
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 907,
+                        "endLine": 32,
+                        "endColumn": 12,
+                        "endOffset": 1101
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3173,
+                    "endLine": 61,
+                    "endColumn": 12,
+                    "endOffset": 3446
+                },
+                "from": {
+                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values\\template-styles.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 4,
+                        "startOffset": 1109,
+                        "endLine": 39,
+                        "endColumn": 12,
+                        "endOffset": 1387
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "D:\\AddGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {

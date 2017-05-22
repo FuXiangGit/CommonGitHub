@@ -1,1 +1,1 @@
-include ':app', ':fyxdemoforandroid', ':commadapterlib', ':screenshort', ':screentest', ':lovescreen', ':luyin', ':recorder', ':qianghongbao', ':pda', ':temp', ':googlemapshow', ':weektest', ':happyschool', ':Monitor', ':udpserver', ':udpserver'
+include ':app', ':fyxdemoforandroid', ':commadapterlib', ':screenshort', ':screentest', ':lovescreen', ':luyin', ':recorder', ':qianghongbao', ':pda', ':temp', ':googlemapshow', ':weektest', ':happyschool', ':Monitor', ':udpserver', ':udpserver', ':lovemovie', ':fyxadapterlib'

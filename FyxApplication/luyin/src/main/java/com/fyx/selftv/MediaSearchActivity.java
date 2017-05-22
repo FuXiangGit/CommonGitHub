@@ -181,12 +181,12 @@ public class MediaSearchActivity extends AppCompatActivity implements EasyPermis
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         EasyPermissions.onRequestPermissionsResult(requestCode, permissions, grantResults, this);
     }
-
+    //成功
     @Override
     public void onPermissionsGranted(int requestCode, List<String> perms) {
         Log.d(TAG, "onPermissionsGranted:" + requestCode + ":" + perms.size());
     }
-
+    //失败
     @Override
     public void onPermissionsDenied(int requestCode, List<String> perms) {
         Log.d(TAG, "onPermissionsDenied:" + requestCode + ":" + perms.size());

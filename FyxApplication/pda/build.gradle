@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion '23.0.2'
+    buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId "com.xvli.pda"
         minSdkVersion 15
@@ -52,9 +52,8 @@ dependencies {
     compile files('libs/universal-image-loader-1.9.1.jar')
     compile files('libs/MyAndroidTools.jar')
     compile files('libs/BaiduLBS_Android.jar')
-//    compile files('libs/baidumapapi_util_v3_7_3.jar')
+    //    compile files('libs/baidumapapi_util_v3_7_3.jar')
     compile files('libs/commons-net-3.0.1.jar')
     compile files('libs/xUtils-2.6.2.jar')
     compile files('libs/Volley.jar')
-
 }
