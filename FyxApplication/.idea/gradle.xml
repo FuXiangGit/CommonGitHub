@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Monitor" />
+            <option value="$PROJECT_DIR$/Xcitatm" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/commadapterlib" />
             <option value="$PROJECT_DIR$/fyxadapterlib" />

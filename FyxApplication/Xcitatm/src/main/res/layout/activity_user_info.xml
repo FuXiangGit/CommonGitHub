@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gb_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/comm_title_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/generic_white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/radiogroup_ou"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/list_item_heignt"
+            android:background="@color/generic_white"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:tabBackground="@null"
+                app:tabIndicatorColor="@color/subject_text"
+                app:tabIndicatorHeight="1dip"
+                app:tabMode="fixed"
+                app:tabSelectedTextColor="@color/subject_text"
+                app:tabTextAppearance="@style/TabLayoutTextStyle"
+                app:tabTextColor="@color/text_hint" />
+
+            <RadioButton
+                android:id="@+id/rbt_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/radiobutton_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/user_one"
+                android:textColor="@color/radio_tv_selector"
+                android:textSize="@dimen/list_item" />
+
+
+            <RadioButton
+                android:id="@+id/rbt_other"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/radiobutton_selector"
+                android:button="@null"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/user_other"
+                android:textColor="@color/radio_tv_selector"
+                android:textSize="@dimen/list_item" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+    <com.xvli.cit.view.NoScrollViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dip"
+        android:layout_weight="1">
+
+    </com.xvli.cit.view.NoScrollViewPager>
+</LinearLayout>
+

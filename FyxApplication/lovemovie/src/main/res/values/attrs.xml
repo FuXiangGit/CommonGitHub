@@ -8,4 +8,11 @@
         <attr name="text_size" format="dimension" />
         <attr name="text_color" format="color" />
     </declare-styleable>
+    <declare-styleable name="DrawPaint">
+        <!--<attr name="paint_background_color" format="color" />-->
+        <attr name="paint_color" format="color" />
+        <attr name="paint_width" format="dimension" />
+        <!--<attr name="paint_background_width" format="dimension" />-->
+        <!--<attr name="paint_background_height" format="dimension" />-->
+    </declare-styleable>
 </resources>

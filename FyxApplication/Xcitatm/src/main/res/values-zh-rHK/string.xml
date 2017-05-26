@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CIT</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="scan_tip">將二維碼/條碼放入框內，即可自動掃描</string>
+    <string name="btn_ok">確定</string>
+    <string name="btn_back">返回</string>
+    <string name="btn_next">下一步</string>
+    <string name="btn_cancle">取消</string>
+    <string name="scan_reault">掃描結果：</string>
+
+</resources>

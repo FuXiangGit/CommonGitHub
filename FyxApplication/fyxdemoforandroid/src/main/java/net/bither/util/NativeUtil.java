@@ -15,7 +15,7 @@ import android.graphics.Rect;
 import android.media.ExifInterface;
 
 /**
- * JNI图片压缩工具类
+ * JNI图片压缩工具类（使用注意事项，首先包名必须为net.biter.util,类名也不能变，因为是jni，使用了两个so，注意jni的使用方式）******
  *
  * @Description TODO
  * @Package net.bither.util

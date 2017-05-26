@@ -1,0 +1,264 @@
+#
+# generated on 2017/05/23 05:41:56
+#
+# --table-start--
+dataClass=com.xvli.cit.vo.LoginVo
+tableName=LOGIN_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=pwd
+# --field-end--
+# --field-start--
+fieldName=jobnumber
+# --field-end--
+# --field-start--
+fieldName=department
+# --field-end--
+# --field-start--
+fieldName=iscaptain
+# --field-end--
+# --field-start--
+fieldName=userstate
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.cit.vo.OperateLogVo
+tableName=OPERATELOG_VO
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=logtype
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=platenumber
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=gisx
+# --field-end--
+# --field-start--
+fieldName=gisy
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskinfoid
+# --field-end--
+# --field-start--
+fieldName=gisz
+# --field-end--
+# --field-start--
+fieldName=kilometre
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --field-start--
+fieldName=uuid
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.cit.vo.SpecialOutVo
+tableName=SPECIL_OUT_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=category
+# --field-end--
+# --field-start--
+fieldName=cateindex
+# --field-end--
+# --field-start--
+fieldName=outtime
+# --field-end--
+# --field-start--
+fieldName=address
+# --field-end--
+# --field-start--
+fieldName=feeamount
+# --field-end--
+# --field-start--
+fieldName=remark
+# --field-end--
+# --field-start--
+fieldName=operator
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.cit.vo.TruckVo
+tableName=TRUCK_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=truckId
+# --field-end--
+# --field-start--
+fieldName=barcode
+# --field-end--
+# --field-start--
+fieldName=platenumber
+# --field-end--
+# --field-start--
+fieldName=departmentid
+# --field-end--
+# --field-start--
+fieldName=departmentname
+# --field-end--
+# --field-start--
+fieldName=operateType
+# --field-end--
+# --field-start--
+fieldName=kilometre
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=operators
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.cit.vo.TaskVo
+tableName=TASK_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=taskid
+# --field-end--
+# --field-start--
+fieldName=branchname
+# --field-end--
+# --field-start--
+fieldName=branchcode
+# --field-end--
+# --field-start--
+fieldName=customername
+# --field-end--
+# --field-start--
+fieldName=departmentname
+# --field-end--
+# --field-start--
+fieldName=tasktype
+# --field-end--
+# --field-start--
+fieldName=tasktime
+# --field-end--
+# --field-start--
+fieldName=dispatchstate
+# --field-end--
+# --field-start--
+fieldName=taskstate
+# --field-end--
+# --field-start--
+fieldName=fromdetial
+# --field-end--
+# --field-start--
+fieldName=todetial
+# --field-end--
+# --field-start--
+fieldName=ispasscar
+# --field-end--
+# --field-start--
+fieldName=businesstype
+# --field-end--
+# --field-start--
+fieldName=operatetime
+# --field-end--
+# --field-start--
+fieldName=operators
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.xvli.cit.vo.LineVo
+tableName=LINE_VO
+# --table-fields-start--
+# --field-start--
+fieldName=ids
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=clientid
+# --field-end--
+# --field-start--
+fieldName=lineid
+# --field-end--
+# --field-start--
+fieldName=linename
+# --field-end--
+# --field-start--
+fieldName=linedata
+# --field-end--
+# --field-start--
+fieldName=customername
+# --field-end--
+# --field-start--
+fieldName=ischeck
+# --field-end--
+# --field-start--
+fieldName=operators
+# --field-end--
+# --field-start--
+fieldName=isUploaded
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

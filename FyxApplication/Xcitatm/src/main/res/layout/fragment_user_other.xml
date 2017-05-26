@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dip"
+    tools:context="com.xvli.cit.fragment.UserOneFragment">
+
+    <ListView
+        android:id="@+id/list_user"
+        android:layout_above="@+id/login_out"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dip"
+        android:dividerHeight="@dimen/dividerHeight"
+        android:layout_height="match_parent"/>
+    <Button
+        android:id="@+id/login_out"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_btn_heignt"
+        android:layout_above="@+id/btn_login_in"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/bt_long_sure"
+        android:text="@string/btn_login_out"
+        android:textSize="@dimen/list_item" />
+
+    <Button
+        android:id="@+id/btn_login_in"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/big_btn_heignt"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/bt_long_sure"
+        android:text="@string/btn_login_in"
+        android:textSize="@dimen/list_item" />
+</RelativeLayout>

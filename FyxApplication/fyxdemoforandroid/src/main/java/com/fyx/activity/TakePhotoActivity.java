@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -62,9 +63,13 @@ public class TakePhotoActivity extends AppCompatActivity implements View.OnClick
                 Bitmap bitmap = null;
                 File file=ANFileUtils.getPic(fileName);
                 bitmap = BitmapFactory.decodeFile(file.getAbsolutePath());
-                img_photo_show.setImageBitmap(bitmap);
+                Log.d("jack", "bitmap.length:" + bitmap.getByteCount());
+//                img_photo_show.setImageBitmap(bitmap);
                 File fileYasuo = ANFileUtils.createPic(fileName+"new");
                 NativeUtil.compressBitmap(bitmap,fileYasuo.getAbsolutePath());
+                bitmap = BitmapFactory.decodeFile(fileYasuo.getAbsolutePath());
+                Log.d("jack", "bitmap.length:" + bitmap.getByteCount());
+                img_photo_show.setImageBitmap(bitmap);
             }
         }
         super.onActivityResult(requestCode, resultCode, data);

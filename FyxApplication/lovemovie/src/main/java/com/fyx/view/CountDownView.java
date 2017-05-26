@@ -127,8 +127,8 @@ public class CountDownView extends View{
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        int width = getMeasuredWidth();//60
-        int height = getMeasuredHeight();//40
+        int width = getMeasuredWidth();
+        int height = getMeasuredHeight();
         int min = Math.min(width,height);
         canvas.drawCircle(width/2,height/2,min/2,circlePaint);
         //画边框

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="special_out">
+        <item>请选择</item>
+        <item>高速费</item>
+        <item>过桥费</item>
+        <item>停车费</item>
+        <item>隧道</item>
+        <item>其他</item>
+    </string-array>
+</resources>

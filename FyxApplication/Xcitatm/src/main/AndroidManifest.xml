@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xvli.cit">
+    <!--   076cfc6bc4229c6a7868b0b63934c4a3  高德key-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- 获取手机IMEI号 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!-- 往sdcard中写入数据的权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!-- 在sdcard中创建/删除文件的权限 -->
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <!--用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"></uses-permission>
+    <!--用于访问GPS定位-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <!--用于获取运营商信息，用于支持提供运营商信息相关的接口-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <!--用于访问wifi网络信息，wifi信息会用于进行网络定位-->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <!--用于获取wifi的获取权限，wifi信息会用来进行网络定位-->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <!--用于访问网络，网络定位需要上网-->
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <!--用于读取手机当前的状态-->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <!--用于写入缓存数据到扩展存储卡-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <!--用于申请调用A-GPS模块-->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"></uses-permission>
+    <!--用于申请获取蓝牙信息进行室内定位-->
+    <uses-permission android:name="android.permission.BLUETOOTH"></uses-permission>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"></uses-permission>
+    <!-- 外部存储读权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:name="com.xvli.cit.CitApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/PDATheme">
+        <!-- 阿里百川热修复 -->
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="114016-1" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="9b6d25d12a12c497fc739d02d2b6e06b" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCd2xzoX/236YDRbnoVUewGVws+orjxM7npKEOKfUaA5LMeJMYYZ54OhZtzkoN66HP+yg6A/j2WTZvKmn1Ulot8z+BZIHS93u4J/QBGtHESoxe4oBJfmZOShp3w9eemzPNtdmPnNpxfkH6VAEzN5I5M717xgMldrpPA9DM4A0gLVpNYnYhVy1KpOwPuCv14R5ijurUd6UH/W7Nl/LxtdY/Zqy7/EPz49IFGFfKP1Z6bMq4ABy0TcAqXBgGqW0gTQ2e08QjZC09ItVxn3J6TFQOBcOx4y7avyRN5zFhRYem4mBpueyb1yc8Kwj1OHA+TqfeJtvEtslTQxl/+bQSdGdUnAgMBAAECggEAV/MWvhmNYQSGMymcd3h3SmkA6Nr8s9agBFncl7KIr5O8gFT40ewZUfn6zH+bJcWRqymkvxXn9nAzFsTQg2qFOPsRAldk88zbT1FY8Avk2/9mXgVBd2Y3pHHAWdqIQJT8I8bMjqwMn+n/vMC4ChcHebH8cg3RI5L624yzZMffQgEQdbLANoR38J1NP84ZxsGXU358QwD4Utycf2J2LhIFb+tJieqEasR6fIfcBCUS6SbWZmLjTY7AxWl9FCOE/e+1kOigs7TQtv5yGf0/95nzLqPOOXapuuxw3ypko4rdYVEWy3jwPk4unMuz561QaBh3qY0qJ6gBsxWnrsflDtE78QKBgQDNMRLdXZVYAcIPNxCdXtdTcZ/LihETDrGOqZI6u/RsoilT6UBB8vcTNZiLG6WJoQgEMDczUueXErf7cZVjxEPjLp+kkfKj9JHCgd9wYrEwrJReF9cwNydjWx7AEmW3vlwTrS0ktqexkFs0c155kk3j2DLeaC31GhRTo3fxUuCH0wKBgQDE8Xba+NnhGTXcjAwS+OXbvhaYaFqCO2jRxIrGOrHIjQXALrtqLW14mhXjxeaHb/enhIFQcnVAtsEST7V20IAlKBavKr9KOj8McPOlUGqz79U+oGmg+cmGpT0RwuTMzq3FsGHLu/t6YZTPwto/Equ1rPeL9UZjFdbkizIvN4Cc3QKBgQCSmXgX7i+wI/lo83eMZ+FBvdFkE22lhv72pVJTYkv8fVM3n1OIirVZ5RXqdUMs9H8MtwIJSjcqKXaHUBxiniu+mWX3p0qLN0YYiL+BxRFBbFvIahIVYaJjiwuKQNqpj3irmjPBojpnU3LGI5MhGpVJrwKRAi+riQlyxD0CjqrafwKBgG0YlY6Xa5qWLJAPxGB+IFap5jpnFDwwTNBm37kPqow+EoFzYb5fi9TTBm02o41DKR1S+Y9m2C0RD8LlBNDcjyAGJQrD01N7EJIDv/RDp9glcytOETVrKYe84SeFntkVZI2uN350k8onZBfzCJMH9LafKkINjQA2iOPxd8tQI57BAoGAYh0VN3aybUu/jwLRkj4Br7bOfqLFipMZ9d/uf5NcQgVAwGuRsu9bO5tUbBUP/+mZJh/+er/XIssklwxTaWKKBxaslDkDcVLbctSQfqL/IfkGzBDYkiIRpKaukBx2MB5l61TmKHTy05byD1NWJG49cj3CsbscU4OLTeVcc3KqJnc=" />
+        <!-- 阿里百川热修复 -->
+
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="076cfc6bc4229c6a7868b0b63934c4a3"/>
+        <service android:name="com.amap.api.location.APSService"/>
+        <activity
+            android:name="com.xvli.cit.activity.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <service
+            android:name="com.xvli.cit.service.CitService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="com.xvli.comm"/>
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.xvli.cit.service.RemoteCastielService"
+            android:process=":remoteService">
+        </service>
+
+        <activity android:name=".MainActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.TestScanActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.MainCitActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".view.BluetoothActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".view.PrintDataActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.UserInfoActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SpecialOutlayActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.SpecialDetialActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.BindTruckActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.TaskDetialActivity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.OperateChoose_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.OperateCash_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.OperateUp_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".activity.OperateDown_Activity"
+            android:alwaysRetainTaskState="true"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+
+</manifest>

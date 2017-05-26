@@ -38,9 +38,7 @@ public class ScrViewPagerActivity extends AppCompatActivity implements ViewPager
 //        LayoutInflater inflater = getLayoutInflater();
         LayoutInflater inflater = LayoutInflater.from(this);
         page1 = inflater.inflate(R.layout.scr_page, null);
-        page2 = inflater.inflate(R.layout.scr_page, null);
         pageList = new ArrayList<View>();
-        pageList.add(page1);
         pageList.add(page1);
         pageViewAdapter = new MyPagerAdapter(pageList);
         viewPager.setAdapter(pageViewAdapter);

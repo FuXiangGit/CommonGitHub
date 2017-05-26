@@ -72,7 +72,10 @@
 
         <activity
             android:name="com.fyx.activity.MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
+            android:label="@string/title_activity_maps" />
+        <activity android:name="com.fyx.activity.KotlinActivity" />
+        <activity android:name="com.fyx.activity.PhotoActivity" />
+        <activity android:name="com.fyx.activity.JniActivity"></activity>
     </application>
 
 </manifest>

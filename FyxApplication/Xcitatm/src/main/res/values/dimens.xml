@@ -1,0 +1,79 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_btn_common">30px</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_size">14dp</dimen>
+    <dimen name="bangding_bg">80px</dimen>
+    <dimen name="comm_item_text_size">16sp</dimen>
+    <dimen name="title_text_size">25sp</dimen>
+    <dimen name="btn_text_size">20sp</dimen>
+    <dimen name="layout_margin_top">30dp</dimen>
+    <dimen name="title_height">70dp</dimen>
+    <dimen name="tab_height">40dp</dimen>
+    <dimen name="item_height">60dp</dimen>
+
+    <dimen name="radio_btn_pading">8dp</dimen>
+    <dimen name="comm_item_heignt">45dip</dimen>
+    <dimen name="fab_spacing">0dp</dimen>
+    <dimen name="sheet_spacing">15dp</dimen>
+    <dimen name="fab_sheet_elevation">0dp</dimen>
+    <dimen name="list_item_heignt">41dip</dimen>
+    <dimen name="add_atmcheck_repair">45dip</dimen>
+    <dimen name="warn_item_height">80dip</dimen>
+    <dimen name="dialog_textsize_twenty">20dip</dimen>
+    <dimen name="dialog_textsize_eighteen">18dip</dimen>
+    <dimen name="login_text_size">15sp</dimen>
+    <dimen name="add_absrb_card">50dip</dimen>
+    <dimen name="add_repair_height">180dip</dimen>
+
+    <dimen name="check_box_width">65dip</dimen>
+    <dimen name="add_dialog_edit_tip_width">70dip</dimen>
+    <dimen name="btn_takephoto_heignt">30dip</dimen>
+    <dimen name="maring_layout">10dp</dimen>
+    <dimen name="fab_maring_layout">220dp</dimen>
+    <dimen name="btn_maring_layout">20dp</dimen>
+
+    <dimen name="view_height">3dp</dimen>
+    <dimen name="dialog_view_height">1dp</dimen>
+    <dimen name="dialog_margin_top">14dp</dimen>
+    <dimen name="btn_big_size">16sp</dimen>
+    <dimen name="tv_margin">20dp</dimen>
+    <dimen name="big_btn_heignt">35dp</dimen>
+
+
+    <dimen name="tv_tip_size">20sp</dimen>
+
+
+    <!--  -->
+    <dimen name="top">17dp</dimen>
+    <dimen name="height">100dp</dimen>
+    <dimen name="left">20dp</dimen>
+    <dimen name="pading">10dp</dimen>
+    <dimen name="lin2">1dp</dimen>
+    <dimen name="top1">3dp</dimen>
+    <dimen name="left1">2dp</dimen>
+    <dimen name="top3">32dp</dimen>
+    <dimen name="size">13sp</dimen>
+    <dimen name="size1">17sp</dimen>
+    <dimen name="height1">54dp</dimen>
+    <dimen name="top2">34dp</dimen>
+    <dimen name="width">36dp</dimen>
+    <dimen name="right">16dp</dimen>
+    <dimen name="height2">134dp</dimen>
+    <dimen name="bottom">30dp</dimen>
+    <dimen name="btn_big_si">16sp</dimen>
+    <dimen name="btn_layout">48dp</dimen>
+    <dimen name="btn_height">35dp</dimen>
+    <dimen name="start">60dp</dimen>
+    <dimen name="text">70dp</dimen>
+    <dimen name="font_24">14sp</dimen>
+    <dimen name="dyn">12sp</dimen>
+    <dimen name="text1">80dp</dimen>
+    <dimen name="dividerHeight">1dp</dimen>
+    <dimen name="tv_heignt">36dp</dimen>
+    <dimen name="rect_width">280dp</dimen>
+
+</resources>

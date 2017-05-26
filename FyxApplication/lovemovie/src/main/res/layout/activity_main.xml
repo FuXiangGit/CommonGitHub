@@ -14,18 +14,10 @@
         app:text_color="@color/colorAccent"
         />
 
-    <LinearLayout
+    <com.fyx.view.DrawPaint
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical" >
-
-        <Spinner
-            android:id="@+id/spinner1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:entries="@array/languages"
-            />
-    </LinearLayout>
+        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content" />
 
     <TextView
         android:id="@+id/txt_log"

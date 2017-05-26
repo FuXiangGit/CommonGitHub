@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/gb_color"
+    android:orientation="vertical">
+
+    <include layout="@layout/comm_title_bar" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_heignt"
+        android:layout_marginTop="20dip"
+        android:background="@color/generic_white"
+        android:paddingLeft="10dip">
+
+        <TextView
+            style="@style/common_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_weight="0.7"
+            android:text="@string/special_1" />
+
+        <Spinner
+            android:id="@+id/special_cate"
+            style="@style/common_text"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/tv_heignt"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:entries="@array/special_out"
+            android:gravity="center"
+            android:singleLine="true"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dividerHeight"
+        android:layout_margin="@dimen/dividerHeight"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_heignt"
+        android:background="@color/generic_white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <TextView
+            style="@style/common_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:text="@string/special_2" />
+
+        <TextView
+            android:id="@+id/special_2"
+            style="@style/common_text"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/tv_heignt"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@drawable/edit_gb"
+            android:gravity="center"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dividerHeight"
+        android:layout_margin="@dimen/dividerHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_heignt"
+        android:background="@color/generic_white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <TextView
+            style="@style/common_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="0.7"
+            android:text="@string/special_3" />
+
+        <EditText
+            android:id="@+id/special_3"
+            style="@style/common_text"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/tv_heignt"
+            android:layout_weight="2"
+            android:background="@drawable/edit_gb"
+            android:gravity="center"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dividerHeight"
+        android:layout_margin="@dimen/dividerHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_heignt"
+        android:background="@color/generic_white"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip">
+
+        <TextView
+            style="@style/common_text"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_weight="0.7"
+            android:text="@string/special_4" />
+
+        <EditText
+            android:id="@+id/special_4"
+            style="@style/common_text"
+            android:layout_width="0dip"
+            android:layout_height="@dimen/tv_heignt"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            android:background="@drawable/edit_gb"
+            android:gravity="center"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dividerHeight"
+        android:layout_margin="@dimen/dividerHeight" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/generic_white"
+        android:orientation="vertical">
+    <TextView
+        style="@style/common_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:paddingLeft="10dip"
+        android:paddingTop="10dip"
+        android:paddingRight="10dip"
+        android:text="@string/special_5" />
+
+    <EditText
+        android:id="@+id/special_5"
+        style="@style/common_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="8dip"
+        android:background="@drawable/edit_gb"
+        android:minLines="4"
+        android:layout_marginBottom="20dip"/>
+    </LinearLayout>
+</LinearLayout>
+

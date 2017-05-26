@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDarkTrans">#CCf57257</color>
+    <color name="subject_text">#008ed6</color>
+    <color name="generic_white">#FFFFFF</color>
+    <color name="text_hint">#969696</color>
+    <color name="text_gray">#a4a4a4</color>
+    <color name="common_text">#363636</color>
+    <color name="line_com">#fafafa</color>
+    <color name="gb_color">#f8f8f8</color>
+    <color name="black_color">#666666</color>
+    <color name="black_color_1">#454545</color>
+    <color name="generic_transparent">#00FFFFFF</color>
+    <color name="red">#f63241</color>
+    <color name="line_color">#cccccc</color>
+    <color name="blue_color">#008ed6</color>
+    <color name="red_color">#ff0e30</color>
+    <color name="gray_color">#888888</color>
+    <color name="edit_bg">#EECBAD</color>
+
+    <color name="generic_listview_item_bg">#b4FFFFFF</color>
+</resources>

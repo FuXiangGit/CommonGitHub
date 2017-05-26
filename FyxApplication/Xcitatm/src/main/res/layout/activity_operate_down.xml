@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gb_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/comm_title_bar"
+        layout="@layout/comm_title_bar" />
+
+
+    <HorizontalScrollView
+        android:id="@+id/hvChannel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/rgChannel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"></RadioGroup>
+
+    </HorizontalScrollView>
+
+    <com.xvli.cit.view.NoScrollViewPager
+        android:id="@+id/vpNewsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </com.xvli.cit.view.NoScrollViewPager>
+
+
+    <Button
+        android:id="@+id/bt_delete"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="@dimen/image_w"
+        android:layout_marginRight="@dimen/image_w"
+        android:background="@drawable/login_sure"
+        android:text="@string/delete_branch_down"
+        android:textColor="@color/generic_white"
+        android:textSize="@dimen/list_item"
+        />
+</LinearLayout>
+
+
