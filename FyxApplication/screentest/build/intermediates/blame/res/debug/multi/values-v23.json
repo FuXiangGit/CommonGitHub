@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+        "outputFile": "E:\\GitForFyx\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 200
                 },
                 "from": {
-                    "file": "C:\\Users\\Mrfu\\.android\\build-cache\\f5014406fab37c615f3697ccac70fb4e80967d0b\\output\\res\\values-v23\\values-v23.xml",
+                    "file": "C:\\Users\\pc9.19\\.android\\build-cache\\0ee08494e04cf039dcf87e9a5c12f9acb92a7b77\\output\\res\\values-v23\\values-v23.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -1,7 +1,5 @@
 package com.fyx.andr;
 
-import android.app.Activity;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -10,19 +8,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.ViewGroup;
-import android.widget.TextView;
 
 import com.fyx.activity.CommBaseAdpActivity;
 import com.fyx.activity.CustomDialogActivity;
 import com.fyx.activity.JianRongDiBanben;
-import com.fyx.activity.JniActivity;
-import com.fyx.activity.KotlinActivity;
 import com.fyx.activity.ListViewCheckbox;
 import com.fyx.activity.ListViewMutiplType;
 import com.fyx.activity.LogCatRecord;
@@ -35,13 +27,11 @@ import com.fyx.adapter.NormalRecyclerViewAdapter;
 import com.fyx.adapter.adptools.DividerItemDecoration;
 import com.fyx.utils.LogcatHelper;
 
-import java.util.HashMap;
-
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
     private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器","仿微信主界面","兼容低版本","日志打印测试",
-            "自定义布局","自定义对话框","拍照哈夫曼压缩jni","滚动区域日历","KotLin测试","相册选择和裁剪","jni测试"};
+            "自定义布局","自定义对话框","拍照哈夫曼压缩jni","滚动区域日历","相册选择和裁剪"};
 
 
     @Override
@@ -91,11 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 }else if(position==9){
                     intent = new Intent(MainActivity.this, ScrViewPagerActivity.class);
                 }else if(position==10){
-                    intent = new Intent(MainActivity.this, KotlinActivity.class);
-                }else if(position==11){
                     intent = new Intent(MainActivity.this, PhotoActivity.class);
-                }else if(position==12){
-                    intent = new Intent(MainActivity.this, JniActivity.class);
                 }
 
                 startActivity(intent);

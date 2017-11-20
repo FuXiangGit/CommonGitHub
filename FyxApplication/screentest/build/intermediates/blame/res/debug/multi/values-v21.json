@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
+        "outputFile": "E:\\GitForFyx\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 131
                 },
                 "from": {
-                    "file": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values-v21\\base-template-styles.xml",
+                    "file": "E:\\GitForFyx\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\values-v21\\base-template-styles.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,

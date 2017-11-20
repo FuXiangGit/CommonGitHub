@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_screen_capture.xml",
-        "source": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\layout\\fragment_screen_capture.xml"
+        "merged": "E:\\GitForFyx\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_screen_capture.xml",
+        "source": "E:\\GitForFyx\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\layout\\fragment_screen_capture.xml"
     },
     {
-        "merged": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\Github\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\GitForFyx\\CommonGitHub\\FyxApplication\\screentest\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\GitForFyx\\CommonGitHub\\FyxApplication\\screentest\\src\\main\\res\\layout\\activity_main.xml"
     }
 ]
