@@ -13,20 +13,20 @@ public class ListTypeOperate implements Serializable {
     private String checkBtn;
     private String photo;
     private int type;
+    private boolean isChecked;
 
     public ListTypeOperate() {
     }
 
     /**
-     *
-     * @param head 标题
-     * @param cotent 操作内容
-     * @param date 日期
+     * @param head     标题
+     * @param cotent   操作内容
+     * @param date     日期
      * @param checkBtn 选择按钮
-     * @param photo 拍照
-     * @param type 类型
+     * @param photo    拍照
+     * @param type     类型
      */
-    public ListTypeOperate( String head, String cotent, String date, String checkBtn, String photo ,int type) {
+    public ListTypeOperate(String head, String cotent, String date, String checkBtn, String photo, int type) {
         this.head = head;
         this.cotent = cotent;
         this.date = date;
@@ -35,6 +35,18 @@ public class ListTypeOperate implements Serializable {
         this.type = type;
     }
 
+    public ListTypeOperate(String head, boolean isChecked) {
+        this.head = head;
+        this.isChecked = isChecked;
+    }
+
+    public boolean isChecked() {
+        return isChecked;
+    }
+
+    public void setChecked(boolean checked) {
+        isChecked = checked;
+    }
 
     public int getIds() {
         return ids;

@@ -21,6 +21,7 @@ import com.fyx.activity.LogCatRecord;
 import com.fyx.activity.PhotoActivity;
 import com.fyx.activity.ScrViewPagerActivity;
 import com.fyx.activity.SelfViewActivity;
+import com.fyx.activity.SingleCheckActivity;
 import com.fyx.activity.TakePhotoActivity;
 import com.fyx.activity.WeiXinMainActivity;
 import com.fyx.adapter.NormalRecyclerViewAdapter;
@@ -31,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
     private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器","仿微信主界面","兼容低版本","日志打印测试",
-            "自定义布局","自定义对话框","拍照哈夫曼压缩jni","滚动区域日历","相册选择和裁剪"};
+            "自定义布局","自定义对话框","拍照哈夫曼压缩jni","滚动区域日历","相册选择和裁剪","ListView单选"};
 
 
     @Override
@@ -82,6 +83,8 @@ public class MainActivity extends AppCompatActivity {
                     intent = new Intent(MainActivity.this, ScrViewPagerActivity.class);
                 }else if(position==10){
                     intent = new Intent(MainActivity.this, PhotoActivity.class);
+                }else if(position==11){
+                    intent = new Intent(MainActivity.this, SingleCheckActivity.class);
                 }
 
                 startActivity(intent);
