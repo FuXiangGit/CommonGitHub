@@ -8,9 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import com.fyx.activity.CommBaseAdpActivity;
 import com.fyx.activity.CustomDialogActivity;
@@ -31,8 +31,14 @@ import com.fyx.utils.LogcatHelper;
 public class MainActivity extends AppCompatActivity {
 
     private RecyclerView mRecyclerView;
-    private String[] items = {"ListView多种类型展示","ListView选择对应项目的多选保存","万能适配器","仿微信主界面","兼容低版本","日志打印测试",
-            "自定义布局","自定义对话框","拍照哈夫曼压缩jni","滚动区域日历","相册选择和裁剪","ListView单选"};
+    private String[] items = {"ListView多种类型展示", "ListView选择对应项目的多选保存", "万能适配器",
+            "仿微信主界面", "兼容低版本", "日志打印测试", "自定义布局",
+            "自定义对话框", "拍照哈夫曼压缩jni", "滚动日历ViewPager", "相册选择和裁剪",
+            "ListView单选"};
+    private Class[] itemsClass = {ListViewMutiplType.class, ListViewCheckbox.class, CommBaseAdpActivity.class,
+            WeiXinMainActivity.class, JianRongDiBanben.class, LogCatRecord.class, SelfViewActivity.class,
+            CustomDialogActivity.class, TakePhotoActivity.class, ScrViewPagerActivity.class, PhotoActivity.class,
+            SingleCheckActivity.class};
 
 
     @Override
@@ -54,39 +60,13 @@ public class MainActivity extends AppCompatActivity {
         mRecyclerView = (RecyclerView) findViewById(R.id.id_recyclerview);
         //设置布局管理器
         mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
-        NormalRecyclerViewAdapter adapter = new NormalRecyclerViewAdapter(this,items);
-        mRecyclerView.addItemDecoration(new DividerItemDecoration(this,DividerItemDecoration.VERTICAL_LIST));
+        NormalRecyclerViewAdapter adapter = new NormalRecyclerViewAdapter(this, items);
+        mRecyclerView.addItemDecoration(new DividerItemDecoration(this, DividerItemDecoration.VERTICAL_LIST));
         mRecyclerView.setAdapter(adapter);
         adapter.setOnItemClickLitener(new NormalRecyclerViewAdapter.OnItemClickLitener() {
             @Override
             public void onItemClick(View view, int position) {
-                Intent intent = null;
-                if (position == 0) {
-                    intent = new Intent(MainActivity.this, ListViewMutiplType.class);
-                } else if(position==1){
-                    intent = new Intent(MainActivity.this, ListViewCheckbox.class);
-                } else if(position==2) {
-                    intent = new Intent(MainActivity.this, CommBaseAdpActivity.class);
-                }else if(position==3){
-                    intent = new Intent(MainActivity.this, WeiXinMainActivity.class);
-                }else if(position==4){
-                    intent = new Intent(MainActivity.this, JianRongDiBanben.class);
-                }else if(position==5){
-                    intent = new Intent(MainActivity.this, LogCatRecord.class);
-                }else if(position==6){
-                    intent = new Intent(MainActivity.this, SelfViewActivity.class);
-                }else if(position==7){
-                    intent = new Intent(MainActivity.this, CustomDialogActivity.class);
-                }else if(position==8){
-                    intent = new Intent(MainActivity.this, TakePhotoActivity.class);
-                }else if(position==9){
-                    intent = new Intent(MainActivity.this, ScrViewPagerActivity.class);
-                }else if(position==10){
-                    intent = new Intent(MainActivity.this, PhotoActivity.class);
-                }else if(position==11){
-                    intent = new Intent(MainActivity.this, SingleCheckActivity.class);
-                }
-
+                Intent intent = new Intent(MainActivity.this,itemsClass[position]);
                 startActivity(intent);
             }
         });

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 使用AndroidAutoLayout进行卡片适配 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/card_num_tv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="50dp"
+        android:background="@color/bbutton_info"
+        android:gravity="center"
+        android:text="text"
+        android:textStyle="bold" />
+
+</LinearLayout>
