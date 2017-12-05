@@ -13,20 +13,22 @@ import java.util.List;
  * 描述 ：
  */
 public class ContentFragmentAdapter extends FragmentStatePagerAdapter {
-    List<Fragment> fragmentList = new ArrayList<>();
+    List<Fragment> mFragmentList = new ArrayList<>();
 
     public ContentFragmentAdapter(FragmentManager fm, List<Fragment> fragmentList) {
         super(fm);
-        this.fragmentList = fragmentList;
+        this.mFragmentList = fragmentList;
     }
 
     @Override
     public Fragment getItem(int position) {
-        return fragmentList.get(position);
+        return mFragmentList.get(position);
     }
 
     @Override
     public int getCount() {
-        return fragmentList.size();
+        return mFragmentList.size();
     }
+
+
 }

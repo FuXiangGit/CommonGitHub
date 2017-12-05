@@ -4,11 +4,17 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Rect;
+import android.support.v4.app.Fragment;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
+
+import com.fyx.fragment.CardFragment;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by Nate on 2015/9/10. 屏幕相关工具类，可以获取屏幕宽高度，还有截取屏幕
@@ -188,5 +194,34 @@ public class ScreenUtils {
             height = (float) (radio * width);
         }
         return new float[]{width, height};
+    }
+
+    /**
+     * 为了避免fragment already added ,要重新实例化
+     * 为了让最后一位能看见叠图，此处算法首位为原来的末位，
+     * 滑动到首位会设置自动跳转到中间的末位，
+     * 滑动到末位下一位会跳转到标准的第一位
+     *
+     * @param cardFragments
+     */
+    public static List<Fragment> getLoopData(List<Fragment> cardFragments) {
+        List<Fragment> fragmentList = new ArrayList<>();
+        if (cardFragments != null) {
+            //====================叠图计算方法=============
+            fragmentList.clear();
+            //加上末位放在第一个位置，为了能左滑
+            fragmentList.add(CardFragment.newInstance(cardFragments.size() - 1));
+            //加上标准展示数据
+            for (int i = 0; i < cardFragments.size(); i++) {
+                fragmentList.add(CardFragment.newInstance(i));
+            }
+            //重复加一遍为了末位图后有叠图，否则后几位叠图不全
+            for (int i = 0; i < cardFragments.size(); i++) {
+                fragmentList.add(CardFragment.newInstance(i));
+            }
+            return fragmentList;
+            //====================叠图计算方法=============
+        }
+        return fragmentList;
     }
 }
