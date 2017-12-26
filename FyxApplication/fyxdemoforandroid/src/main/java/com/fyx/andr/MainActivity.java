@@ -14,6 +14,7 @@ import android.view.View;
 
 import com.fyx.activity.CommBaseAdpActivity;
 import com.fyx.activity.CustomDialogActivity;
+import com.fyx.activity.ExpandListActivity;
 import com.fyx.activity.JianRongDiBanben;
 import com.fyx.activity.ListViewCheckbox;
 import com.fyx.activity.ListViewMutiplType;
@@ -34,11 +35,11 @@ public class MainActivity extends AppCompatActivity {
     private String[] items = {"ListView多种类型展示", "ListView选择对应项目的多选保存", "万能适配器",
             "仿微信主界面", "兼容低版本", "日志打印测试", "自定义布局",
             "自定义对话框", "拍照哈夫曼压缩jni", "水平垂直滚动Stack特效Viewpager", "相册选择和裁剪",
-            "ListView单选"};
+            "ListView单选","ExpandList处理"};
     private Class[] itemsClass = {ListViewMutiplType.class, ListViewCheckbox.class, CommBaseAdpActivity.class,
             WeiXinMainActivity.class, JianRongDiBanben.class, LogCatRecord.class, SelfViewActivity.class,
             CustomDialogActivity.class, TakePhotoActivity.class, ScrViewPagerActivity.class, PhotoActivity.class,
-            SingleCheckActivity.class};
+            SingleCheckActivity.class, ExpandListActivity.class};
 
 
     @Override

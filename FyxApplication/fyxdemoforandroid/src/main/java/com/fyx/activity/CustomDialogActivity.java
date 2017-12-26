@@ -29,7 +29,7 @@ public class CustomDialogActivity extends AppCompatActivity {
                 CustomDialog.Builder customBuilder = new
                         CustomDialog.Builder(CustomDialogActivity.this);
                 customBuilder.setTitle("标题")
-                        .setMessage("提示内容")
+                        .setMessage("dffffff提示ffffffffffffffffff提示fffffffffW提示rappedLinesTextV提示iewWrappedLi提示nesTextViewWrappedLinesT提示extViewWrappedLinesTextViewWrapp提示edLinesTextViewffffffffffff提示fffffffffffffffffffffffff提示内容")
                         .setNegativeButton("取消", new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
 
