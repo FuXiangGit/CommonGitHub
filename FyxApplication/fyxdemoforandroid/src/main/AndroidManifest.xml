@@ -76,7 +76,13 @@
             android:name="com.fyx.activity.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name="com.fyx.activity.PhotoActivity" />
-        <activity android:name="com.fyx.activity.ExpandListActivity"></activity>
+        <activity android:name="com.fyx.activity.ExpandListActivity" />
+        <activity android:name="com.fyx.activity.BgServiceActivity" />
+
+        <service
+            android:name="com.fyx.service.ForgrandService"
+            android:enabled="true"
+            android:exported="true"></service>
     </application>
 
 </manifest>
