@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/FyxApplication.iml" filepath="$PROJECT_DIR$/FyxApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/Monitor/Monitor.iml" filepath="$PROJECT_DIR$/Monitor/Monitor.iml" />
       <module fileurl="file://$PROJECT_DIR$/Xcitatm/Xcitatm.iml" filepath="$PROJECT_DIR$/Xcitatm/Xcitatm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner-lib/banner-lib.iml" filepath="$PROJECT_DIR$/banner-lib/banner-lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/commadapterlib/commadapterlib.iml" filepath="$PROJECT_DIR$/commadapterlib/commadapterlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/fyxadapterlib/fyxadapterlib.iml" filepath="$PROJECT_DIR$/fyxadapterlib/fyxadapterlib.iml" />
       <module fileurl="file://$PROJECT_DIR$/fyxdemoforandroid/fyxdemoforandroid.iml" filepath="$PROJECT_DIR$/fyxdemoforandroid/fyxdemoforandroid.iml" />

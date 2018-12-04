@@ -1,6 +1,7 @@
 package com.codeboy.qianghongbao.util;
 
 import android.accessibilityservice.AccessibilityService;
+import android.annotation.TargetApi;
 import android.os.Build;
 import android.text.TextUtils;
 import android.view.accessibility.AccessibilityNodeInfo;
@@ -103,6 +104,7 @@ public final class AccessibilityHelper {
         return -1;
     }
 
+    @TargetApi(Build.VERSION_CODES.JELLY_BEAN_MR2)
     public static String getViewIdResourceName(AccessibilityNodeInfo nodeInfo) {
         if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
             return nodeInfo.getViewIdResourceName();
